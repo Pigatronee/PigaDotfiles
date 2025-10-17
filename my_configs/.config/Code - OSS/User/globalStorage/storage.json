@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/Pigatronee/.config/waybar"
+                "folderUri": "file:///home/Pigatronee/.config/hypr"
             }
         ],
         "emptyWindows": []
@@ -21,14 +21,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/Pigatronee/.config/waybar",
-            "backupPath": "/home/Pigatronee/.config/Code - OSS/Backups/9546c9a3abe5bdcf8cacb8c5323b06a8",
+            "folder": "file:///home/Pigatronee/.config/hypr",
+            "backupPath": "/home/Pigatronee/.config/Code - OSS/Backups/9e17feafaac276c725fb3c80c0dafeb1",
             "uiState": {
                 "mode": 1,
-                "x": 2065,
-                "y": 750,
-                "width": 481,
-                "height": 676
+                "x": 15,
+                "y": 59,
+                "width": 1256,
+                "height": 281
             }
         },
         "openedWindows": []

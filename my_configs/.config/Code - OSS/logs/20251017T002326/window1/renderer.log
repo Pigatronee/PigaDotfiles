@@ -1,0 +1,9 @@
+2025-10-17 00:23:26.845 [info] Started local extension host with pid 29628.
+2025-10-17 00:23:27.100 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-10-17 00:23:29.651 [info] [perf] Render performance baseline is 20ms
+2025-10-17 00:30:45.696 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/Pigatronee/.config/waybar/launch.sh 
+2025-10-17 00:30:46.264 [info] Started local extension host with pid 32053.
+2025-10-17 00:30:46.518 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-10-17 00:30:48.968 [info] [perf] Render performance baseline is 17ms
