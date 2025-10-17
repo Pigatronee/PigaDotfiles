@@ -99,3 +99,15 @@ fatal: could not create work tree dir '/home/Pigatronee/Documents/github/PigaDot
 2025-10-17T01:07:17.400Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
 2025-10-17T01:07:19.477Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
 2025-10-17T01:07:19.965Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-17T01:08:09.973Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaDotfiles' took 0.175s
+2025-10-17T01:08:10.555Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-17T01:08:11.375Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-17T01:08:11.861Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-17T02:13:02.305Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-10-17T02:13:02.308Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-10-17T02:13:02.328Z - info: [ui] [BranchPruner] Last prune took place 2 hours ago - skipping
+2025-10-17T02:13:02.468Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.2-arch1-1)
+2025-10-17T02:13:02.468Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-10-17T02:13:02.705Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-10-17T02:13:08.891Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-17T02:13:09.344Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

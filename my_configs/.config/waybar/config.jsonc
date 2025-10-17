@@ -77,7 +77,8 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "~/.config/waybar/scripts/network-launch.sh"
     },
    "bluetooth": {
         "format": "{icon}",
@@ -106,7 +107,9 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        
+        //"on-click": "pavucontrol"
+        "on-click": "~/.config/waybar/scripts/audio-launch.sh"
     },
     "custom/media": {
         "format": "{icon} {text}",
