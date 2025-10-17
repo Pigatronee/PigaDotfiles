@@ -1,0 +1,9 @@
+2025-10-16 22:29:53.543 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-16 22:29:53.659 [info] Started local extension host with pid 48069.
+2025-10-16 22:29:53.919 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-10-16 22:29:56.241 [info] [perf] Render performance baseline is 18ms
+2025-10-16 22:30:54.319 [error] [text file model] handleSaveError(22) - exit - resulted in a save error: Error: Unable to write file '/home/Pigatronee/.config/waybar/launch.sh' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/Pigatronee/.config/waybar/launch.sh') file:///home/Pigatronee/.config/waybar/launch.sh
+2025-10-16 22:31:20.258 [error] [text file model] handleSaveError(22) - exit - resulted in a save error: Error: Unable to write file '/home/Pigatronee/.config/waybar/launch.sh' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/Pigatronee/.config/waybar/launch.sh') file:///home/Pigatronee/.config/waybar/launch.sh
+2025-10-16 22:31:21.951 [error] [text file model] handleSaveError(22) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/Pigatronee/.config/waybar/launch.sh
+2025-10-16 22:31:25.167 [error] [text file model] handleSaveError(22) - exit - resulted in a save error: Error: Unable to write file '/home/Pigatronee/.config/waybar/launch.sh' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/Pigatronee/.config/waybar/launch.sh') file:///home/Pigatronee/.config/waybar/launch.sh

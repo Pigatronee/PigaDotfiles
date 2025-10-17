@@ -1,0 +1,5 @@
+2025-10-16 22:28:19.481 [info] Started local extension host with pid 47579.
+2025-10-16 22:28:22.237 [info] [perf] Render performance baseline is 22ms
+2025-10-16 22:28:23.667 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/Pigatronee/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/Pigatronee/.config/waybar/config.jsonc') file:///home/Pigatronee/.config/waybar/config.jsonc
+2025-10-16 22:28:28.865 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/Pigatronee/.config/waybar/config.jsonc
+2025-10-16 22:28:32.900 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/Pigatronee/.config/waybar/config.jsonc

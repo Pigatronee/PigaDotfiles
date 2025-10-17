@@ -1,2 +1,2 @@
-#/!bin/zsh
-sudo cp -r ~./config ./.config
+#!/bin/zsh
+cp -r ~/.config ./my_configs

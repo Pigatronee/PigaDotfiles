@@ -1,0 +1,6 @@
+2025-10-15 21:00:38.546 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-15 21:00:38.649 [info] Started local extension host with pid 31274.
+2025-10-15 21:00:38.682 [info] Started initializing default profile extensions in extensions installation folder. file:///home/Pigatronee/.vscode-oss/extensions
+2025-10-15 21:00:38.794 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/Pigatronee/.vscode-oss/extensions
+2025-10-15 21:00:38.878 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
