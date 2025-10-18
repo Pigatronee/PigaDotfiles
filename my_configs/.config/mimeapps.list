@@ -3,6 +3,7 @@ x-scheme-handler/http=firefox.desktop
 application/xhtml+xml=firefox.desktop
 text/html=firefox.desktop
 x-scheme-handler/https=firefox.desktop
+inode/directory=kitty.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;

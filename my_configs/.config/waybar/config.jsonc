@@ -18,6 +18,7 @@
         "pulseaudio",
         "network",
         "bluetooth",
+        "custom/power"
     ],
     "hyprland/workspaces": {
 	"format": "{name}",
@@ -72,22 +73,38 @@
     },
     "network": {
         //"interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid }   󰖩  ",
+        //"format-wifi": "{essid }   󰖩  ",
         "format-ethernet": "",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        //"tooltip-format": "{ifname} via {gwaddr} ",
+        //"format-linked": "{ifname} (No IP) ",
+        //"format-disconnected": "Disconnected ⚠",
+        //"format-alt": "{ifname}: {ipaddr}/{cidr}",
         "on-click": "~/.config/waybar/scripts/network-launch.sh"
     },
    "bluetooth": {
         "format": "{icon}",
-           "format-alt": "bluetooth: {status}",
-            "format-icons": {
+           "menu": "on-click",
+           "menu-file": "~/.config/waybar/menus/bluetooth_menu.xml",
+           "menu-actions": {
+            "devices": "kitty",
+           },
+           "format-icons": {
                 "enabled": "",
                 "disabled": ""
             },
-            "tooltip-format": "{}"
+            //"tooltip-format": "{}"
+    },
+    "custom/power": {
+    "format" : "⏻",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "~/.config/waybar/menus/power_menu.xml",
+        "menu-actions": {
+            "shutdown": "shutdown",
+            "reboot": "reboot",
+            "suspend": "systemctl suspend",
+            "hibernate": "systemctl hibernate",
+        },
     },
 
     "pulseaudio": {

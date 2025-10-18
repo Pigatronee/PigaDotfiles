@@ -28,14 +28,30 @@ button {
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
+/*button:hover {
     background: inherit;
     box-shadow: inset 0 -3px #b4b4b4;
-}
+}*/
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: #D36C76;
+}
+
+#bluetooth:hover {
+    background-color: #D36C76
+}
+
+#network:hover {
+    background-color: #D36C76
+}
+
+#clock:hover {
+    background-color: #D36C76
+}
+
+#custom-power:hover {
+    background-color: #D36C76
 }
 
 #workspaces button {
@@ -64,7 +80,7 @@ button:hover {
 
 #workspaces button.focused {
     background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
 #workspaces button.urgent {
@@ -73,11 +89,12 @@ button:hover {
 
 #mode {
     background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
 #clock,
 #bluetooth,
+#custom-power,
 #battery,
 #cpu,
 #memory,
@@ -124,6 +141,10 @@ button:hover {
 
 #bluetooth {
     background-color: #444D5F
+}
+
+#custom-power {
+    background-color: #444D5F;
 }
 
 #battery {
