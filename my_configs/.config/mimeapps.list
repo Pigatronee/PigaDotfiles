@@ -3,7 +3,10 @@ x-scheme-handler/http=firefox.desktop
 application/xhtml+xml=firefox.desktop
 text/html=firefox.desktop
 x-scheme-handler/https=firefox.desktop
-inode/directory=kitty.desktop
+inode/directory=nautilus.desktop
+application/x-gnome-saved-search=nautilus.desktop
+image/jpeg=feh.desktop
+image/png=feh.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;

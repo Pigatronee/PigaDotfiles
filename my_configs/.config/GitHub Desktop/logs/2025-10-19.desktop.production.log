@@ -1,0 +1,6 @@
+2025-10-19T01:01:34.621Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-10-19T01:01:34.625Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-10-19T01:01:34.651Z - info: [ui] [BranchPruner] Last prune took place 5 hours ago - skipping
+2025-10-19T01:01:34.799Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.12.53-1-lts)
+2025-10-19T01:01:34.800Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-10-19T01:01:35.090Z - info: [ui] Subscribed 'Pigatronee' to Alive channel

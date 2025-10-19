@@ -1,9 +1,0 @@
-2025-10-16 21:12:18.838 [info] Started local extension host with pid 3540.
-2025-10-16 21:12:19.065 [error] CodeExpectedError: No default agent contributed
-    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
-2025-10-16 21:12:21.409 [info] [perf] Render performance baseline is 18ms
-2025-10-16 21:12:34.503 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
-2025-10-16 21:12:34.577 [info] Started local extension host with pid 5037.
-2025-10-16 21:12:34.782 [error] CodeExpectedError: No default agent contributed
-    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
-2025-10-16 21:12:37.160 [info] [perf] Render performance baseline is 21ms
