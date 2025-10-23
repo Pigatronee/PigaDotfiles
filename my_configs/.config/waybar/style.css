@@ -1,8 +1,11 @@
+@import url("file:///home/Pigatronee/.cache/wal/colors-waybar.css");
+
+
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: "JetBrainsMono Nerd Font Propo", "Font Awesome 6 Free", "Font Awesome 5 Free", "Noto Sans", sans-serif;
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 6px;
 
     transition: 0.2s ease-in-out;
 }
@@ -35,23 +38,23 @@ button {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #D36C76;
+    background-color: @color3;
 }
 
 #bluetooth:hover {
-    background-color: #D36C76
+    background-color: @color3;
 }
 
 #network:hover {
-    background-color: #D36C76
+    background-color: @color3;
 }
 
 #clock:hover {
-    background-color: #D36C76
+    background-color: @color3;
 }
 
 #custom-power:hover {
-    background-color: #D36C76
+    background-color: @color3;
 }
 
 #workspaces button {
@@ -59,7 +62,7 @@ button {
     transition: 0.2s ease-in-out;
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: @color2;
 }
 
 #workspaces button:hover {
@@ -112,7 +115,7 @@ button {
 #power-profiles-daemon,
 #mpd {
     padding: 0 20px;
-    color: #ffffff;
+    color: @color7;
     margin: 0 2px;
 }
 
@@ -135,26 +138,45 @@ button {
     margin-right: 0;
 }
 
+.modules-left,
+.modules-center,
+.modules-right {
+    /* Use a fully visible border for testing *//* change alpha for transparency */
+
+    border-radius: 12px;  /* keep the intended radius */
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+#custom-cava {
+    color: #c5c5c5;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 6px;
+    font-family: "bargraph";
+    font-size: 22px;
+}
+
 #clock {
-    background-color: #444D5F;
+    background-color: @color2
 }
 
 #bluetooth {
-    background-color: #444D5F
+    background-color: @color2
 }
 
 #custom-power {
-    background-color: #444D5F;
+    background-color: @color2;
 }
 
 #battery {
-    background-color: #444D5F;
+    background-color: @color2;
     color: #000000;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #444D5F;
+    background-color: @color2;
 }
 
 @keyframes blink {
@@ -216,7 +238,7 @@ label:focus {
 }
 
 #network {
-    background-color: #444D5F;
+    background-color: @color2;
 }
 
 #network.disconnected {
@@ -224,13 +246,13 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #444D5F;
+    background-color: @color2;
     color: #ffffff;
 }
 
 #pulseaudio.muted {
     background-color: #D06F79;
-    color: #444D5F;
+    color: @color2;
 }
 
 #wireplumber {
@@ -243,7 +265,7 @@ label:focus {
 }
 
 #custom-media {
-    background-color: #444D5F;
+    background-color: @color2;
     color: #ffffff;
     min-width: 100px;
 }

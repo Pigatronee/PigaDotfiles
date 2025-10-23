@@ -2,6 +2,7 @@
   "bar.customModules.storage.paths": [
     "/"
   ],
+  "theme.bar.layer": "background",
   "theme.font.name": "JetBrainsMonoNL Nerd Font Propo",
   "theme.font.label": "JetBrainsMonoNL Nerd Font Propo",
   "theme.font.weight": 400,
@@ -13,7 +14,7 @@
   "theme.bar.floating": true,
   "theme.bar.location": "top",
   "theme.bar.buttons.enableBorders": false,
-  "theme.bar.buttons.y_margins": "0.4em",
+  "theme.bar.buttons.y_margins": "0.3em",
   "theme.bar.buttons.padding_y": "0.3rem",
   "theme.bar.margin_top": "0.8em",
   "bar.launcher.autoDetectIcon": false,
@@ -454,5 +455,10 @@
   "menus.clock.weather.unit": "metric",
   "menus.clock.time.hideSeconds": true,
   "bar.clock.showTime": true,
-  "bar.clock.format": "%I:%M"
+  "bar.clock.format": "%I:%M",
+  "bar.autoHide": "fullscreen",
+  "theme.bar.border.width": "0.05em",
+  "theme.bar.border.location": "none",
+  "theme.bar.outer_spacing": "1.6em",
+  "theme.bar.buttons.padding_x": "1rem"
 }

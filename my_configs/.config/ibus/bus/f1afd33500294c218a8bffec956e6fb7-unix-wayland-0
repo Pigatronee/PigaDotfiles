@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/root/.cache/ibus/dbus-3Q8M244x,guid=eb212c8011f3bbd7af369a2768f0d7f3
-IBUS_DAEMON_PID=8034
+IBUS_ADDRESS=unix:path=/home/Pigatronee/.cache/ibus/dbus-4sB4DdTM,guid=c7c4ad4eef1732c03485066368f6bd64
+IBUS_DAEMON_PID=3000
