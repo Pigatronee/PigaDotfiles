@@ -6,3 +6,8 @@
 2025-10-23T22:19:59.398Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
 2025-10-23T22:19:59.650Z - info: [ui] Stats reported.
 2025-10-23T22:19:59.815Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-23T22:20:42.206Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-10-23T22:20:56.690Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 10.186s)
+2025-10-23T22:20:56.822Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaDotfiles' took 10.489s
+2025-10-23T22:20:58.351Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

@@ -1,0 +1,8 @@
+2025-10-24T00:30:35.155Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-10-24T00:30:35.157Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-10-24T00:30:35.180Z - info: [ui] [BranchPruner] Last prune took place 2 hours ago - skipping
+2025-10-24T00:30:35.450Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-10-24T00:30:35.451Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-10-24T00:30:35.564Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-10-24T00:30:37.018Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-24T00:30:37.035Z - info: [ui] Executing getChangesFiles: git log 11305dfa46d392dd5db7071bceb0d8362c6b021f -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.666s)

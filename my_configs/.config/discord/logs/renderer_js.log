@@ -12653,3 +12653,213 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-10-23 22:19:57.897] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
 [2025-10-23 22:20:02.898] [info]  [RunningGameStore] Running Games Changed [object Object]
 [2025-10-23 22:20:02.899] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:17.903] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:17.905] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:22.903] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:22.905] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:27.905] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:27.906] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:32.948] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:32.950] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:42.930] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:42.932] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:47.931] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:47.932] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:52.932] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:52.934] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:20:57.932] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:20:57.933] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:00.247] [warn]  The resource https://discord.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:02.935] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:21:02.937] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:21:18.035] [warn]  The resource https://discord.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:18.035] [warn]  The resource https://discord.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:18.035] [warn]  The resource https://discord.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:18.036] [warn]  The resource https://discord.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:18.036] [warn]  The resource https://discord.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:18.036] [warn]  The resource https://discord.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:22.936] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:21:22.938] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:21:50.683] [warn]  The resource https://discord.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:50.684] [warn]  The resource https://discord.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:50.684] [warn]  The resource https://discord.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:50.684] [warn]  The resource https://discord.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:50.684] [warn]  The resource https://discord.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:21:50.684] [warn]  The resource https://discord.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2025-10-23 22:22:37.984] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:22:37.985] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:22:53.012] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:22:53.014] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:22:58.015] [info]  [RunningGameStore] Running Games Changed [object Object]
+[2025-10-23 22:22:58.016] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs [object Object]
+[2025-10-23 22:34:17.271] [info]  DiscordSplash.signalReady
+[2025-10-23 22:34:17.291] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-10-23 22:34:17.292] [info]  Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-10-23 22:34:17.982] [info]  DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-10-23 22:34:17.982] [info]  Splash.onStateUpdate: {"status":"launching"}
+[2025-10-23 22:34:18.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:19.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:20.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:21.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:22.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:23.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:24.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:25.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:26.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:27.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:28.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:29.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:30.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:31.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:32.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:33.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:34.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:35.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:36.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:37.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:38.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:39.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:40.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:41.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:42.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:43.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:44.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:45.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:46.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:47.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:48.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:49.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:50.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:51.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:52.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:53.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:54.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:55.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:56.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:57.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:58.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:34:59.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:00.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:01.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:02.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:03.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:04.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:05.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:06.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:07.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:08.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:09.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:10.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:11.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:12.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:13.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:14.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:15.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:16.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:17.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:18.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:19.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:20.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:21.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:22.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:23.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:24.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:25.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:26.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:27.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:28.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:29.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:30.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:31.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:32.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:33.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:34.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:35.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:36.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:37.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:38.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:39.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:40.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:41.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:42.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:43.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:44.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:45.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:46.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:47.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:48.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:49.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:50.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:51.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:52.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:53.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:54.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:55.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:56.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:57.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:58.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:35:59.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:00.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:01.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:02.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:03.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:04.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:05.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:06.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:07.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:08.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:09.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:10.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:11.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:12.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:13.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:14.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:15.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:16.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:17.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:18.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:19.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:20.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:21.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:22.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:23.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:24.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:25.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:26.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:27.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:28.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:29.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:30.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:31.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:32.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:33.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:34.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:35.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:36.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:37.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:38.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:39.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:40.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:41.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:42.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:43.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:44.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:45.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:46.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:47.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:48.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:49.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:50.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:51.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:52.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:53.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:54.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:55.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:56.271] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:57.270] [info]  Splash.updateCountdownSeconds: undefined
+[2025-10-23 22:36:58.271] [info]  Splash.updateCountdownSeconds: undefined

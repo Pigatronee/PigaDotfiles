@@ -6,6 +6,8 @@
     font-family: "JetBrainsMono Nerd Font Propo", "Font Awesome 6 Free", "Font Awesome 5 Free", "Noto Sans", sans-serif;
     font-size: 14px;
     border-radius: 6px;
+
+    transition: 0.2s ease-in-out;
 }
 
 window#waybar {
@@ -22,7 +24,7 @@ window#waybar.hidden {
 
 button {
     /* Use box-shadow instead of border so the text isn't offset */
-    /*box-shadow: inset 0 -3px transparent;*/
+    box-shadow: inset 0 -3px transparent;
     /* Avoid rounded borders under each button name */
     border: none;
     border-radius: 0;
@@ -57,24 +59,22 @@ button {
 
 #workspaces button {
     border-radius: 7px;
-    transition: all 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     padding: 0 5px;
     background-color: transparent;
-    color: @color8;
+    color: @color2;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
-
 #workspaces button.active {
-    /*background-color: #D06F79;*/
+    background-color: #D06F79;
     color: #ffffff;
-    transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.empty {
-    color: @color8;
+    color: #585858;
 }
 
 #workspaces button.empty.active {
@@ -82,7 +82,7 @@ button {
 }
 
 #workspaces button.focused {
-    background-color: #f80000;
+    background-color: #64727D;
     /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
@@ -98,7 +98,6 @@ button {
 #clock,
 #bluetooth,
 #custom-power,
-#custom-cava,
 #battery,
 #cpu,
 #memory,
@@ -122,10 +121,12 @@ button {
 
 #window,
 #workspaces {
-    margin: 0 2px;
-    background-color: @color2;
+    margin: 0 4px;
 }
 
+#workspaces button.active {
+    background-color: #D06F79;
+}
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -154,8 +155,6 @@ button {
     padding-bottom: 6px;
     font-family: "bargraph";
     font-size: 22px;
-    background-color: @color2;
-    
 }
 
 #clock {
@@ -167,12 +166,75 @@ button {
 }
 
 #custom-power {
-    background-color: @color2
+    background-color: @color2;
 }
 
+#battery {
+    background-color: @color2;
+    color: #000000;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: @color2;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+    padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.balanced {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: #2ecc71;
+    color: #000000;
+}
 
 label:focus {
     background-color: #000000;
+}
+
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+#memory {
+    background-color: #9b59b6;
+}
+
+#disk {
+    background-color: #964B00;
+}
+
+#backlight {
+    background-color: #90b1b1;
 }
 
 #network {
@@ -216,7 +278,68 @@ label:focus {
     background-color: #ffa000;
 }
 
+#temperature {
+    background-color: #f0932b;
+}
 
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#tray {
+    background-color: #2980b9;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
+
+#mpd {
+    background-color: #66cc99;
+    color: #2a5c45;
+}
+
+#mpd.disconnected {
+    background-color: #f53c3c;
+}
+
+#mpd.stopped {
+    background-color: #90b1b1;
+}
+
+#mpd.paused {
+    background-color: #51a37a;
+}
+
+#language {
+    background: #00b093;
+    color: #740864;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    background: #97e1ad;
+    color: #000000;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
 
 #keyboard-state > label {
     padding: 0 5px;
