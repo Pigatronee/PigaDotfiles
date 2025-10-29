@@ -1,0 +1,12 @@
+2025-10-26T16:15:41.478Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-10-26T16:15:41.481Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-10-26T16:15:41.642Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-10-26T16:15:41.642Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-10-26T16:15:41.848Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-10-26T16:15:41.977Z - info: [ui] Stats reported.
+2025-10-26T16:15:42.596Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.095s)
+2025-10-26T16:15:56.515Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/Game-Save-Files' took 0.896s
+2025-10-26T16:15:57.954Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-26T16:15:58.930Z - info: [ui] Executing push: git push origin main:main --progress (took 1.172s)
+2025-10-26T16:15:59.119Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-10-26T16:15:59.609Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

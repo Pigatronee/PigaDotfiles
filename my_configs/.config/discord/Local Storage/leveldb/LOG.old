@@ -1,0 +1,26 @@
+2025/10/26-01:59:26.273 1a7a4b Reusing MANIFEST /home/Pigatronee/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/10/26-01:59:26.277 1a7a4b Recovering log #118
+2025/10/26-01:59:26.277 1a7a4b Reusing old log /home/Pigatronee/.config/discord/Local Storage/leveldb/000118.log 
+2025/10/26-02:05:49.930 1a7a4c Level-0 table #121: started
+2025/10/26-02:05:49.948 1a7a4c Level-0 table #121: 2661163 bytes OK
+2025/10/26-02:05:49.951 1a7a4c Delete type=0 #118
+2025/10/26-02:23:26.858 1a7a4c Level-0 table #123: started
+2025/10/26-02:23:26.911 1a7a4c Level-0 table #123: 57095 bytes OK
+2025/10/26-02:23:26.916 1a7a4c Delete type=0 #120
+2025/10/26-02:23:26.916 1a7a4c Compacting 4@0 + 2@1 files
+2025/10/26-02:23:26.953 1a7a4c Generated table #124@0: 34 keys, 2610431 bytes
+2025/10/26-02:23:26.983 1a7a4c Generated table #125@0: 93 keys, 2639023 bytes
+2025/10/26-02:23:26.983 1a7a4c Compacted 4@0 + 2@1 files => 5249454 bytes
+2025/10/26-02:23:26.988 1a7a4c compacted to: files[ 0 3 0 0 0 0 0 ]
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #123
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #111
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #114
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #121
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #117
+2025/10/26-02:23:26.988 1a7a4c Delete type=2 #112
+2025/10/26-02:57:26.857 1a7a4c Level-0 table #127: started
+2025/10/26-02:57:26.860 1a7a4c Level-0 table #127: 29507 bytes OK
+2025/10/26-02:57:26.864 1a7a4c Delete type=0 #122
+2025/10/26-03:31:26.858 1a7a4c Level-0 table #129: started
+2025/10/26-03:31:26.862 1a7a4c Level-0 table #129: 29596 bytes OK
+2025/10/26-03:31:26.867 1a7a4c Delete type=0 #126

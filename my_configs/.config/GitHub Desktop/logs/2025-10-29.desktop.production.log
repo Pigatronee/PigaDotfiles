@@ -1,0 +1,8 @@
+2025-10-29T16:40:37.618Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-10-29T16:40:37.620Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-10-29T16:40:37.947Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-10-29T16:40:37.947Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-10-29T16:40:38.272Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-10-29T16:40:38.364Z - info: [ui] Stats reported.
+2025-10-29T16:40:42.467Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.294s)
+2025-10-29T16:40:42.468Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.274s)

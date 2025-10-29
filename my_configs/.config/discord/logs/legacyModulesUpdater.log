@@ -1076,3 +1076,279 @@
 10/23/2025, 10:34:17 PM UTC [Modules] Host is up to date.
 10/23/2025, 10:34:17 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 10/23/2025, 10:34:17 PM UTC [Modules] No module updates available.
+10/25/2025, 12:15:45 AM UTC [Modules] Modules initializing
+10/25/2025, 12:15:45 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:15:45 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:15:45 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:15:45 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:15:45 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:15:45 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:15:46 AM UTC [Modules] No updates to install
+10/25/2025, 12:15:46 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:15:46 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:15:46 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:15:46 AM UTC [Modules] No module updates available.
+10/25/2025, 12:15:52 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:15:52 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:15:52 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:15:52 AM UTC [Modules] No module updates available.
+10/25/2025, 12:42:16 AM UTC [Modules] Modules initializing
+10/25/2025, 12:42:16 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:42:16 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:42:16 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:42:16 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:42:16 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:42:16 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:42:17 AM UTC [Modules] No updates to install
+10/25/2025, 12:42:17 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:42:17 AM UTC [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+10/25/2025, 12:42:27 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:42:27 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:42:27 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:42:27 AM UTC [Modules] No module updates available.
+10/25/2025, 12:43:56 AM UTC [Modules] Modules initializing
+10/25/2025, 12:43:56 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:43:56 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:43:56 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:43:56 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:43:56 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:43:56 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:43:57 AM UTC [Modules] No updates to install
+10/25/2025, 12:43:57 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:43:57 AM UTC [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+10/25/2025, 12:44:07 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:44:07 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:44:07 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:44:07 AM UTC [Modules] No module updates available.
+10/25/2025, 12:47:25 AM UTC [Modules] Modules initializing
+10/25/2025, 12:47:25 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:47:25 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:47:25 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:47:25 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:47:25 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:47:25 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:47:25 AM UTC [Modules] No updates to install
+10/25/2025, 12:47:25 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:47:25 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:47:25 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:47:25 AM UTC [Modules] No module updates available.
+10/25/2025, 12:47:31 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:47:31 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:47:31 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:47:31 AM UTC [Modules] No module updates available.
+10/25/2025, 12:54:31 AM UTC [Modules] Modules initializing
+10/25/2025, 12:54:32 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:54:32 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:54:32 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:54:32 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:54:32 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:54:32 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:54:32 AM UTC [Modules] No updates to install
+10/25/2025, 12:54:32 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:54:32 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:54:32 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:54:32 AM UTC [Modules] No module updates available.
+10/25/2025, 12:54:39 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:54:39 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:54:39 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:54:39 AM UTC [Modules] No module updates available.
+10/25/2025, 12:57:04 AM UTC [Modules] Modules initializing
+10/25/2025, 12:57:04 AM UTC [Modules] Distribution: remote
+10/25/2025, 12:57:04 AM UTC [Modules] Host updates: enabled
+10/25/2025, 12:57:04 AM UTC [Modules] Module updates: enabled
+10/25/2025, 12:57:04 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 12:57:04 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 12:57:04 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 12:57:04 AM UTC [Modules] No updates to install
+10/25/2025, 12:57:04 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:57:04 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:57:04 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:57:04 AM UTC [Modules] No module updates available.
+10/25/2025, 12:57:10 AM UTC [Modules] Checking for host updates.
+10/25/2025, 12:57:10 AM UTC [Modules] Host is up to date.
+10/25/2025, 12:57:10 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 12:57:10 AM UTC [Modules] No module updates available.
+10/25/2025, 4:39:42 PM UTC [Modules] Modules initializing
+10/25/2025, 4:39:42 PM UTC [Modules] Distribution: remote
+10/25/2025, 4:39:42 PM UTC [Modules] Host updates: enabled
+10/25/2025, 4:39:42 PM UTC [Modules] Module updates: enabled
+10/25/2025, 4:39:42 PM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 4:39:42 PM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 4:39:42 PM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 4:39:42 PM UTC [Modules] No updates to install
+10/25/2025, 4:39:42 PM UTC [Modules] Checking for host updates.
+10/25/2025, 4:39:42 PM UTC [Modules] Host is up to date.
+10/25/2025, 4:39:42 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 4:39:42 PM UTC [Modules] No module updates available.
+10/25/2025, 4:39:48 PM UTC [Modules] Checking for host updates.
+10/25/2025, 4:39:49 PM UTC [Modules] Host is up to date.
+10/25/2025, 4:39:49 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 4:39:49 PM UTC [Modules] No module updates available.
+10/25/2025, 11:20:58 PM UTC [Modules] Modules initializing
+10/25/2025, 11:20:58 PM UTC [Modules] Distribution: remote
+10/25/2025, 11:20:58 PM UTC [Modules] Host updates: enabled
+10/25/2025, 11:20:58 PM UTC [Modules] Module updates: enabled
+10/25/2025, 11:20:58 PM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 11:20:58 PM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 11:20:58 PM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 11:20:58 PM UTC [Modules] No updates to install
+10/25/2025, 11:20:58 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:20:58 PM UTC [Modules] Host update failed: Error: getaddrinfo ENOTFOUND discord.com
+10/25/2025, 11:21:08 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:21:09 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:21:09 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:21:09 PM UTC [Modules] No module updates available.
+10/25/2025, 11:21:15 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:21:15 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:21:15 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:21:15 PM UTC [Modules] No module updates available.
+10/25/2025, 11:40:48 PM UTC [Modules] Modules initializing
+10/25/2025, 11:40:48 PM UTC [Modules] Distribution: remote
+10/25/2025, 11:40:48 PM UTC [Modules] Host updates: enabled
+10/25/2025, 11:40:48 PM UTC [Modules] Module updates: enabled
+10/25/2025, 11:40:48 PM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 11:40:48 PM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 11:40:48 PM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 11:40:49 PM UTC [Modules] No updates to install
+10/25/2025, 11:40:49 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:40:49 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:40:49 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:40:49 PM UTC [Modules] No module updates available.
+10/25/2025, 11:40:56 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:40:56 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:40:56 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:40:56 PM UTC [Modules] No module updates available.
+10/25/2025, 11:44:29 PM UTC [Modules] Modules initializing
+10/25/2025, 11:44:29 PM UTC [Modules] Distribution: remote
+10/25/2025, 11:44:29 PM UTC [Modules] Host updates: enabled
+10/25/2025, 11:44:29 PM UTC [Modules] Module updates: enabled
+10/25/2025, 11:44:29 PM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/25/2025, 11:44:29 PM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/25/2025, 11:44:29 PM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/25/2025, 11:44:29 PM UTC [Modules] No updates to install
+10/25/2025, 11:44:29 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:44:30 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:44:30 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:44:30 PM UTC [Modules] No module updates available.
+10/25/2025, 11:44:37 PM UTC [Modules] Checking for host updates.
+10/25/2025, 11:44:37 PM UTC [Modules] Host is up to date.
+10/25/2025, 11:44:37 PM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/25/2025, 11:44:37 PM UTC [Modules] No module updates available.
+10/26/2025, 12:03:56 AM UTC [Modules] Modules initializing
+10/26/2025, 12:03:56 AM UTC [Modules] Distribution: remote
+10/26/2025, 12:03:56 AM UTC [Modules] Host updates: enabled
+10/26/2025, 12:03:56 AM UTC [Modules] Module updates: enabled
+10/26/2025, 12:03:56 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 12:03:56 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 12:03:56 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 12:03:57 AM UTC [Modules] No updates to install
+10/26/2025, 12:03:57 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:03:57 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:03:57 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:03:57 AM UTC [Modules] No module updates available.
+10/26/2025, 12:04:04 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:04:04 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:04:04 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:04:04 AM UTC [Modules] No module updates available.
+10/26/2025, 12:46:13 AM UTC [Modules] Modules initializing
+10/26/2025, 12:46:13 AM UTC [Modules] Distribution: remote
+10/26/2025, 12:46:13 AM UTC [Modules] Host updates: enabled
+10/26/2025, 12:46:13 AM UTC [Modules] Module updates: enabled
+10/26/2025, 12:46:13 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 12:46:13 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 12:46:13 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 12:46:13 AM UTC [Modules] No updates to install
+10/26/2025, 12:46:13 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:46:13 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:46:13 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:46:13 AM UTC [Modules] No module updates available.
+10/26/2025, 12:46:19 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:46:22 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:46:22 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:46:22 AM UTC [Modules] No module updates available.
+10/26/2025, 12:57:32 AM UTC [Modules] Modules initializing
+10/26/2025, 12:57:32 AM UTC [Modules] Distribution: remote
+10/26/2025, 12:57:32 AM UTC [Modules] Host updates: enabled
+10/26/2025, 12:57:32 AM UTC [Modules] Module updates: enabled
+10/26/2025, 12:57:32 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 12:57:32 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 12:57:32 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 12:57:33 AM UTC [Modules] No updates to install
+10/26/2025, 12:57:33 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:57:33 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:57:33 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:57:33 AM UTC [Modules] No module updates available.
+10/26/2025, 12:57:39 AM UTC [Modules] Checking for host updates.
+10/26/2025, 12:57:39 AM UTC [Modules] Host is up to date.
+10/26/2025, 12:57:39 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 12:57:39 AM UTC [Modules] No module updates available.
+10/26/2025, 1:48:47 AM UTC [Modules] Modules initializing
+10/26/2025, 1:48:47 AM UTC [Modules] Distribution: remote
+10/26/2025, 1:48:47 AM UTC [Modules] Host updates: enabled
+10/26/2025, 1:48:47 AM UTC [Modules] Module updates: enabled
+10/26/2025, 1:48:47 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 1:48:47 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 1:48:47 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 1:48:47 AM UTC [Modules] No updates to install
+10/26/2025, 1:48:47 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:48:48 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:48:48 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:48:48 AM UTC [Modules] No module updates available.
+10/26/2025, 1:48:53 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:48:53 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:48:53 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:48:53 AM UTC [Modules] No module updates available.
+10/26/2025, 1:53:48 AM UTC [Modules] Modules initializing
+10/26/2025, 1:53:48 AM UTC [Modules] Distribution: remote
+10/26/2025, 1:53:48 AM UTC [Modules] Host updates: enabled
+10/26/2025, 1:53:48 AM UTC [Modules] Module updates: enabled
+10/26/2025, 1:53:48 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 1:53:48 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 1:53:48 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 1:53:48 AM UTC [Modules] No updates to install
+10/26/2025, 1:53:48 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:53:49 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:53:49 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:53:49 AM UTC [Modules] No module updates available.
+10/26/2025, 1:53:54 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:53:55 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:53:55 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:53:55 AM UTC [Modules] No module updates available.
+10/26/2025, 1:58:02 AM UTC [Modules] Modules initializing
+10/26/2025, 1:58:02 AM UTC [Modules] Distribution: remote
+10/26/2025, 1:58:02 AM UTC [Modules] Host updates: enabled
+10/26/2025, 1:58:02 AM UTC [Modules] Module updates: enabled
+10/26/2025, 1:58:02 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 1:58:02 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 1:58:02 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 1:58:03 AM UTC [Modules] No updates to install
+10/26/2025, 1:58:03 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:58:03 AM UTC [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+10/26/2025, 1:58:13 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:58:13 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:58:13 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:58:13 AM UTC [Modules] No module updates available.
+10/26/2025, 1:59:26 AM UTC [Modules] Modules initializing
+10/26/2025, 1:59:26 AM UTC [Modules] Distribution: remote
+10/26/2025, 1:59:26 AM UTC [Modules] Host updates: enabled
+10/26/2025, 1:59:26 AM UTC [Modules] Module updates: enabled
+10/26/2025, 1:59:26 AM UTC [Modules] Module install path: /home/Pigatronee/.config/discord/0.0.112/modules
+10/26/2025, 1:59:26 AM UTC [Modules] Module installed file path: /home/Pigatronee/.config/discord/0.0.112/modules/installed.json
+10/26/2025, 1:59:26 AM UTC [Modules] Module download path: /home/Pigatronee/.config/discord/0.0.112/modules/pending
+10/26/2025, 1:59:26 AM UTC [Modules] No updates to install
+10/26/2025, 1:59:26 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:59:26 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:59:26 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:59:26 AM UTC [Modules] No module updates available.
+10/26/2025, 1:59:31 AM UTC [Modules] Checking for host updates.
+10/26/2025, 1:59:32 AM UTC [Modules] Host is up to date.
+10/26/2025, 1:59:32 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 1:59:32 AM UTC [Modules] No module updates available.
+10/26/2025, 2:21:47 AM UTC [Modules] Checking for host updates.
+10/26/2025, 2:21:47 AM UTC [Modules] Host is up to date.
+10/26/2025, 2:21:47 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 2:21:47 AM UTC [Modules] No module updates available.
+10/26/2025, 3:21:47 AM UTC [Modules] Checking for host updates.
+10/26/2025, 3:21:47 AM UTC [Modules] Host is up to date.
+10/26/2025, 3:21:47 AM UTC [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+10/26/2025, 3:21:47 AM UTC [Modules] No module updates available.
