@@ -1,0 +1,16 @@
+2025-11-02T12:33:25.460Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-11-02T12:33:25.463Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-02T12:33:25.485Z - info: [ui] [BranchPruner] Last prune took place 18 hours ago - skipping
+2025-11-02T12:33:25.830Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-02T12:33:25.830Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-02T12:33:25.842Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-02T12:33:36.038Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaOs' took 0.054s
+2025-11-02T12:33:37.588Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-02T12:33:38.215Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-02T12:33:38.687Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-02T12:33:41.022Z - info: [ui] [BranchPruner] Last prune took place 18 hours ago - skipping
+2025-11-02T12:33:52.301Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.7s of which 0.0s paused, total 0.7s
+2025-11-02T12:34:05.334Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaDotfiles' took 0.063s
+2025-11-02T12:34:14.233Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-02T12:34:14.945Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-02T12:34:15.406Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

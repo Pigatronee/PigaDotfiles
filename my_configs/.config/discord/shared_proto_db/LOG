@@ -1,3 +1,2 @@
-2025/10/26-02:21:40.962 1a7a4c Reusing MANIFEST /home/Pigatronee/.config/discord/shared_proto_db/MANIFEST-000001
-2025/10/26-02:21:40.962 1a7a4c Recovering log #3
-2025/10/26-02:21:40.962 1a7a4c Reusing old log /home/Pigatronee/.config/discord/shared_proto_db/000003.log 
+2025/11/01-18:10:59.802 fdeb Creating DB /home/Pigatronee/.config/discord/shared_proto_db since it was missing.
+2025/11/01-18:10:59.810 fdeb Reusing MANIFEST /home/Pigatronee/.config/discord/shared_proto_db/MANIFEST-000001

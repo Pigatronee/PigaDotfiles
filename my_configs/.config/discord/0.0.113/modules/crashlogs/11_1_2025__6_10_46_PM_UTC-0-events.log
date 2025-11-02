@@ -1,0 +1,20 @@
+11/1/2025, 6:10:46 PM UTC 0: 
+
+----------------------------------------------
+11/1/2025, 6:10:46 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/Pigatronee/.config/discord/0.0.113/modules
+11/1/2025, 6:10:46 PM UTC 2: ✅ webContents.created web1 "index.html"
+11/1/2025, 6:10:46 PM UTC 3: ✅ window.created win1 "discord"
+11/1/2025, 6:10:47 PM UTC 4: ✅ webContents.did-finish-load web1
+11/1/2025, 6:10:57 PM UTC 5: ✅ webContents.created web2 ""
+11/1/2025, 6:10:57 PM UTC 6: ✅ window.created win2 "Discord"
+11/1/2025, 6:10:59 PM UTC 7: ✅ webContents.did-finish-load web2
+11/1/2025, 6:10:59 PM UTC 8: window.close win1
+11/1/2025, 6:10:59 PM UTC 9: webContents.destroyed web1
+11/1/2025, 6:10:59 PM UTC 10: window.closed win1
+11/1/2025, 6:14:24 PM UTC 11: window.close win2
+11/1/2025, 6:18:46 PM UTC 0: 
+
+----------------------------------------------
+11/1/2025, 6:18:46 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/Pigatronee/.config/discord/0.0.113/modules
+11/1/2025, 8:21:06 PM UTC 12: before-quit
+11/1/2025, 8:21:06 PM UTC 13: window.close win2
