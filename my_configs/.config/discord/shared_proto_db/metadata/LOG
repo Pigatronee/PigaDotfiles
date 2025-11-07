@@ -1,2 +1,3 @@
-2025/11/01-18:10:59.793 fdeb Creating DB /home/Pigatronee/.config/discord/shared_proto_db/metadata since it was missing.
-2025/11/01-18:10:59.802 fdeb Reusing MANIFEST /home/Pigatronee/.config/discord/shared_proto_db/metadata/MANIFEST-000001
+2025/11/07-00:08:22.714 cdd Reusing MANIFEST /home/Pigatronee/.config/discord/shared_proto_db/metadata/MANIFEST-000001
+2025/11/07-00:08:22.714 cdd Recovering log #3
+2025/11/07-00:08:22.714 cdd Reusing old log /home/Pigatronee/.config/discord/shared_proto_db/metadata/000003.log 

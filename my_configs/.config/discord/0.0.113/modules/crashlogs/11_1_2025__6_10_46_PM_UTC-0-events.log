@@ -18,3 +18,17 @@
 11/1/2025, 6:18:46 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/Pigatronee/.config/discord/0.0.113/modules
 11/1/2025, 8:21:06 PM UTC 12: before-quit
 11/1/2025, 8:21:06 PM UTC 13: window.close win2
+11/7/2025, 12:08:10 AM UTC 0: 
+
+----------------------------------------------
+11/7/2025, 12:08:10 AM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/Pigatronee/.config/discord/0.0.113/modules
+11/7/2025, 12:08:10 AM UTC 2: ✅ webContents.created web1 ""
+11/7/2025, 12:08:10 AM UTC 3: ✅ window.created win1 "discord"
+11/7/2025, 12:08:10 AM UTC 4: ✅ webContents.did-finish-load web1
+11/7/2025, 12:08:20 AM UTC 5: ✅ webContents.created web2 ""
+11/7/2025, 12:08:20 AM UTC 6: ✅ window.created win2 "Discord"
+11/7/2025, 12:08:22 AM UTC 7: ✅ webContents.did-finish-load web2
+11/7/2025, 12:08:22 AM UTC 8: window.close win1
+11/7/2025, 12:08:22 AM UTC 9: webContents.destroyed web1
+11/7/2025, 12:08:22 AM UTC 10: window.closed win1
+11/7/2025, 1:51:27 AM UTC 11: before-quit
