@@ -2,9 +2,9 @@
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 1711,
+    "x": 15,
     "y": 70,
-    "width": 834,
+    "width": 767,
     "height": 1355
   },
   "offloadAdmControls": true,

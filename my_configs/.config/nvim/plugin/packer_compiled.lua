@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1761727121/share/lua/5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1761727121/share/lua/5.1/?/init.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1761727121/lib/luarocks/rocks-5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1761727121/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1761727121/lib/lua/5.1/?.so"
+local package_path_str = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762386122/share/lua/5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762386122/share/lua/5.1/?/init.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762386122/lib/luarocks/rocks-5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762386122/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762386122/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["code_runner.nvim"] = {
+    loaded = true,
+    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
+    url = "https://github.com/CRAG666/code_runner.nvim"
+  },
   everforest = {
     config = { "\27LJ\2\ni\0\0\3\0\6\0\n6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\15everforest\16colorscheme\bcmd\29everforest_enable_italic\6g\bvim\0" },
     loaded = true,

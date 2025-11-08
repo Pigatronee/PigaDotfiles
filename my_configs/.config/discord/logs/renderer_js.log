@@ -17919,3 +17919,94 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-11-07 01:51:25.934] [info]  [Connection(default)] DAVE protocol state update: {"version":1,"epochAuthenticator":""}
 [2025-11-07 01:51:25.935] [info]  [RTCConnection(1396620671764660305, default)] Got MLS key package, sending to RTC server
 [2025-11-07 01:51:25.935] [info]  [RTCControlSocket(default)] Sending MLS key package
+[2025-11-08 14:39:13.701] [info]  DiscordSplash.signalReady
+[2025-11-08 14:39:13.733] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-11-08 14:39:13.734] [info]  Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-11-08 14:39:14.393] [info]  DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-11-08 14:39:14.394] [info]  Splash.onStateUpdate: {"status":"launching"}
+[2025-11-08 14:39:14.701] [info]  Splash.updateCountdownSeconds: undefined
+[2025-11-08 14:39:14.857] [info]  [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-11-08 14:39:15.355] [info]  [FAST CONNECT] connected in 497ms
+[2025-11-08 14:39:15.701] [info]  Splash.updateCountdownSeconds: undefined
+[2025-11-08 14:39:16.701] [info]  Splash.updateCountdownSeconds: undefined
+[2025-11-08 14:39:17.011] [info]  [libdiscore] [experiment_manager] Loaded experiments from cache
+[2025-11-08 14:39:17.110] [info]  [KvStore] GuildStore initialized in mode: typescript
+[2025-11-08 14:39:17.172] [info]  [KkvStore] GuildRoleStore initialized in mode: typescript
+[2025-11-08 14:39:17.234] [info]  Initializing voice engine with audio subsystem: standard
+[2025-11-08 14:39:17.319] [info]  [KkvStore] RawGuildEmojiStore initialized in mode: typescript
+[2025-11-08 14:39:17.343] [info]  [KkvStore] GuildStickersStore initialized in mode: typescript
+[2025-11-08 14:39:17.344] [info]  [KkvStore] StickersPackStore initialized in mode: typescript
+[2025-11-08 14:39:17.455] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 466058, Version Hash: 0a5fa0b3857b11851fa3b7965b4f934300ed3e50
+[2025-11-08 14:39:17.584] [info]  [KvStore] NoteStore initialized in mode: typescript
+[2025-11-08 14:39:17.586] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2025-11-08 14:39:17.596] [info]  [default] [NATIVE INFO] host 0.0.113, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null
+[2025-11-08 14:39:17.601] [info]  [libdiscore] The answer for life the universe and everything is: 42
+[2025-11-08 14:39:17.620] [error] [Spellchecker] sh is not a valid locale.
+[2025-11-08 14:39:18.135] [info]  [Spellchecker] Switching to en-GB (available)
+[2025-11-08 14:39:18.646] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-11-08 14:39:18.646] [info]  [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-11-08 14:39:18.646] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2025-11-08 14:39:18.678] [info]  [RPCServer:WSS] Starting on 6463
+[2025-11-08 14:39:18.680] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+[2025-11-08 14:39:19.867] [info]  [GatewaySocket] [READY] took 1222ms, as e89d03fbf989d338eaef3f3b371751c8
+[2025-11-08 14:39:19.919] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2025-11-08 14:39:19.925] [info]  [DatabaseManager] removing database (user: 1168290377086816316, database: undefined)
+[2025-11-08 14:39:19.940] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-11-08 14:39:19.960] [info]  [Spotify] WS Connecting
+[2025-11-08 14:39:19.961] [info]  [Spotify] Added account: yet7q2ww69iosqlo5t8ytxh3x
+[2025-11-08 14:39:20.386] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 1741ms
+[2025-11-08 14:39:20.619] [info]  [Spotify] Updated account access token: yet7q2ww69iosqlo5t8ytxh3x
+[2025-11-08 14:39:20.730] [info]  [Spotify] WS Connected
+[2025-11-08 14:39:20.791] [info]  [Spotify] Devices updated for yet7q2ww69iosqlo5t8ytxh3x: 
+[2025-11-08 14:39:20.840] [info]  [Spotify] Profile updated for yet7q2ww69iosqlo5t8ytxh3x: isPremium = false
+[2025-11-08 14:39:23.500] [info]  [OverlayKeybindExperimentManager] Experiments initializing...
+[2025-11-08 14:39:23.511] [info]  [OverlayKeybindExperimentManager] Experiments initialized
+[2025-11-08 14:39:25.169] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.169] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.169] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.170] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.170] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.170] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.170] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.170] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.171] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.172] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.173] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.174] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.175] [warn]  Window state not initialized window-1
+[2025-11-08 14:39:25.178] [warn]  Window state not initialized window-1

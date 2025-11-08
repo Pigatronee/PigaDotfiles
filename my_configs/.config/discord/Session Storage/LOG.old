@@ -1,2 +1,3 @@
-2025/11/01-18:10:58.140 fdeb Creating DB /home/Pigatronee/.config/discord/Session Storage since it was missing.
-2025/11/01-18:10:58.148 fdeb Reusing MANIFEST /home/Pigatronee/.config/discord/Session Storage/MANIFEST-000001
+2025/11/07-00:08:21.121 cdc Reusing MANIFEST /home/Pigatronee/.config/discord/Session Storage/MANIFEST-000001
+2025/11/07-00:08:21.121 cdc Recovering log #3
+2025/11/07-00:08:21.121 cdc Reusing old log /home/Pigatronee/.config/discord/Session Storage/000003.log 

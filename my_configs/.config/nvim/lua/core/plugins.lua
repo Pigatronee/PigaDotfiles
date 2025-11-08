@@ -28,26 +28,17 @@ return require('packer').startup(function(use)
         vim.cmd.colorscheme('everforest')
       end
     }
-  --use "sainnhe/everforrest"
 
   -- Not themes
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"
   use "nvim-lualine/lualine.nvim"
   use "nvim-treesitter/nvim-treesitter"
---  use {
---	"nvim-telescope/telescope.nvim",
---	requires = {{"nvim-lua/plenary.nvim"}}
---  }
-  -- Telescope
+  use 'CRAG666/code_runner.nvim'
   use {
   "nvim-telescope/telescope.nvim",
   requires = { {"nvim-lua/plenary.nvim"} },
 }
-
-  -- My plugins here
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
