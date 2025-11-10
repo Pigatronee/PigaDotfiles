@@ -99,6 +99,7 @@ button {
 #bluetooth,
 #custom-power,
 #custom-cava,
+#custom-vpn,
 #battery,
 #cpu,
 #memory,
@@ -158,15 +159,16 @@ button {
     
 }
 
-#clock {
-    background-color: @color2
+#custom-vpn {
+     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-#bluetooth {
-    background-color: @color2
-}
-
-#custom-power {
+#clock,
+#bluetooth,
+#custom-power,
+#custom-vpn,
+#pulseaudio,
+#network{
     background-color: @color2
 }
 
@@ -175,17 +177,8 @@ label:focus {
     background-color: #000000;
 }
 
-#network {
-    background-color: @color2;
-}
-
 #network.disconnected {
     background-color: #f53c3c;
-}
-
-#pulseaudio {
-    background-color: @color2;
-    color: #ffffff;
 }
 
 #pulseaudio.muted {
@@ -200,38 +193,6 @@ label:focus {
 
 #wireplumber.muted {
     background-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: @color2;
-    color: #ffffff;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ffa000;
-}
-
-
-
-#keyboard-state > label {
-    padding: 0 5px;
-}
-
-#keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
-	background-color: transparent;
 }
 
 #privacy {

@@ -9,7 +9,8 @@
 
   "modules-left": [
     "custom/cava",
-    "custom/media"
+    "custom/media",
+	"custom/vpn"
   ],
   "modules-center": [
 	"hyprland/workspaces"
@@ -115,14 +116,13 @@
     "on-click": "~/.config/waybar/scripts/audio-launch.sh"
   },
 
-  "custom/media": {
-    "format": "{icon} {text}",
-    "return-type": "json",
-    "max-length": 40,
-    "format-icons": {
-      "spotify": "",
-      "default": "🎜"
-    },
-    "escape": true
-  }
+    "custom/vpn": {
+       "interval": 3,
+       "format": "{}",
+       "exec": "ip add show | grep -qF surfshark_wg && echo  VPN || echo  VPN",
+       "max-length": "100",
+       "on-click": "",
+       "on-click-right": "",
+	},
+
 }

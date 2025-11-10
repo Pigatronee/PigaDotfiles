@@ -1,0 +1,128 @@
+// -*- mode: jsonc -*-
+{
+  // "layer": "top",
+  // "position": "bottom",
+  "height": 32,
+  "margin-top": 12,
+  "width": 2500,
+  "spacing": 4,
+
+  "modules-left": [
+    "custom/cava",
+    "custom/media"
+  ],
+  "modules-center": [
+	"hyprland/workspaces"
+  ],
+  "modules-right": [
+	"clock",
+    "pulseaudio",
+    "network",
+    "bluetooth",
+    "custom/power"
+  ],
+
+	"hyprland/workspaces": {
+		"active-only": false,
+		"all-outputs": true,
+		"format": "{icon}",
+		"show-special": true,
+		"persistent-workspaces": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+		},
+		"format-icons": {
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+			"5": "",
+			"6": "",
+			"default": "",
+			"active": "󱓻",
+			"urgent": "󱓻",
+	},
+	},
+
+  "tray": {
+    // "icon-size": 21,
+    "spacing": 10
+  },
+
+  "clock": {
+    "tooltip": false
+  },
+
+  "backlight": {
+    "format": "{percent}% {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-full": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "network": {
+    "format-ethernet": "",
+    "on-click": "~/.config/waybar/scripts/network-launch.sh"
+  },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+      "enabled": "",
+      "disabled": ""
+    }
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wlogout"
+  },
+  "custom/cava": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/cava.sh"
+  },
+
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "~/.config/waybar/scripts/audio-launch.sh"
+  },
+
+  "custom/media": {
+    "format": "{icon} {text}",
+    "return-type": "json",
+    "max-length": 40,
+    "format-icons": {
+      "spotify": "",
+      "default": "🎜"
+    },
+    "escape": true
+  }
+}

@@ -6,3 +6,27 @@
 2025-11-08T14:46:35.498Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
 2025-11-08T14:46:36.635Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
 2025-11-08T14:46:37.061Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-08T14:47:17.210Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaDotfiles' took 0.644s
+2025-11-08T14:47:17.955Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-08T14:47:24.412Z - info: [ui] Executing push: git push origin main:main --progress (took 6.618s)
+2025-11-08T14:47:24.414Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 1.
+Enumerating objects: 484, done.
+Counting objects: 100% (484/484), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (267/267), done.
+Writing objects: 100% (284/284), 12.28 MiB | 3.02 MiB/s, done.
+Total 284 (delta 166), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (166/166), completed with 152 local objects.        
+remote: error: GH007: Your push would publish a private email address.        
+remote: You can make your email public or disable this protection by visiting:        
+remote: https://github.com/settings/emails        
+To https://github.com/Pigatronee/PigaDotfiles.git
+ ! [remote rejected] main -> main (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/Pigatronee/PigaDotfiles.git'
+
+(The error was parsed as 50: Cannot push these commits as they contain an email address marked as private on GitHub. To push anyway, visit https://github.com/settings/emails, uncheck "Keep my email address private", then switch back to GitHub Desktop to push your commits. You can then enable the setting again.)
+2025-11-08T14:49:00.171Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-08T14:49:00.962Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.3s of which 0.0s paused, total 1.3s
+2025-11-08T14:49:06.418Z - info: [ui] Executing push: git push origin main:main --progress (took 6.405s)
+2025-11-08T14:49:06.589Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-08T14:49:07.019Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
