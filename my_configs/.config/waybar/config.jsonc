@@ -9,11 +9,13 @@
 
   "modules-left": [
     "custom/cava",
+	"disk",
+	"cpu",
     "custom/media",
 	"custom/vpn"
   ],
   "modules-center": [
-	"hyprland/workspaces"
+	"hyprland/workspaces",
   ],
   "modules-right": [
 	"clock",
@@ -47,10 +49,25 @@
 	},
 	},
 
-  "tray": {
-    // "icon-size": 21,
-    "spacing": 10
+"tray": {
+    "icon-size": 21,
+    "spacing": 10,
+	"icons": {
+		"discord": ""	
+	}
   },
+"disk": {
+	"interval": 30,
+	"format": " {percentage_used}%",
+	"unit": "GB"
+	// 0.25 GB out of 2000.00 GB available. Alternatively 241.3MiB out of 1.9TiB available.
+},
+
+"cpu": {
+    "interval": 10,
+    "format": "{:.0f}% ",
+    "max-length": 10
+},
 
   "clock": {
     "tooltip": false

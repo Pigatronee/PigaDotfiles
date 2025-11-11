@@ -1,0 +1,15 @@
+2025-11-10T00:37:56.037Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-10T00:37:56.039Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-10T00:37:56.181Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-10T00:37:56.182Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-10T00:37:56.520Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-10T00:37:56.631Z - info: [ui] Stats reported.
+2025-11-10T00:37:57.108Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.052s)
+2025-11-10T00:37:57.174Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.019s)
+2025-11-10T00:38:04.880Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-10T00:38:05.442Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-10T00:38:10.437Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/PigaDotfiles' took 1.786s
+2025-11-10T00:38:11.861Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-10T00:38:20.979Z - info: [ui] Executing push: git push origin main:main --progress (took 9.358s)
+2025-11-10T00:38:21.216Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-10T00:38:21.749Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

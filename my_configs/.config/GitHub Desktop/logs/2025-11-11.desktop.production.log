@@ -1,0 +1,8 @@
+2025-11-11T02:57:12.763Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-11T02:57:12.766Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-11T02:57:13.004Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-11T02:57:13.004Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-11T02:57:13.152Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-11T02:57:13.348Z - info: [ui] Stats reported.
+2025-11-11T02:57:15.640Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-11T02:57:16.069Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
