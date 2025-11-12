@@ -138,7 +138,7 @@
        "format": "{}",
        "exec": "ip add show | grep -qF surfshark_wg && echo  VPN || echo  VPN",
        "max-length": "100",
-       "on-click": "",
+       "on-click": "flatpak run com.surfshark.Surfshark",
        "on-click-right": "",
 	},
 

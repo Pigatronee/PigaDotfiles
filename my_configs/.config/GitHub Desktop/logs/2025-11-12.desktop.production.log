@@ -1,0 +1,7 @@
+2025-11-12T23:53:20.907Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-12T23:53:20.909Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-12T23:53:21.093Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-12T23:53:21.094Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-12T23:53:21.335Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-12T23:53:21.483Z - info: [ui] Stats reported.
+2025-11-12T23:53:22.843Z - info: [ui] Executing getChangesFiles: git log ceb3bce9bb2d87999727f164885e578de81a70c0 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.550s)
