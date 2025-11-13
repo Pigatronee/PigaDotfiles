@@ -11,8 +11,8 @@
     "custom/cava",
 	"disk",
 	"cpu",
-    "custom/media",
-	"custom/vpn"
+	"custom/vpn",
+	"custom/spotify"
   ],
   "modules-center": [
 	"hyprland/workspaces",
@@ -113,6 +113,14 @@
         "format": "{}",
         "exec": "~/.config/waybar/scripts/cava.sh"
   },
+
+"custom/spotify": {
+	"format": "  {}",
+	"interval": 5,
+	"tooltip": false,
+	"on-click": "eww open --toggle music-widget",
+	"exec": "~/.config/waybar/scripts/spotify.sh"
+},
 
   "pulseaudio": {
     "format": "{volume}% {icon}",

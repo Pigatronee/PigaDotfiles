@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-# Check if pavucontrol is running
-if pgrep -x "pavucontrol" > /dev/null; then
-    # If running, kill all instances
-    killall pavucontrol
-else
-    # If not running, start it in the background
-    pavucontrol &
-fi
+
+while true; do
+  if xdotool getmouselocation --shell | grep -q "WINDOW=$(xdotool search --name 'waybar')"; then
+    ~/.config/waybar/scripts/music_popup.sh &
+    sleep 3
+  fi
+  sleep 0.2
+done
+

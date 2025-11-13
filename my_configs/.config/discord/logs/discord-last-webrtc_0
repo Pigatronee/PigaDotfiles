@@ -1,191 +1,847 @@
-[2025-11-11 01:23:39.211] [684795] (engine.cpp:455): Created native engine, time: Tue Nov 11 01:23:39 2025 UTC, logPath: /home/Pigatronee/.config/discord/logs/, logLevel: 2
-[2025-11-11 01:23:39.211] [684795] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
-[2025-11-11 01:23:39.211] [684795] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
-[2025-11-11 01:23:39.211] [684795] (audio_processing_impl.cc:461): Injected APM submodules:
+[2025-11-12 22:00:17.202] [3131587] (engine.cpp:455): Created native engine, time: Wed Nov 12 22:00:17 2025 UTC, logPath: /home/Pigatronee/.config/discord/logs/, logLevel: 2
+[2025-11-12 22:00:17.202] [3131587] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-11-12 22:00:17.202] [3131587] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-11-12 22:00:17.202] [3131587] (audio_processing_impl.cc:461): Injected APM submodules:
 Echo control factory: 1
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 1
 Render pre processor: 0
-[2025-11-11 01:23:39.211] [684795] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.211] [684795] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
-[2025-11-11 01:23:39.211] [684795] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
-[2025-11-11 01:23:39.211] [684795] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.212] [684795] (adm_factory_default.cpp:99): Creating ADM on dedicated controls thread
-[2025-11-11 01:23:39.212] [684798] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:153): current platform is Linux
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:945): PlatformAudioLayer
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:253): PulseAudio support is enabled.
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
-[2025-11-11 01:23:39.212] [684798] (audio_device_impl.cc:300): AttachAudioBuffer
-[2025-11-11 01:23:39.212] [684798] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
-[2025-11-11 01:23:39.212] [684798] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
-[2025-11-11 01:23:39.212] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(0)
-[2025-11-11 01:23:39.212] [684798] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
-[2025-11-11 01:23:39.212] [684795] (audio_device_impl.cc:310): ActiveAudioLayer
-[2025-11-11 01:23:39.212] [684795] (adm_factory_default.cpp:99): Creating ADM on dedicated controls thread
-[2025-11-11 01:23:39.217] [684800] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:153): current platform is Linux
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:945): PlatformAudioLayer
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:253): PulseAudio support is enabled.
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:300): AttachAudioBuffer
-[2025-11-11 01:23:39.217] [684800] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
-[2025-11-11 01:23:39.217] [684800] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
-[2025-11-11 01:23:39.217] [684800] (audio_device_buffer.cc:217): SetRecordingChannels(0)
-[2025-11-11 01:23:39.217] [684800] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
-[2025-11-11 01:23:39.217] [684795] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
-[2025-11-11 01:23:39.217] [684795] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
-[2025-11-11 01:23:39.217] [684795] (audio_processing_impl.cc:461): Injected APM submodules:
+[2025-11-12 22:00:17.203] [3131587] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.205] [3131587] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-11-12 22:00:17.205] [3131587] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-11-12 22:00:17.205] [3131587] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.206] [3131587] (adm_factory_default.cpp:99): Creating ADM on dedicated controls thread
+[2025-11-12 22:00:17.215] [3131601] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:153): current platform is Linux
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-11-12 22:00:17.215] [3131601] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-11-12 22:00:17.215] [3131601] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-11-12 22:00:17.215] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-11-12 22:00:17.215] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-11-12 22:00:17.215] [3131587] (audio_device_impl.cc:310): ActiveAudioLayer
+[2025-11-12 22:00:17.215] [3131587] (adm_factory_default.cpp:99): Creating ADM on dedicated controls thread
+[2025-11-12 22:00:17.215] [3131606] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:153): current platform is Linux
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-11-12 22:00:17.215] [3131606] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-11-12 22:00:17.215] [3131606] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-11-12 22:00:17.215] [3131606] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-11-12 22:00:17.215] [3131606] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-11-12 22:00:17.215] [3131587] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-11-12 22:00:17.215] [3131587] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-11-12 22:00:17.215] [3131587] (audio_processing_impl.cc:461): Injected APM submodules:
 Echo control factory: 0
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 0
 Render pre processor: 0
-[2025-11-11 01:23:39.217] [684795] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.217] [684795] (audio_engine.cpp:650): Creating audio engine: standard
-[2025-11-11 01:23:39.217] [684795] (audio_coding.cpp:158): Using software Opus decoder
-[2025-11-11 01:23:39.217] [684795] (audio_coding.cpp:175): Using software Opus encoder
-[2025-11-11 01:23:39.217] [684800] (audio_device_impl.cc:320): Init
-[2025-11-11 01:23:39.217] [684798] (audio_device_impl.cc:320): Init
-[2025-11-11 01:23:39.217] [684795] (audio_engine.cpp:213): Setting audio input device: 'default'
-[2025-11-11 01:23:39.217] [684795] (audio_engine.cpp:230): Setting audio output device: 'default'
-[2025-11-11 01:23:39.217] [684795] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.218] [684795] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
-[2025-11-11 01:23:39.218] [684795] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
-[2025-11-11 01:23:39.218] [684795] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.218] [684795] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
-[2025-11-11 01:23:39.218] [684795] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
-[2025-11-11 01:23:39.218] [684795] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
-[2025-11-11 01:23:39.218] [684795] (captured_audio_processor.cpp:192): SetNoiseCancellation: 0
-[2025-11-11 01:23:39.218] [684795] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-11-11 01:23:39.218] [684795] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
-[2025-11-11 01:23:39.224] [684798] (audio_device_impl.cc:851): RegisterAudioCallback
-[2025-11-11 01:23:39.224] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.224] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.224] [684798] (audio_device_impl.cc:732): SetRecordingDevice(0)
-[2025-11-11 01:23:39.224] [684800] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:39.224] [684800] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:39.224] [684800] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:39.224] [684800] (audio_device_impl.cc:851): RegisterAudioCallback
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:522): StereoRecordingIsAvailable
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:529): output: 1
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.225] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.225] [684798] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:39.225] [684798] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:664): SetPlayoutDevice(0)
-[2025-11-11 01:23:39.225] [684798] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
-[2025-11-11 01:23:39.226] [684798] (audio_device_impl.cc:575): output: 1
-[2025-11-11 01:23:39.226] [684798] (audio_device_impl.cc:580): SetStereoPlayout(1)
-[2025-11-11 01:23:39.226] [684798] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
-[2025-11-11 01:23:39.226] [684798] (audio_device_impl.cc:867): BuiltInAECIsAvailable
-[2025-11-11 01:23:39.226] [684798] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
-[2025-11-11 01:23:39.226] [684798] (audio_device_impl.cc:870): output: 0
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:714): Setting audio input device id: 'default'
-[2025-11-11 01:23:39.231] [684795] (audio_engine.cpp:213): Setting audio input device: 'default'
-[2025-11-11 01:23:39.231] [684795] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
-[2025-11-11 01:23:39.231] [684795] (audio_engine.cpp:230): Setting audio output device: 'default'
-[2025-11-11 01:23:39.231] [684795] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:39.231] [684798] (audio_device_impl.cc:782): RecordingIsInitialized
-[2025-11-11 01:23:39.231] [684798] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
-[2025-11-11 01:23:39.231] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:139): *** OnDevicesChanged:
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:140): * audioInput:
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:145): * audioOutput:
-[2025-11-11 01:23:39.231] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:148): - default: PCM2900B Audio CODEC Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
-[2025-11-11 01:23:39.231] [684798] (audio_device_impl.cc:732): SetRecordingDevice(0)
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
-[2025-11-11 01:23:39.231] [684795] (engine.cpp:153): * videoInput:
-[2025-11-11 01:23:39.231] [684798] (audio_device_impl.cc:522): StereoRecordingIsAvailable
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:529): output: 1
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.232] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.232] [684798] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:39.232] [684798] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:776): PlayoutIsInitialized
-[2025-11-11 01:23:39.232] [684798] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:664): SetPlayoutDevice(0)
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:575): output: 1
-[2025-11-11 01:23:39.232] [684798] (audio_device_impl.cc:580): SetStereoPlayout(1)
-[2025-11-11 01:23:39.232] [684798] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
-[2025-11-11 01:23:39.416] [684795] (engine.cpp:714): Setting audio input device id: 'default'
-[2025-11-11 01:23:39.416] [684795] (audio_engine.cpp:213): Setting audio input device: 'default'
-[2025-11-11 01:23:39.416] [684795] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
-[2025-11-11 01:23:39.416] [684798] (audio_device_impl.cc:782): RecordingIsInitialized
-[2025-11-11 01:23:39.416] [684798] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
-[2025-11-11 01:23:39.416] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.416] [684795] (audio_engine.cpp:230): Setting audio output device: 'default'
-[2025-11-11 01:23:39.416] [684795] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:39.416] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.416] [684798] (audio_device_impl.cc:732): SetRecordingDevice(0)
-[2025-11-11 01:23:39.416] [684795] (engine_audio_transport.cpp:659): EngineAudioTransport::SetSidechainCompression 1
-[2025-11-11 01:23:39.416] [684795] (engine_audio_transport.cpp:670): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:522): StereoRecordingIsAvailable
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:529): output: 1
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:39.417] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:39.417] [684798] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:39.417] [684798] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:776): PlayoutIsInitialized
-[2025-11-11 01:23:39.417] [684798] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:664): SetPlayoutDevice(0)
-[2025-11-11 01:23:39.417] [684798] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
-[2025-11-11 01:23:39.418] [684798] (audio_device_impl.cc:575): output: 1
-[2025-11-11 01:23:39.418] [684798] (audio_device_impl.cc:580): SetStereoPlayout(1)
-[2025-11-11 01:23:39.418] [684798] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
-[2025-11-11 01:23:39.418] [684798] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:39.418] [684798] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:39.418] [684798] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:41.801] [684795] (engine.cpp:714): Setting audio input device id: 'default'
-[2025-11-11 01:23:41.801] [684795] (audio_engine.cpp:213): Setting audio input device: 'default'
-[2025-11-11 01:23:41.801] [684795] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
-[2025-11-11 01:23:41.801] [684798] (audio_device_impl.cc:782): RecordingIsInitialized
-[2025-11-11 01:23:41.801] [684798] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
-[2025-11-11 01:23:41.801] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:41.801] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:41.801] [684798] (audio_device_impl.cc:732): SetRecordingDevice(0)
-[2025-11-11 01:23:41.801] [684795] (audio_engine.cpp:230): Setting audio output device: 'default'
-[2025-11-11 01:23:41.801] [684795] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:522): StereoRecordingIsAvailable
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:529): output: 1
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:534): SetStereoRecording(1)
-[2025-11-11 01:23:41.802] [684798] (audio_device_buffer.cc:217): SetRecordingChannels(2)
-[2025-11-11 01:23:41.802] [684798] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
-[2025-11-11 01:23:41.802] [684798] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:776): PlayoutIsInitialized
-[2025-11-11 01:23:41.802] [684798] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:664): SetPlayoutDevice(0)
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:575): output: 1
-[2025-11-11 01:23:41.802] [684798] (audio_device_impl.cc:580): SetStereoPlayout(1)
-[2025-11-11 01:23:41.802] [684798] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
-[2025-11-11 01:23:42.470] [684432] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
-[2025-11-11 01:23:42.471] [684432] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
-[2025-11-11 01:23:43.530] [684432] JS console: [GatewaySocket] [READY] took 1060ms, as aa38a22824c35641e7afb47c7b6aecc7
-[2025-11-11 01:23:44.018] [684432] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1547ms
-[2025-11-11 01:23:51.880] [687820] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
-[2025-11-11 01:23:51.880] [687820] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
-[2025-11-11 01:23:51.880] [687820] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
-[2025-11-11 01:23:51.880] [687820] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
-[2025-11-11 01:23:51.880] [687820] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
-[2025-11-11 01:23:51.927] [687820] (region_latency_tester.cpp:288): Average RTT for region london is 15
-[2025-11-11 01:23:51.927] [687820] (region_latency_tester.cpp:288): Average RTT for region rotterdam is 23.75
-[2025-11-11 01:23:51.927] [687820] (region_latency_tester.cpp:288): Average RTT for region paris is 24
-[2025-11-11 01:23:51.927] [687820] (region_latency_tester.cpp:288): Average RTT for region frankfurt is 30.75
-[2025-11-11 01:23:51.927] [687820] (region_latency_tester.cpp:288): Average RTT for region milan is 44.75
+[2025-11-12 22:00:17.215] [3131587] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.215] [3131587] (audio_engine.cpp:650): Creating audio engine: standard
+[2025-11-12 22:00:17.215] [3131587] (audio_coding.cpp:158): Using software Opus decoder
+[2025-11-12 22:00:17.215] [3131587] (audio_coding.cpp:175): Using software Opus encoder
+[2025-11-12 22:00:17.215] [3131587] (audio_engine.cpp:213): Setting audio input device: 'default'
+[2025-11-12 22:00:17.215] [3131601] (audio_device_impl.cc:320): Init
+[2025-11-12 22:00:17.215] [3131606] (audio_device_impl.cc:320): Init
+[2025-11-12 22:00:17.215] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 22:00:17.215] [3131587] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.216] [3131587] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-11-12 22:00:17.216] [3131587] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-11-12 22:00:17.216] [3131587] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.216] [3131587] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2025-11-12 22:00:17.216] [3131587] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2025-11-12 22:00:17.216] [3131587] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2025-11-12 22:00:17.216] [3131587] (captured_audio_processor.cpp:192): SetNoiseCancellation: 0
+[2025-11-12 22:00:17.216] [3131587] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-11-12 22:00:17.216] [3131587] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.224] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-11-12 22:00:17.224] [3131606] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.224] [3131606] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.224] [3131606] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.224] [3131606] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:529): output: 1
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.224] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.224] [3131601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.224] [3131601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.224] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 22:00:17.225] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 22:00:17.225] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 22:00:17.225] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 22:00:17.225] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 22:00:17.225] [3131601] (audio_device_impl.cc:867): BuiltInAECIsAvailable
+[2025-11-12 22:00:17.225] [3131601] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2025-11-12 22:00:17.225] [3131601] (audio_device_impl.cc:870): output: 0
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:714): Setting audio input device id: 'default'
+[2025-11-12 22:00:17.231] [3131587] (audio_engine.cpp:213): Setting audio input device: 'default'
+[2025-11-12 22:00:17.231] [3131587] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.231] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-11-12 22:00:17.231] [3131601] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.231] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-11-12 22:00:17.231] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:148): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 22:00:17.231] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:529): output: 1
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.231] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.231] [3131601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.231] [3131601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 22:00:17.231] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.231] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 22:00:17.232] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 22:00:17.232] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 22:00:17.232] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 22:00:17.232] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 22:00:17.458] [3131587] (engine.cpp:714): Setting audio input device id: 'default'
+[2025-11-12 22:00:17.458] [3131587] (audio_engine.cpp:213): Setting audio input device: 'default'
+[2025-11-12 22:00:17.458] [3131587] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.458] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 22:00:17.458] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.458] [3131587] (engine_audio_transport.cpp:659): EngineAudioTransport::SetSidechainCompression 1
+[2025-11-12 22:00:17.459] [3131587] (engine_audio_transport.cpp:670): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2025-11-12 22:00:17.460] [3131601] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-11-12 22:00:17.460] [3131601] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.460] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.460] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.460] [3131601] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:529): output: 1
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.463] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.463] [3131601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.463] [3131601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 22:00:17.463] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 22:00:17.463] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 22:00:17.464] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 22:00:17.464] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 22:00:17.464] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 22:00:17.464] [3131601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.464] [3131601] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.464] [3131601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.684] [3131587] (engine.cpp:714): Setting audio input device id: 'default'
+[2025-11-12 22:00:17.684] [3131587] (audio_engine.cpp:213): Setting audio input device: 'default'
+[2025-11-12 22:00:17.684] [3131587] (webrtc_adm_helper.cpp:306): Deferring to work queue: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.684] [3131601] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-11-12 22:00:17.684] [3131601] (webrtc_adm_helper.cpp:312): Completed: EnsureRecordingStopped(1)
+[2025-11-12 22:00:17.684] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.684] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.684] [3131601] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-11-12 22:00:17.684] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 22:00:17.684] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.684] [3131601] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:529): output: 1
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-11-12 22:00:17.685] [3131601] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-11-12 22:00:17.685] [3131601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-11-12 22:00:17.685] [3131601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 22:00:17.685] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 22:00:17.685] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 22:00:17.685] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 22:00:18.962] [3130199] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
+[2025-11-12 22:00:18.962] [3130199] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2025-11-12 22:00:20.497] [3130199] JS console: [GatewaySocket] [READY] took 1536ms, as 60ebc96ed739059b64c423186d177e65
+[2025-11-12 22:00:20.963] [3130199] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 2002ms
+[2025-11-12 22:00:46.130] [3153169] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2025-11-12 22:00:46.130] [3153169] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2025-11-12 22:00:46.130] [3153169] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2025-11-12 22:00:46.130] [3153169] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2025-11-12 22:00:46.130] [3153169] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2025-11-12 22:00:46.182] [3153169] (region_latency_tester.cpp:288): Average RTT for region london is 16.5
+[2025-11-12 22:00:46.182] [3153169] (region_latency_tester.cpp:288): Average RTT for region rotterdam is 26.25
+[2025-11-12 22:00:46.182] [3153169] (region_latency_tester.cpp:288): Average RTT for region paris is 28.5
+[2025-11-12 22:00:46.182] [3153169] (region_latency_tester.cpp:288): Average RTT for region frankfurt is 37
+[2025-11-12 22:00:46.182] [3153169] (region_latency_tester.cpp:288): Average RTT for region milan is 49.25
+[2025-11-12 23:24:38.293] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:38.293] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:24:38.293] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:24:38.293] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:38.293] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:38.293] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:24:38.294] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:38.294] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:38.294] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:38.294] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:38.322] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:38.322] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:38.322] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:38.322] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:38.322] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:38.322] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:38.323] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:38.323] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:38.323] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:50.306] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:50.306] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:50.306] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:148): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:50.306] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:50.306] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:50.306] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:50.306] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:50.306] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:50.306] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:53.309] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:53.309] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:24:53.309] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:53.309] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:24:53.309] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:53.309] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:53.309] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:53.310] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:53.310] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:53.310] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:53.310] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:53.310] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:59.314] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:59.314] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:24:59.314] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:59.314] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:59.314] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:148): - default: Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:24:59.314] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:24:59.314] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:59.314] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:59.314] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:59.314] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:24:59.315] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:24:59.315] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:59.315] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:24:59.315] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:24:59.315] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:24:59.315] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:24:59.315] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:24:59.315] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:24:59.315] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:25:00.315] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:25:00.315] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:25:00.315] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:25:00.315] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:25:00.315] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:25:00.315] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:25:00.315] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:25:00.315] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:25:00.315] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:25:00.316] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:25:00.316] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:25:00.316] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:25:00.316] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:19.634] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:19.634] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:19.634] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:19.634] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:148): - default: Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:19.634] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:19.634] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:19.635] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:19.635] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:19.635] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:19.635] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:19.635] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:20.635] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:20.635] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:20.635] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:20.635] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:20.635] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:148): - default: Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:20.635] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:20.635] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:20.636] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:20.636] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:20.636] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:20.636] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:20.636] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:22.638] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:22.638] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:22.638] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:22.638] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:22.638] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:22.638] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:22.638] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:22.638] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:22.638] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:22.639] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:22.639] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:22.639] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:22.639] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:23.637] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:23.637] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:23.637] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:23.637] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:23.637] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:148): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:23.637] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:23.638] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:23.638] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:23.638] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:23.638] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:23.638] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:23.639] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:23.639] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:23.639] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:24.638] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:24.638] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:24.638] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:24.638] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:24.638] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:24.638] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:24.639] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:24.639] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:24.639] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:24.639] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:24.639] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:25.640] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:25.640] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:25.640] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:148): - default: Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:25.640] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:25.640] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:25.640] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:25.640] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:25.640] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:25.641] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:25.641] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:25.641] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:26.640] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:26.640] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:26.640] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:30:26.640] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:30:26.640] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:26.640] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:26.640] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:26.640] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:26.640] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:30:26.641] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:26.641] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:30:26.641] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:30:26.641] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:30:26.641] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:30:26.641] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:50.324] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:50.324] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:148): - default: Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:50.324] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:41:50.324] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:50.324] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:50.324] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:50.324] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:50.325] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:50.325] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:50.325] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:50.325] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:50.325] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:51.324] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:51.324] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:41:51.324] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:51.324] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:51.324] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:148): - default: Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:51.324] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:51.325] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:51.325] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:51.325] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:51.325] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:51.325] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:53.327] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:53.327] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:41:53.327] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:53.327] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:53.327] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:148): - default: Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:53.327] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:41:53.327] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:53.328] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:53.328] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:53.328] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:53.328] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:53.328] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:54.328] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:54.328] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:54.328] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:148): - default: Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:54.328] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:54.328] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:54.328] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:54.328] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:54.328] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:54.328] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:54.329] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:54.329] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:54.329] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:54.329] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:57.331] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:57.331] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:57.331] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:148): - default: Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:41:57.331] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:57.331] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:41:57.331] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:57.331] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:41:57.331] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:41:57.331] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:41:57.332] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:41:57.332] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:41:57.332] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:41:57.332] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:50:57.872] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:50:57.872] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:50:57.872] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:148): - default: Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:50:57.872] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:50:57.872] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:50:57.872] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:50:57.872] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:50:57.872] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:50:57.872] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:50:57.873] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:50:57.873] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:50:57.873] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:50:57.873] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:52:50.986] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:52:50.986] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:52:50.986] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:52:50.986] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:52:50.986] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:52:50.986] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:52:50.986] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:52:50.986] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:52:50.986] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:52:50.987] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:52:50.987] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:52:50.987] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:52:50.987] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:53:01.996] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:53:01.996] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:01.996] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:53:01.996] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:53:01.996] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:01.996] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:53:01.996] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:148): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:01.997] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:53:01.997] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:53:01.997] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:53:01.997] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:53:01.997] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:53:01.997] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:53:01.998] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:53:01.998] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:53:01.998] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:53:03.999] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:53:03.999] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:139): *** OnDevicesChanged:
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:53:03.999] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:140): * audioInput:
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:143): - default: PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:143): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:143): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:143): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:145): * audioOutput:
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:148): - default: Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:148): - Q2U handheld mic with XLR Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:148): - Navi 31 HDMI/DP Audio Digital Stereo (HDMI) ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:148): - Starship/Matisse HD Audio Controller Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:148): - PCM2900B Audio CODEC Analog Stereo ()
+[2025-11-12 23:53:03.999] [3131587] (engine.cpp:153): * videoInput:
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:53:03.999] [3131587] (audio_engine.cpp:230): Setting audio output device: 'default'
+[2025-11-12 23:53:03.999] [3131587] (webrtc_adm_helper.cpp:340): Deferring to work queue: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-11-12 23:53:03.999] [3131601] (webrtc_adm_helper.cpp:346): Completed: EnsurePlayoutStopped(1)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-11-12 23:53:03.999] [3131601] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-11-12 23:53:04.000] [3131601] (audio_device_impl.cc:575): output: 1
+[2025-11-12 23:53:04.000] [3131601] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-11-12 23:53:04.000] [3131601] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-11-13 00:01:11.906] [3130199] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.97 seconds.
+[2025-11-13 00:01:14.385] [3130199] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-11-13 00:01:14.575] [3130199] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 189 ms
+[2025-11-13 00:01:14.575] [3130199] JS console: [GatewaySocket] [RESUME] resuming session 60ebc96ed739059b64c423186d177e65, seq: 1375
+[2025-11-13 00:01:15.389] [3130199] JS console: [GatewaySocket] [RESUMED] took 1004ms, replayed 0 events, new seq: 1376
