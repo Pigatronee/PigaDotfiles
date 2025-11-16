@@ -7,8 +7,9 @@
   "WINDOW_BOUNDS": {
     "x": 15,
     "y": 70,
-    "width": 2530,
+    "width": 1256,
     "height": 1355
   },
-  "BACKGROUND_COLOR": "#121214"
+  "BACKGROUND_COLOR": "#121214",
+  "asyncVideoInputDeviceInit": false
 }

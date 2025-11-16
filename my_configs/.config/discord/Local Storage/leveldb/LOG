@@ -1,49 +1,9 @@
-2025/11/13-00:40:39.130 e848c Reusing MANIFEST /home/Pigatronee/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/11/13-00:40:39.134 e848c Recovering log #190
-2025/11/13-00:40:39.134 e848c Reusing old log /home/Pigatronee/.config/discord/Local Storage/leveldb/000190.log 
-2025/11/13-00:41:39.135 e848d Level-0 table #194: started
-2025/11/13-00:41:39.138 e848d Level-0 table #194: 56611 bytes OK
-2025/11/13-00:41:39.140 e848d Delete type=0 #190
-2025/11/13-00:47:10.549 e848d Level-0 table #196: started
-2025/11/13-00:47:10.567 e848d Level-0 table #196: 2694859 bytes OK
-2025/11/13-00:47:10.570 e848d Delete type=0 #193
-2025/11/13-00:47:10.571 e848d Compacting 4@0 + 2@1 files
-2025/11/13-00:47:10.598 e848d Generated table #197@0: 14 keys, 2653076 bytes
-2025/11/13-00:47:10.601 e848d Generated table #198@0: 32 keys, 50940 bytes
-2025/11/13-00:47:10.601 e848d Compacted 4@0 + 2@1 files => 2704016 bytes
-2025/11/13-00:47:10.603 e848d compacted to: files[ 0 2 1 0 0 0 0 ]
-2025/11/13-00:47:10.603 e848d Delete type=2 #187
-2025/11/13-00:47:10.603 e848d Delete type=2 #194
-2025/11/13-00:47:10.603 e848d Delete type=2 #196
-2025/11/13-00:47:10.603 e848d Delete type=2 #189
-2025/11/13-00:47:10.603 e848d Delete type=2 #191
-2025/11/13-00:47:10.603 e848d Delete type=2 #186
-2025/11/13-00:47:24.051 e848d Level-0 table #200: started
-2025/11/13-00:47:24.053 e848d Level-0 table #200: 34576 bytes OK
-2025/11/13-00:47:24.056 e848d Delete type=0 #195
-2025/11/13-00:47:40.563 e848d Level-0 table #202: started
-2025/11/13-00:47:40.566 e848d Level-0 table #202: 34564 bytes OK
-2025/11/13-00:47:40.568 e848d Delete type=0 #199
-2025/11/13-00:48:40.014 e848d Level-0 table #204: started
-2025/11/13-00:48:40.016 e848d Level-0 table #204: 34581 bytes OK
-2025/11/13-00:48:40.018 e848d Delete type=0 #201
-2025/11/13-00:50:40.012 e848d Level-0 table #206: started
-2025/11/13-00:50:40.015 e848d Level-0 table #206: 34617 bytes OK
-2025/11/13-00:50:40.017 e848d Delete type=0 #203
-2025/11/13-00:50:40.017 e848d Compacting 4@0 + 2@1 files
-2025/11/13-00:50:40.040 e848d Generated table #207@0: 14 keys, 2653078 bytes
-2025/11/13-00:50:40.042 e848d Generated table #208@0: 32 keys, 51163 bytes
-2025/11/13-00:50:40.042 e848d Compacted 4@0 + 2@1 files => 2704241 bytes
-2025/11/13-00:50:40.044 e848d compacted to: files[ 0 2 1 0 0 0 0 ]
-2025/11/13-00:50:40.045 e848d Delete type=2 #202
-2025/11/13-00:50:40.045 e848d Delete type=2 #197
-2025/11/13-00:50:40.045 e848d Delete type=2 #204
-2025/11/13-00:50:40.045 e848d Delete type=2 #198
-2025/11/13-00:50:40.045 e848d Delete type=2 #200
-2025/11/13-00:50:40.045 e848d Delete type=2 #206
-2025/11/13-00:52:40.013 e848d Level-0 table #210: started
-2025/11/13-00:52:40.016 e848d Level-0 table #210: 34572 bytes OK
-2025/11/13-00:52:40.018 e848d Delete type=0 #205
-2025/11/13-01:58:05.385 e848d Level-0 table #212: started
-2025/11/13-01:58:05.390 e848d Level-0 table #212: 45187 bytes OK
-2025/11/13-01:58:05.394 e848d Delete type=0 #209
+2025/11/16-00:18:48.765 d5e2b Reusing MANIFEST /home/Pigatronee/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/16-00:18:48.779 d5e2b Recovering log #502
+2025/11/16-00:18:48.780 d5e2b Reusing old log /home/Pigatronee/.config/discord/Local Storage/leveldb/000502.log 
+2025/11/16-00:25:21.470 d5e2c Level-0 table #507: started
+2025/11/16-00:25:21.493 d5e2c Level-0 table #507: 2756254 bytes OK
+2025/11/16-00:25:21.498 d5e2c Delete type=0 #502
+2025/11/16-02:28:07.990 d5e2c Level-0 table #509: started
+2025/11/16-02:28:07.994 d5e2c Level-0 table #509: 51654 bytes OK
+2025/11/16-02:28:07.999 d5e2c Delete type=0 #506
