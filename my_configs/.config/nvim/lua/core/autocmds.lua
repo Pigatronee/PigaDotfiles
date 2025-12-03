@@ -4,6 +4,13 @@ vim.api.nvim_create_autocmd("TermOpen", {
   pattern = "*",
   command = "startinsert",
 })
+
+-- Make terminal always be in insert mode unless pressing esc
+vim.api.nvim_create_autocmd({"TermOpen", "BufEnter"},{
+	pattern = "term://*",
+	command = "startinsert",
+})
+
 -- Make terminal switch to normal with esc key
 vim.api.nvim_create_autocmd("TermOpen", {
   pattern = "*",

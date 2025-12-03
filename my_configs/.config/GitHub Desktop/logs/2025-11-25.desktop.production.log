@@ -1,0 +1,11 @@
+2025-11-25T23:47:10.393Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-25T23:47:10.395Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-25T23:47:10.633Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-25T23:47:10.634Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-25T23:47:11.135Z - info: [ui] Stats reported.
+2025-11-25T23:47:11.232Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-25T23:47:38.548Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-25T23:47:38.551Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-25T23:47:38.778Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-25T23:47:39.378Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-25T23:47:40.812Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 15.6s of which 0.0s paused, total 15.6s

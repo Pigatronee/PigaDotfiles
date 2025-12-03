@@ -1,0 +1,145 @@
+2025-11-30T13:02:31.855Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-30T13:02:31.857Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-30T13:02:31.868Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.137Z - error: [ui] Could not get Alive web socket URL for 'Pigatronee'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.getAliveWebSocketURL (/home/Pigatronee/webpack:/app/src/lib/api.ts:838:30)
+    at Object.createSessionForAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:170:32)
+    at Object.subscribeToAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:227:40)
+    at Object._subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:147:20)
+    at subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:126:44)
+2025-11-30T13:02:32.146Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchProtectedBranches (/home/Pigatronee/webpack:/app/src/lib/api.ts:1627:35)
+    at Op.updateBranchProtectionsFromAPI (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:4268:32)
+    at Op._selectRepository (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:1884:10)
+2025-11-30T13:02:32.214Z - warn: [ui] fetchRepository: an error occurred for 'Pigatronee/Knight-game-improved'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchRepository (/home/Pigatronee/webpack:/app/src/lib/api.ts:929:35)
+    at Op.repositoryWithRefreshedGitHubRepository (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:4224:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-11-30T13:02:32.220Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.220Z - warn: [ui] fetchMentionables: failed for Pigatronee/Knight-game-improved
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchMentionables (/home/Pigatronee/webpack:/app/src/lib/api.ts:1817:35)
+    at XU.constructor.updateMentionables (/home/Pigatronee/webpack:/app/src/lib/stores/github-user-store.ts:90:32)
+2025-11-30T13:02:32.221Z - warn: [ui] fetchIssues: failed for repository Pigatronee/Knight-game-improved
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/Pigatronee/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchIssues (/home/Pigatronee/webpack:/app/src/lib/api.ts:1126:33)
+    at JU.constructor.refreshIssues (/home/Pigatronee/webpack:/app/src/lib/stores/issues-store.ts:81:30)
+    at Op._refreshIssues (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:1999:5)
+2025-11-30T13:02:32.221Z - warn: [ui] Unable to fetch issues for Pigatronee/Knight-game-improved
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/Pigatronee/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchIssues (/home/Pigatronee/webpack:/app/src/lib/api.ts:1126:33)
+    at JU.constructor.refreshIssues (/home/Pigatronee/webpack:/app/src/lib/stores/issues-store.ts:81:30)
+    at Op._refreshIssues (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:1999:5)
+2025-11-30T13:02:32.221Z - warn: [ui] fetchAccount: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAccount (/home/Pigatronee/webpack:/app/src/lib/api.ts:1022:35)
+    at Xn (/home/Pigatronee/webpack:/app/src/lib/api.ts:1889:28)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:253:10
+    at Op.tryUpdateAccount (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-11-30T13:02:32.221Z - warn: [ui] fetchUser: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAccount (/home/Pigatronee/webpack:/app/src/lib/api.ts:1022:35)
+    at Xn (/home/Pigatronee/webpack:/app/src/lib/api.ts:1889:28)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:253:10
+    at Op.tryUpdateAccount (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-11-30T13:02:32.222Z - warn: [ui] Error refreshing account 'Pigatronee'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAccount (/home/Pigatronee/webpack:/app/src/lib/api.ts:1022:35)
+    at Xn (/home/Pigatronee/webpack:/app/src/lib/api.ts:1889:28)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:253:10
+    at Op.tryUpdateAccount (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/Pigatronee/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/Pigatronee/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-11-30T13:02:32.251Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.252Z - error: [ui] Could not get Alive web socket URL for 'Pigatronee'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.getAliveWebSocketURL (/home/Pigatronee/webpack:/app/src/lib/api.ts:838:30)
+    at Object.createSessionForAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:170:32)
+    at Object.subscribeToAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:227:40)
+    at Object._subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:147:20)
+    at Object.subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:126:44)
+2025-11-30T13:02:32.280Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.9-arch1-1)
+2025-11-30T13:02:32.280Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-30T13:02:32.290Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.299Z - warn: [ui] failed fetching open PRs for repository Pigatronee/Knight-game-improved
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/Pigatronee/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchAllOpenPullRequests (/home/Pigatronee/webpack:/app/src/lib/api.ts:1142:25)
+    at sZ.constructor.fetchAndStoreOpenPullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at sZ.constructor.fetchAndStorePullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)
+2025-11-30T13:02:32.299Z - error: [ui] Error refreshing pull requests for 'Pigatronee/Knight-game-improved'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/Pigatronee/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchAllOpenPullRequests (/home/Pigatronee/webpack:/app/src/lib/api.ts:1142:25)
+    at sZ.constructor.fetchAndStoreOpenPullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at sZ.constructor.fetchAndStorePullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/Pigatronee/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)
+2025-11-30T13:02:32.299Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.299Z - error: [ui] Could not get Alive web socket URL for 'Pigatronee'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.getAliveWebSocketURL (/home/Pigatronee/webpack:/app/src/lib/api.ts:838:30)
+    at Object.createSessionForAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:170:32)
+    at Object.subscribeToAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:227:40)
+    at Object._subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:147:20)
+    at subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:126:44)
+2025-11-30T13:02:32.323Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.323Z - error: [ui] Could not get Alive web socket URL for 'Pigatronee'
+TypeError: Failed to fetch
+    at Ot (/home/Pigatronee/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/Pigatronee/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.getAliveWebSocketURL (/home/Pigatronee/webpack:/app/src/lib/api.ts:838:30)
+    at Object.createSessionForAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:170:32)
+    at Object.subscribeToAccount (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:227:40)
+    at Object._subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:147:20)
+    at subscribeToAccounts (/home/Pigatronee/webpack:/app/src/lib/stores/alive-store.ts:126:44)
+2025-11-30T13:02:32.336Z - error: [ui] Error reporting stats:
+TypeError: Failed to fetch
+    at eZ.constructor.sA [as post] (/home/Pigatronee/webpack:/app/src/lib/stats/stats-store.ts:426:3)
+    at eZ.constructor.reportStats (/home/Pigatronee/webpack:/app/src/lib/stats/stats-store.ts:503:35)
+2025-11-30T13:02:32.336Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2025-11-30T13:02:32.363Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2025-11-30T13:02:42.532Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.4s of which 0.0s paused, total 1.4s
+2025-11-30T13:02:46.321Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T13:02:46.911Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

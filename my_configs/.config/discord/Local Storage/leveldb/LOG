@@ -1,9 +1,0 @@
-2025/11/16-00:18:48.765 d5e2b Reusing MANIFEST /home/Pigatronee/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/11/16-00:18:48.779 d5e2b Recovering log #502
-2025/11/16-00:18:48.780 d5e2b Reusing old log /home/Pigatronee/.config/discord/Local Storage/leveldb/000502.log 
-2025/11/16-00:25:21.470 d5e2c Level-0 table #507: started
-2025/11/16-00:25:21.493 d5e2c Level-0 table #507: 2756254 bytes OK
-2025/11/16-00:25:21.498 d5e2c Delete type=0 #502
-2025/11/16-02:28:07.990 d5e2c Level-0 table #509: started
-2025/11/16-02:28:07.994 d5e2c Level-0 table #509: 51654 bytes OK
-2025/11/16-02:28:07.999 d5e2c Delete type=0 #506

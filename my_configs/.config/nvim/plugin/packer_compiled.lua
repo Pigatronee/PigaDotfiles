@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762795099/share/lua/5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762795099/share/lua/5.1/?/init.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762795099/lib/luarocks/rocks-5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762795099/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1762795099/lib/lua/5.1/?.so"
+local package_path_str = "/Users/apple/.cache/nvim/packer_hererocks/2.1.1760617492/share/lua/5.1/?.lua;/Users/apple/.cache/nvim/packer_hererocks/2.1.1760617492/share/lua/5.1/?/init.lua;/Users/apple/.cache/nvim/packer_hererocks/2.1.1760617492/lib/luarocks/rocks-5.1/?.lua;/Users/apple/.cache/nvim/packer_hererocks/2.1.1760617492/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/apple/.cache/nvim/packer_hererocks/2.1.1760617492/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,78 +76,78 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["code_runner.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
     url = "https://github.com/CRAG666/code_runner.nvim"
   },
   everforest = {
     config = { "\27LJ\2\ni\0\0\3\0\6\0\n6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\15everforest\16colorscheme\bcmd\29everforest_enable_italic\6g\bvim\0" },
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/everforest",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/Pigatronee/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }

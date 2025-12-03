@@ -1,0 +1,33 @@
+2025-11-22T00:27:09.000Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-22T00:27:09.002Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-22T00:27:09.298Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-22T00:27:09.298Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-22T00:27:09.603Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-22T00:27:09.831Z - info: [ui] Stats reported.
+2025-11-22T00:27:23.212Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/Knight-game-improved' took 0.059s
+2025-11-22T00:27:24.392Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T00:27:25.205Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T00:27:25.761Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T00:32:42.234Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 2.4s of which 0.0s paused, total 2.4s
+2025-11-22T00:56:52.451Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.7s of which 124.3s paused, total 125.9s
+2025-11-22T00:59:26.645Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T00:59:27.181Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T01:01:39.548Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/Knight-game-improved' took 0.062s
+2025-11-22T01:01:40.469Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T01:01:41.213Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T01:01:41.774Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T01:01:47.474Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-22T01:01:54.442Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-22T01:01:55.833Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-22T01:01:59.226Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-22T01:05:12.109Z - info: [main] opening in browser: https://github.com/Pigatronee/Knight-game-improved
+2025-11-22T15:07:03.332Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-11-22T15:07:03.335Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-22T15:07:03.358Z - info: [ui] [BranchPruner] Last prune took place 15 hours ago - skipping
+2025-11-22T15:07:03.708Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
+2025-11-22T15:07:03.709Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-22T15:07:03.972Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-22T15:07:13.540Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/Knight-game-improved' took 0.060s
+2025-11-22T15:07:14.462Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T15:07:15.274Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-22T15:07:15.841Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

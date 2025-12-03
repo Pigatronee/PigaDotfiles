@@ -1,0 +1,52 @@
+2025/11/26-22:53:02.157 4db Reusing MANIFEST /home/Pigatronee/.config/CurseForge/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/11/26-22:53:02.158 4db Recovering log #227
+2025/11/26-22:53:02.158 4db Reusing old log /home/Pigatronee/.config/CurseForge/WebStorage/2/IndexedDB/indexeddb.leveldb/000227.log 
+2025/11/26-22:53:02.159 4db Delete type=2 #226
+2025/11/26-22:53:12.224 4db Level-0 table #232: started
+2025/11/26-22:53:12.227 4db Level-0 table #232: 1627 bytes OK
+2025/11/26-22:53:12.232 4db Delete type=0 #227
+2025/11/26-22:53:12.233 4db Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at '\x00"\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 3717 : 1
+2025/11/26-22:53:12.233 4db Compacting 1@0 + 1@1 files
+2025/11/26-22:53:12.236 4db Generated table #233@0: 173 keys, 4843 bytes
+2025/11/26-22:53:12.236 4db Compacted 1@0 + 1@1 files => 4843 bytes
+2025/11/26-22:53:12.241 4db compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-22:53:12.241 4db Delete type=2 #232
+2025/11/26-22:53:12.242 4db Manual compaction at level-0 from '\x00"\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 3717 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-22:53:50.068 54a Level-0 table #235: started
+2025/11/26-22:53:50.072 54a Level-0 table #235: 751 bytes OK
+2025/11/26-22:53:50.077 54a Delete type=0 #231
+2025/11/26-22:53:50.077 54a Delete type=2 #229
+2025/11/26-22:53:50.077 54a Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at '\x00"\x00\x00\x04' @ 3782 : 1
+2025/11/26-22:53:50.077 54a Compacting 1@0 + 1@1 files
+2025/11/26-22:53:50.082 54a Generated table #236@0: 176 keys, 5149 bytes
+2025/11/26-22:53:50.082 54a Compacted 1@0 + 1@1 files => 5149 bytes
+2025/11/26-22:53:50.087 54a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-22:53:50.088 54a Delete type=2 #235
+2025/11/26-22:53:50.088 4db Manual compaction at level-0 from '\x00"\x00\x00\x04' @ 3782 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-22:53:50.088 54a Level-0 table #238: started
+2025/11/26-22:53:50.091 54a Level-0 table #238: 462 bytes OK
+2025/11/26-22:53:50.096 54a Delete type=0 #234
+2025/11/26-22:53:50.096 54a Delete type=2 #233
+2025/11/26-22:53:50.097 4db Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-22:53:51.469 54a Level-0 table #240: started
+2025/11/26-22:53:51.475 54a Level-0 table #240: 1684 bytes OK
+2025/11/26-22:53:51.483 54a Delete type=0 #237
+2025/11/26-22:53:51.483 4db Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00\x00\x00\x00\xc9\x19\x00h\x00t\x00t\x00p\x00s\x00_\x00j\x00s\x00.\x00a\x00d\x00-\x00s\x00c\x00o\x00r\x00e\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001$\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a' @ 3809 : 0
+2025/11/26-22:53:51.483 4db Compacting 2@0 + 1@1 files
+2025/11/26-22:53:51.488 4db Generated table #241@0: 186 keys, 5139 bytes
+2025/11/26-22:53:51.488 4db Compacted 2@0 + 1@1 files => 5139 bytes
+2025/11/26-22:53:51.493 4db compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-22:53:51.493 4db Delete type=2 #240
+2025/11/26-22:53:51.494 4db Manual compaction at level-0 from '\x00\x00\x00\x00\xc9\x19\x00h\x00t\x00t\x00p\x00s\x00_\x00j\x00s\x00.\x00a\x00d\x00-\x00s\x00c\x00o\x00r\x00e\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001$\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a\x00_\x00a\x00a' @ 3809 : 0 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-22:53:52.062 4dc Level-0 table #243: started
+2025/11/26-22:53:52.067 4dc Level-0 table #243: 409 bytes OK
+2025/11/26-22:53:52.076 4dc Delete type=2 #238
+2025/11/26-22:53:52.076 4dc Delete type=2 #236
+2025/11/26-22:53:52.077 4dc Delete type=0 #239
+2025/11/26-22:53:52.077 4db Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00#\x00\x00\x04' @ 3908 : 1
+2025/11/26-22:53:52.078 4db Compacting 1@0 + 1@1 files
+2025/11/26-22:53:52.082 4db Generated table #244@0: 189 keys, 5186 bytes
+2025/11/26-22:53:52.082 4db Compacted 1@0 + 1@1 files => 5186 bytes
+2025/11/26-22:53:52.091 4db compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-22:53:52.091 4db Delete type=2 #243
+2025/11/26-22:53:52.091 4db Manual compaction at level-0 from '\x00#\x00\x00\x04' @ 3908 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)

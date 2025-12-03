@@ -1,0 +1,4761 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 1116509,
+  "Arguments": [
+    "/opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=52650",
+    "--to-port=52670",
+    "--pid=1115804",
+    "--appDataPath=/home/Pigatronee/.config/CurseForge",
+    "--api-key=d011b134-37aa-4181-93b0-39e3244faa45",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-11-26T01:21:50.7886147Z",
+  "Version": "1.291.0.28875",
+  "BuildDate": "2000-01-01T16:02:30Z",
+  "Start": "2025-11-26T01:21:51.1819125+00:00",
+  "Log": [
+{
+  "timestamp": "2025-11-26T01:21:51.1735569+00:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-11-26T01:21:51.1788477+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.291.0.28875"
+},
+{
+  "timestamp": "2025-11-26T01:21:51.1798016+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=52650,--to-port=52670,--pid=1115804,--appDataPath=/home/Pigatronee/.config/CurseForge,--api-key=d011b134-37aa-4181-93b0-39e3244faa45,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-11-26T01:21:51.1824317+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 1115804"
+},
+{
+  "timestamp": "2025-11-26T01:21:51.9932255+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/Pigatronee/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.0978734+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 52650"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.1370273+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.2958094+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.2977794+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.2988936+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.3010836+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-11-26T01:21:52.4527342+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.4666442+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.8270404+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.8278555+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.8896346+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.8898297+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/Pigatronee/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9181675+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "84.00"
+  }
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9362061+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9366777+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9526411+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9530798+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9533582+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9803553+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-11-26T01:21:52.9804642+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.1963531+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 4 instances"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2038678+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun/"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2175144+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game gun instance"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2175831+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror/"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.219754+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game ARG Horror instance"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2197722+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons/"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2217776+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Guns N' Dragons instance"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2217964+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax/"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2236177+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Relax instance"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2254945+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 287 ms"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2261819+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-11-26T01:21:53.2296429+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4441993+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4461287+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4523351+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 4 detected game instances. Operation took 8 ms"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4537602+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4545076+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4562638+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4734066+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4739097+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4748757+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4759492+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4760072+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4760537+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4760883+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.478989+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4791081+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4950666+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:21:53.4950952+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:21:53.7001031+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "209.00"
+  }
+},
+{
+  "timestamp": "2025-11-26T01:21:53.7892409+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "49.00"
+  }
+},
+{
+  "timestamp": "2025-11-26T01:21:54.08236+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:21:54.0823953+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:21:56.8812885+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:21:56.8813269+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:22:02.577496+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:22:02.6053476+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:22:57.5659207+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-26T01:22:57.9093841+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/"
+},
+{
+  "timestamp": "2025-11-26T01:22:57.911251+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-11-26T01:22:58.0731798+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[Modpack Install Flow] Installing file - FileId: 7260437, FileName: IWS 1.21.10 Fabric-v10.3.zip, DownloadURL: https://edge.forgecdn.net/files/7260/437/IWS%201.21.10%20Fabric-v10.3.zip"
+},
+{
+  "timestamp": "2025-11-26T01:22:58.0893176+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Starting modpack 'Immersed With Shaders' install."
+},
+{
+  "timestamp": "2025-11-26T01:22:58.2508028+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7260/437/IWS%201.21.10%20Fabric-v10.3.zip"
+},
+{
+  "timestamp": "2025-11-26T01:22:58.2616111+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7260/437/IWS%201.21.10%20Fabric-v10.3.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/1.zip"
+},
+{
+  "timestamp": "2025-11-26T01:22:59.6954995+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2025-11-26T01:22:59.969701+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Immersed With Shaders - (702170) in 1720ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:00.0519588+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-11-26T01:23:00.0749128+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-11-26T01:23:00.0761918+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:23:01.028431+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 952ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:01.0287398+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-11-26T01:23:01.0474264+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 18ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.2884888+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.10"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.290372+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.2903816+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.2906876+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.2932494+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.5338667+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665033+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650425+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650437+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650477+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650486+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650496+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665051+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650516+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665052+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 410295."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650524+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 938643."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665053+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650541+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 394468."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650549+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650556+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650562+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650576+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 858542."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665059+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650598+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650616+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 348521."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650631+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650638+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 416797."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650641+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650652+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 367706."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665066+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650679+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650696+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650707+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650712+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650721+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665074+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665075+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 547434."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650754+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 419699."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6650767+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651119+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.665113+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651135+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 547434."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651142+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651148+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651153+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 568563."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651158+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651163+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651178+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 1023259."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.6651185+00:00",
+  "level": "Warn",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftModpackInstallerProvider] Detected circular dependency reference. Will not fetch mod 306612."
+},
+{
+  "timestamp": "2025-11-26T01:23:20.7482807+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.7535449+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "CreativeCore_FABRIC_v2.14.7_mc1.21.9.jar - (257814/7064576) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.892349+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7064/576/CreativeCore_FABRIC_v2.14.7_mc1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:20.8926785+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7064/576/CreativeCore_FABRIC_v2.14.7_mc1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/3.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:21.7592891+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project CreativeCore - (257814) in 866ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:21.7617938+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "prickle-fabric-1.21.10-21.10.2.jar - (1023259/7083710) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:21.8920164+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7083/710/prickle-fabric-1.21.10-21.10.2.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:21.8921178+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7083/710/prickle-fabric-1.21.10-21.10.2.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/4.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.2707755+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Prickle - (1023259) in 378ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.2715179+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "X-Crosshair.zip - (1141118/5907489) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.4041084+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5907/489/X-Crosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.4042038+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5907/489/X-Crosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/5.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.7341579+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project X Crosshair Shape - (1141118) in 330ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.7356154+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "ferritecore-8.0.2-fabric.jar - (459857/7177133) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.8692394+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7177/133/ferritecore-8.0.2-fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:22.8693833+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7177/133/ferritecore-8.0.2-fabric.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/6.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:23.7828663+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project FerriteCore (Fabric) - (459857) in 913ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:23.7836437+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "FreshXFaithless.zip - (1214354/6270166) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:23.9137153+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6270/166/FreshXFaithless.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:23.9138031+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6270/166/FreshXFaithless.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/7.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.2412487+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Fresh X Faithless - (1214354) in 327ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.2424223+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "sodium-fabric-0.7.3+mc1.21.10.jar - (394468/7207593) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.2472987+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Registering fake download for 'sodium-fabric-0.7.3+mc1.21.10.jar' from https://edge.forgecdn.net/files/7207/593/sodium-fabric-0.7.3%2bmc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.4641231+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "CombatCrosshair.zip - (860639/4532534) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.5987222+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4532/534/CombatCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:24.5987999+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4532/534/CombatCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/8.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.1093945+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Combat Crosshair - (860639) in 510ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.1111809+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Jade-1.21.9-Fabric-20.0.5.jar - (324717/7056475) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.2444707+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7056/475/Jade-1.21.9-Fabric-20.0.5.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.2445457+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7056/475/Jade-1.21.9-Fabric-20.0.5.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/9.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.7722029+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Jade 🔍 - (324717) in 527ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.7736553+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Xaeros_Minimap_25.2.15_Fabric_1.21.9.jar - (263420/7076745) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.9053394+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7076/745/Xaeros_Minimap_25.2.15_Fabric_1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:25.9054128+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7076/745/Xaeros_Minimap_25.2.15_Fabric_1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/10.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.5003607+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Xaero's Minimap - (263420) in 595ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.5022154+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "appleskin-fabric-mc1.21.9-3.0.7.jar - (248787/7075567) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.5051498+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Registering fake download for 'appleskin-fabric-mc1.21.9-3.0.7.jar' from https://edge.forgecdn.net/files/7075/567/appleskin-fabric-mc1.21.9-3.0.7.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.7173647+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "visuality-0.7.11+1.21.9.jar - (521126/7055138) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.8513337+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7055/138/visuality-0.7.11%2b1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:26.8514021+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7055/138/visuality-0.7.11%2b1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/11.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:27.2253485+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Visuality - (521126) in 374ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:27.2262433+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "lambdynamiclights-4.8.6+1.21.10.jar - (393442/7178370) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:27.3605783+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7178/370/lambdynamiclights-4.8.6%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:27.3606779+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7178/370/lambdynamiclights-4.8.6%2b1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/12.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.1281653+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project LambDynamicLights - (393442) in 767ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.1298717+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "morechathistory-1.3.1.jar - (518319/5286193) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.2626118+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5286/193/morechathistory-1.3.1.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.2626679+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5286/193/morechathistory-1.3.1.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/13.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.6004316+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project More Chat History - (518319) in 337ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.6017951+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "MouseTweaks-fabric-mc1.21.9-2.29.jar - (60089/7071305) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.7335162+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7071/305/MouseTweaks-fabric-mc1.21.9-2.29.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:28.7335935+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7071/305/MouseTweaks-fabric-mc1.21.9-2.29.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/14.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.1063703+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Mouse Tweaks - (60089) in 372ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.1072752+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "jei-1.21.10-fabric-26.1.1.25.jar - (238222/7256605) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.24334+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7256/605/jei-1.21.10-fabric-26.1.1.25.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.243406+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7256/605/jei-1.21.10-fabric-26.1.1.25.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/15.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.8580087+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Just Enough Items (JEI) - (238222) in 614ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.8594704+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "fallingleaves-2.0.2+1.21.9.jar - (417510/7061402) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.990296+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7061/402/fallingleaves-2.0.2%2b1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:29.9903627+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7061/402/fallingleaves-2.0.2%2b1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/16.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:30.7143516+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Falling Leaves (Fabric) - (417510) in 724ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:30.7153575+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "skinlayers3d-fabric-1.9.2-mc1.21.10.jar - (521480/7091109) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:30.8482804+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7091/109/skinlayers3d-fabric-1.9.2-mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:30.8483652+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7091/109/skinlayers3d-fabric-1.9.2-mc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/17.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:31.3915453+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Skin Layers 3D - (521480) in 543ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:31.3926182+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "ShoulderSurfing-Fabric-1.21.10-4.16.0.jar - (243190/7249385) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:31.5246262+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7249/385/ShoulderSurfing-Fabric-1.21.10-4.16.0.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:31.5246886+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7249/385/ShoulderSurfing-Fabric-1.21.10-4.16.0.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/18.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:32.259394+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Shoulder Surfing Reloaded - (243190) in 734ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:32.2606582+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "fancymenu_fabric_3.8.1_MC_1.21.10.jar - (367706/7256759) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:32.3948658+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7256/759/fancymenu_fabric_3.8.1_MC_1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:32.3949416+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7256/759/fancymenu_fabric_3.8.1_MC_1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/19.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.2602572+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project FancyMenu - (367706) in 865ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.2632539+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Searchables-fabric-1.21.10-1.0.2.jar - (858542/7104728) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.4007492+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7104/728/Searchables-fabric-1.21.10-1.0.2.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.4008161+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7104/728/Searchables-fabric-1.21.10-1.0.2.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/20.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.7790475+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Searchables - (858542) in 378ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.7796943+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "lithium-fabric-0.20.1+mc1.21.10.jar - (360438/7219262) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.9256264+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7219/262/lithium-fabric-0.20.1%2bmc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:33.9256807+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7219/262/lithium-fabric-0.20.1%2bmc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/21.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:34.4425377+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Lithium (Fabric/NeoForge) - (360438) in 516ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:34.4436846+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "servercore-fabric-1.5.14+1.21.9.jar - (550579/7069581) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:34.5781077+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7069/581/servercore-fabric-1.5.14%2b1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:34.5781663+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7069/581/servercore-fabric-1.5.14%2b1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/22.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.4172141+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project ServerCore - (550579) in 839ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.4184633+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "iris-fabric-1.9.6+mc1.21.9.jar - (455508/7088028) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.424502+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Registering fake download for 'iris-fabric-1.9.6+mc1.21.9.jar' from https://edge.forgecdn.net/files/7088/28/iris-fabric-1.9.6%2bmc1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.6391015+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "c2me-fabric-mc1.21.10-0.3.5.1.0.jar - (533097/7185458) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.7691406+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7185/458/c2me-fabric-mc1.21.10-0.3.5.1.0.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:35.7691987+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7185/458/c2me-fabric-mc1.21.10-0.3.5.1.0.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/23.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:36.6455742+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Concurrent Chunk Management Engine - (533097) in 876ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:36.648676+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "WI-Zoom-1.6-MC1.21.10.jar - (349630/7077547) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:36.7809507+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7077/547/WI-Zoom-1.6-MC1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:36.7810075+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7077/547/WI-Zoom-1.6-MC1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/24.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:37.5389934+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project WI Zoom - (349630) in 758ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:37.5398105+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "NoChatReports-FABRIC-1.21.10-v2.16.0.jar - (634062/7094391) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:37.6725515+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7094/391/NoChatReports-FABRIC-1.21.10-v2.16.0.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:37.6726059+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7094/391/NoChatReports-FABRIC-1.21.10-v2.16.0.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/25.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:38.4445373+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project No Chat Reports - (634062) in 771ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:38.4470411+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "PresenceFootsteps-1.12.2+1.21.10.jar - (334259/7229993) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:38.5796509+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7229/993/PresenceFootsteps-1.12.2%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:38.579704+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7229/993/PresenceFootsteps-1.12.2%2b1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/26.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:39.5699298+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Presence Footsteps - (334259) in 990ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:39.5736735+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Controlling-fabric-1.21.10-28.0.2.jar - (250398/7092613) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:39.7066108+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7092/613/Controlling-fabric-1.21.10-28.0.2.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:39.7066628+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7092/613/Controlling-fabric-1.21.10-28.0.2.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/27.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.0858548+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Controlling - (250398) in 379ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.0866609+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "notenoughanimations-fabric-1.10.6-mc1.21.10.jar - (433760/7129315) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.22066+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7129/315/notenoughanimations-fabric-1.10.6-mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.2207145+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7129/315/notenoughanimations-fabric-1.10.6-mc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/28.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.7488592+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Not Enough Animations - (433760) in 528ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.7499187+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "ImmediatelyFast-Fabric-1.13.2+1.21.10.jar - (686911/7157403) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.7516136+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Registering fake download for 'ImmediatelyFast-Fabric-1.13.2+1.21.10.jar' from https://edge.forgecdn.net/files/7157/403/ImmediatelyFast-Fabric-1.13.2%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:40.9613435+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "entity_model_features_1.21.9-fabric-3.0.6.jar - (844662/7245813) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.0931934+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7245/813/entity_model_features_1.21.9-fabric-3.0.6.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.093258+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7245/813/entity_model_features_1.21.9-fabric-3.0.6.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/29.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.5720785+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project [EMF] Entity Model Features [Fabric & Forge] - (844662) in 478ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.5730832+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "EuphoriaPatcher-1.7.8-r5.6.1-fabric.jar - (915902/7236774) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.7269214+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7236/774/EuphoriaPatcher-1.7.8-r5.6.1-fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:41.7269783+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7236/774/EuphoriaPatcher-1.7.8-r5.6.1-fabric.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/30.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.4097297+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Euphoria Patches - (915902) in 682ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.4128401+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "SimplisticGUI-v3.zip - (859127/4535500) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.546406+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4535/500/SimplisticGUI-v3.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.5464589+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4535/500/SimplisticGUI-v3.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/31.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.8846402+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Simplistic GUI - (859127) in 338ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:42.8863772+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "XaerosWorldMap_1.39.17_Fabric_1.21.9.jar - (317780/7061115) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.0209356+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7061/115/XaerosWorldMap_1.39.17_Fabric_1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.0209992+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7061/115/XaerosWorldMap_1.39.17_Fabric_1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/32.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.5587313+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Xaero's World Map - (317780) in 537ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.5598353+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "BadOptimizations-2.3.4-1.21.10.jar - (949555/7168489) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.6940355+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7168/489/BadOptimizations-2.3.4-1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:43.6940974+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7168/489/BadOptimizations-2.3.4-1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/33.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.1346164+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project BadOptimizations - (949555) in 440ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.1354342+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "melody_fabric_1.0.14_MC_1.21.10.jar - (938643/7173094) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.2677251+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7173/94/melody_fabric_1.0.14_MC_1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.2677778+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7173/94/melody_fabric_1.0.14_MC_1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/34.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.6959703+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project Melody - (938643) in 428ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.6967582+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "ScalableLux-0.1.6+fabric.c25518a-all.jar - (1055925/7035318) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.8290019+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7035/318/ScalableLux-0.1.6%2bfabric.c25518a-all.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:44.8290505+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7035/318/ScalableLux-0.1.6%2bfabric.c25518a-all.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/35.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:45.5607166+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Downloaded file for project ScalableLux - (1055925) in 731ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:45.5615408+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "entityculling-fabric-1.9.3-mc1.21.10.jar - (448233/7167813) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:45.6941631+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7167/813/entityculling-fabric-1.9.3-mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:45.6942142+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7167/813/entityculling-fabric-1.9.3-mc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/36.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.1774259+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Entity Culling Fabric/Forge - (448233) in 483ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.1785131+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "AmbientEnvironment-fabric-1.21.10-27.0.0.2.jar - (320163/7092521) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.3128064+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7092/521/AmbientEnvironment-fabric-1.21.10-27.0.0.2.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.3128651+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7092/521/AmbientEnvironment-fabric-1.21.10-27.0.0.2.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/37.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.6760009+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Ambient Environment - (320163) in 363ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.6769322+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "spark-1.10.152-fabric.jar - (361579/7094483) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.8102198+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7094/483/spark-1.10.152-fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:46.8102749+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7094/483/spark-1.10.152-fabric.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/38.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:47.6284844+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project spark - (361579) in 818ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:47.6311989+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "BetterF3-16.0.3-Fabric-1.21.10.jar - (401648/7180975) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:47.7642136+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7180/975/BetterF3-16.0.3-Fabric-1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:47.7642679+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7180/975/BetterF3-16.0.3-Fabric-1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/39.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.3870616+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project BetterF3 - (401648) in 622ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.3888071+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "BetterBubbles.zip - (1141103/5907455) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.5233952+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5907/455/BetterBubbles.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.5234437+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5907/455/BetterBubbles.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/40.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.8532342+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Better Bubbles - (1141103) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.8548207+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "ImprovedCrosshair.zip - (1141106/5907466) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.9860188+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5907/466/ImprovedCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:48.9860708+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5907/466/ImprovedCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/41.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.3153387+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Improved Crosshair - (1141106) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.3163207+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "waveycapes-fabric-1.8.0-mc1.21.10.jar - (521594/7215238) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.4516928+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7215/238/waveycapes-fabric-1.8.0-mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.4517463+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7215/238/waveycapes-fabric-1.8.0-mc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/42.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.8298678+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:23:49.829884+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:23:50.06943+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Wavey Capes - (521594) in 617ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.0710909+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "konkrete_fabric_1.9.12_MC_1.21.6.jar - (416797/6668778) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.2381069+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6668/778/konkrete_fabric_1.9.12_MC_1.21.6.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.2381548+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6668/778/konkrete_fabric_1.9.12_MC_1.21.6.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/43.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.7466582+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Konkrete [Fabric] [MOVED TO NEW PAGE] - (416797) in 508ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.7476605+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "drippyloadingscreen_fabric_3.1.0_MC_1.21.10.jar - (511770/7248442) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.8781487+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7248/442/drippyloadingscreen_fabric_3.1.0_MC_1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:50.8782005+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7248/442/drippyloadingscreen_fabric_3.1.0_MC_1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/44.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.3210598+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Drippy Loading Screen - (511770) in 442ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.3219022+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "miniature-shader-2.18.5.zip - (602290/7216354) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.456284+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7216/354/miniature-shader-2.18.5.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.4563424+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7216/354/miniature-shader-2.18.5.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/45.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.8157675+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Miniature Shader - (602290) in 359ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.8185667+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "boatiview-fabric-0.0.7-1.21.10.jar - (482160/7085714) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.9541479+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7085/714/boatiview-fabric-0.0.7-1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:51.954194+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7085/714/boatiview-fabric-0.0.7-1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/46.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.4939621+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Boat Item View - (482160) in 539ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.496414+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "CleanSwords.zip - (861800/4536662) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.6287702+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4536/662/CleanSwords.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.6288227+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4536/662/CleanSwords.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/47.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.9582972+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Clean Swords - (861800) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:52.9598155+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "chatanimation-1.0.7.jar - (892086/6700916) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.0965853+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/6700/916/chatanimation-1.0.7.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.0966377+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/6700/916/chatanimation-1.0.7.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/48.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.5815544+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project ChatAnimation - (892086) in 484ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.5825291+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Solas Shader V3.1b.zip - (678384/7128860) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.7141109+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7128/860/Solas%20Shader%20V3.1b.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:53.7141621+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7128/860/Solas%20Shader%20V3.1b.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/49.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.1888556+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.1888713+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:23:54.2748793+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Solas Shader - (678384) in 560ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.277388+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "AccuracyCrosshair.zip - (860642/4532536) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.4104489+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4532/536/AccuracyCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.4104974+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4532/536/AccuracyCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/50.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.7396533+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Accuracy Crosshair - (860642) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.7414749+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "chat_heads-1.1.7-fabric-1.21.9.jar - (407206/7258077) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.8813677+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7258/77/chat_heads-1.1.7-fabric-1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:54.8814204+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7258/77/chat_heads-1.1.7-fabric-1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/51.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.2719193+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Chat Heads - (407206) in 390ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.2726499+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "CrashAssistant-fabric-1.21.5-1.21.10-1.10.23.jar - (1154099/7246910) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.4078062+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7246/910/CrashAssistant-fabric-1.21.5-1.21.10-1.10.23.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.4078663+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7246/910/CrashAssistant-fabric-1.21.5-1.21.10-1.10.23.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/52.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.9606556+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Crash Assistant - (1154099) in 552ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:55.962131+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "blur-fabric-5.2.3+1.21.9.jar - (393563/7083871) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.097876+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7083/871/blur-fabric-5.2.3%2b1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.0979242+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7083/871/blur-fabric-5.2.3%2b1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/53.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.4928027+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Blur+ - (393563) in 394ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.493566+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "DiamondCrosshair.zip - (964425/5046706) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.6345122+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5046/706/DiamondCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.6345802+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5046/706/DiamondCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/54.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.9638192+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Diamond Crosshair - (964425) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:56.9655212+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "ModernArmourBar.zip - (1141114/5907480) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.0966648+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5907/480/ModernArmourBar.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.0967235+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5907/480/ModernArmourBar.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/55.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.4260768+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Modern Armour Bar - (1141114) in 329ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.4286398+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "ExtremeSoundMuffler-3.51_Fabric-1.21.9.jar - (566140/7051808) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.5642013+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7051/808/ExtremeSoundMuffler-3.51_Fabric-1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:57.5642507+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7051/808/ExtremeSoundMuffler-3.51_Fabric-1.21.9.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/56.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.3634178+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Extreme sound muffler - Fabric - (566140) in 799ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.3644329+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "SimplisticMenu-v2.zip - (860281/4535502) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.4975161+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4535/502/SimplisticMenu-v2.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.4975803+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4535/502/SimplisticMenu-v2.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/57.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.8701214+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Simplistic Menu - (860281) in 372ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.8718253+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "fabric-api-0.138.3+1.21.10.jar - (306612/7203251) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:58.8768293+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Registering fake download for 'fabric-api-0.138.3+1.21.10.jar' from https://edge.forgecdn.net/files/7203/251/fabric-api-0.138.3%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.102419+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Mellow Shader v2.2.zip - (1113130/7091621) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.2619134+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7091/621/Mellow%20Shader%20v2.2.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.2619679+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7091/621/Mellow%20Shader%20v2.2.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/58.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.7135211+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Downloaded file for project Mellow - (1113130) in 451ms"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.7162137+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "ModernCrosshair.zip - (860643/4532539) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.874988+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/4532/539/ModernCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:23:59.8750513+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/4532/539/ModernCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/59.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:00.4635243+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project Modern Crosshair - (860643) in 588ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:00.465022+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "konkrete_fabric_1.9.13_MC_1.21.10.jar - (410295/7109230) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:00.5996485+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7109/230/konkrete_fabric_1.9.13_MC_1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:00.5996954+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7109/230/konkrete_fabric_1.9.13_MC_1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/60.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.1045936+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Konkrete - (410295) in 504ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.1056111+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "cherishedworlds-fabric-14.0.0+1.21.10.jar - (308240/7081604) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.1462894+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.1895411+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.235609+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7081/604/cherishedworlds-fabric-14.0.0%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.2356626+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7081/604/cherishedworlds-fabric-14.0.0%2b1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/61.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.6224198+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Cherished Worlds - (308240) in 386ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.6232596+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "attributefix-fabric-1.21.10-21.10.2.jar - (280510/7084344) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.7583892+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7084/344/attributefix-fabric-1.21.10-21.10.2.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:01.7584494+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7084/344/attributefix-fabric-1.21.10-21.10.2.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/62.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.417178+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project AttributeFix - (280510) in 658ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.4177883+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar - (508933/7104622) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.4490951+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Registering fake download for 'DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar' from https://edge.forgecdn.net/files/7104/622/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.668908+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "architectury-18.0.6-fabric.jar - (419699/7149505) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.8071183+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7149/505/architectury-18.0.6-fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:02.8071656+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7149/505/architectury-18.0.6-fabric.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/63.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.2955615+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Downloaded file for project Architectury API - (419699) in 488ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.2965709+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "CentralCrosshair.zip - (1141104/5907457) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.4350024+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5907/457/CentralCrosshair.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.4350455+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5907/457/CentralCrosshair.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/64.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.594627+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.6229994+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.7632756+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Central Crosshair - (1141104) in 328ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.7644332+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "cloth-config-20.0.149-fabric.jar - (348521/7151181) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.7690508+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Registering fake download for 'cloth-config-20.0.149-fabric.jar' from https://edge.forgecdn.net/files/7151/181/cloth-config-20.0.149-fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:03.9814644+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "FpsReducer2-fabric-1.21.9-2.14.jar - (280294/7051631) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.116925+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7051/631/FpsReducer2-fabric-1.21.9-2.14.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.116974+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7051/631/FpsReducer2-fabric-1.21.9-2.14.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/65.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.5285927+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project FPS Reducer - (280294) in 411ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.5294731+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "AchievementOptimizer-fabric-1.21.10-2.1.1.jar - (912788/7121377) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.6626051+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7121/377/AchievementOptimizer-fabric-1.21.10-2.1.1.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.6626571+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7121/377/AchievementOptimizer-fabric-1.21.10-2.1.1.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/66.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.9942979+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Achievements Optimizer - (912788) in 331ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:04.9960889+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "ForgeConfigAPIPort-v21.10.1+mc1.21.10-Fabric.jar - (547434/7213628) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.131014+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7213/628/ForgeConfigAPIPort-v21.10.1%2bmc1.21.10-Fabric.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.1310672+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7213/628/ForgeConfigAPIPort-v21.10.1%2bmc1.21.10-Fabric.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/67.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.6969687+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Forge Config API Port - (547434) in 565ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.6979227+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "entity_texture_features_1.21.9-fabric-7.0.6.jar - (568563/7249572) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.7253594+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.7253705+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:24:05.8342086+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7249/572/entity_texture_features_1.21.9-fabric-7.0.6.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:05.8342595+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7249/572/entity_texture_features_1.21.9-fabric-7.0.6.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/68.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.2520835+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.2812349+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.3446013+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project [ETF] Entity Texture Features - [Fabric & Forge] - (568563) in 510ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.3455188+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "ComplementaryReimagined_r5.6.1.zip - (627557/7090226) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.4823493+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7090/226/ComplementaryReimagined_r5.6.1.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.4823952+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7090/226/ComplementaryReimagined_r5.6.1.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/69.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.9664049+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded file for project Complementary Shaders - Reimagined - (627557) in 484ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:06.9700198+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "AmbientSounds_FABRIC_v6.3.1_mc1.21.10.jar - (254284/7226579) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:07.1151296+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7226/579/AmbientSounds_FABRIC_v6.3.1_mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-26T01:24:07.1151767+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7226/579/AmbientSounds_FABRIC_v6.3.1_mc1.21.10.jar to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/70.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:10.562578+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:10.6278639+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:15.5775907+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:15.6449164+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:16.0492437+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project AmbientSounds 6 - (254284) in 8934ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:16.1196828+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip - (406081/5434888) is not in the current Manifest mod file id list"
+},
+{
+  "timestamp": "2025-11-26T01:24:16.2530375+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5434/888/%c2%a7r%c2%a7lAstra%c2%a74%c2%a7lLex%c2%a7r%c2%a7l_By_LexBoosT_%c2%a74%c2%a7lV93.0%c2%a7r%c2%a7l.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:16.2571777+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5434/888/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip to /tmp/CF_QSlbvaRHMkiJIN5B6TSsQ/0EmkOHXxFUmBL1Ds5K4o1A/71.zip"
+},
+{
+  "timestamp": "2025-11-26T01:24:16.9941285+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Downloaded file for project AstraLex Shaders - (406081) in 741ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:17.2189141+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:24:18.4445346+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1225ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:18.4560085+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Starting Game Instance Immersed With Shaders scan"
+},
+{
+  "timestamp": "2025-11-26T01:24:18.4570829+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Immersed With Shaders. Operation took 0 ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:18.4571315+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing a full scan of Immersed With Shaders"
+},
+{
+  "timestamp": "2025-11-26T01:24:18.4663931+00:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Section Modpacks directory doesn't exist. Skipping mods scan for this section."
+},
+{
+  "timestamp": "2025-11-26T01:24:20.5534815+00:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Section Data Packs directory doesn't exist. Skipping mods scan for this section."
+},
+{
+  "timestamp": "2025-11-26T01:24:20.6242005+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Staring game instance Immersed With Shaders mod files scan. Scanning 0 folders using 6 logical cores."
+},
+{
+  "timestamp": "2025-11-26T01:24:20.6293084+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed scanning 0 folders from Immersed With Shaders category section /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/saves. Operation took 00:00:00.0025938."
+},
+{
+  "timestamp": "2025-11-26T01:24:20.6293132+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed fingerprinting local mods for Immersed With Shaders. Operation took 2171 ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:20.6349191+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2025-11-26T01:24:20.8011852+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-26T01:24:21.0227545+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2025-11-26T01:24:21.5969059+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2025-11-26T01:24:21.9398268+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Checking for game instance Immersed With Shaders updates"
+},
+{
+  "timestamp": "2025-11-26T01:24:21.9409851+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Immersed With Shaders. Operation took 1 ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:21.941757+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed game instance Immersed With Shaders scan. Operation took 3485 ms"
+},
+{
+  "timestamp": "2025-11-26T01:24:22.5807941+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:22.6093337+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:28.4091655+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-26T01:24:28.4091769+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-26T01:24:32.5772514+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:32.6049351+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:46.5877187+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:24:46.6171029+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:24:51.2428524+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:24:52.4883566+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1245ms"
+},
+{
+  "timestamp": "2025-11-26T01:25:06.5552679+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:25:06.59283+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:25:35.5727404+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:25:35.60097+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:26:18.5841485+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:26:18.6219003+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:26:58.2072385+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/Ckule world'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass18_0.<OnInstanceFileDeleted>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileDeleted>d__18.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:27:22.5905034+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:27:22.627653+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:28:12.0058616+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/xaero/world-map/Ckule world/null/cache_1/-1_-1.xwmc.backup0'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass17_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileRenamed>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:28:12.4384112+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/xaero/world-map/Ckule world/null/cache_1/-1_0.xwmc.backup0'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass17_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileRenamed>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:28:12.8760829+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/xaero/world-map/Ckule world/null/cache_1/0_-1.xwmc.backup0'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass17_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileRenamed>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:28:57.5623695+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:28:57.6834855+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:29:12.5294716+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/xaero/world-map/Ckule world/null/cache_1/-1_0.xwmc.backup0'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass17_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileRenamed>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:29:12.9582529+00:00",
+  "level": "Error",
+  "thread": 16,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/xaero/world-map/Ckule world/null/cache_1/0_-1.xwmc.backup0'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.DetermineChangeFileContext(String,String)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<>c__DisplayClass17_0.<OnInstanceFileRenamed>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher+<OnInstanceFileRenamed>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[TStateMachine](TStateMachine&)",
+      "Curse.Games.Minecraft.MinecraftContentWatcher.OnInstanceFileRenamed(Object,RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes,ReadOnlySpan`1,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2025-11-26T01:30:04.2145845+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:30:05.3672096+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1152ms"
+},
+{
+  "timestamp": "2025-11-26T01:30:49.778049+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:30:51.051868+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1273ms"
+},
+{
+  "timestamp": "2025-11-26T01:30:56.1471393+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:30:56.1760277+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:30:58.5889699+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:30:58.6182195+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:01.2264846+00:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:01.2594721+00:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:05.5530981+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:05.5821494+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:10.5634436+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:10.5929941+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:17.5522921+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:17.5825642+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:27.5780268+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:27.6066096+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:31:41.5750515+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:31:41.6118772+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:32:01.5787988+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:32:01.6073722+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:32:30.5710701+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:32:30.6099651+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:33:13.5842119+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:33:13.6207842+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:34:17.5681144+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:34:17.6103318+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:35:52.5932301+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:35:52.7081532+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:37:51.1650925+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:37:51.2945916+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:37:53.6112639+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:37:53.6401682+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:37:56.2638606+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:37:56.2920151+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:00.5764465+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:00.6043451+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:05.5521119+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:05.5801433+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:12.5530458+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:12.5826252+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:22.5671223+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:22.5963787+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:36.5881066+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:36.6167768+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:38:56.5563512+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:38:56.5974472+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:39:25.5600383+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:39:25.5889796+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:40:08.5622881+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:40:08.6011112+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:41:12.570109+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:41:12.683517+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:42:47.5750484+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:42:47.6153194+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:44:46.1465052+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:44:46.1844345+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:44:48.6012028+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:44:48.6294503+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:44:51.2372702+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:44:51.2653358+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:44:55.5641578+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:44:55.5929464+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:45:00.5623591+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:45:00.6027935+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:45:07.5581669+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:45:07.5871257+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:45:17.5610808+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:45:17.5889822+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:45:31.5728272+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:45:31.601104+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:45:51.5637575+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:45:51.5990669+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:46:20.5650877+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:46:20.5935195+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:47:03.5721864+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:47:03.6904508+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:48:07.5481787+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:48:07.5787313+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:49:42.5622146+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:49:42.6807738+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:51:41.1447265+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:51:41.266824+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:51:43.5842855+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:51:43.6144783+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:51:46.2351002+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:51:46.2645859+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:51:50.5795887+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:51:50.6085337+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:51:55.5621591+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:51:55.5905334+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:52:02.553943+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:52:02.5825008+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:52:12.5612177+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:52:12.5904291+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:52:26.5821738+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:52:26.6104279+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:52:41.9872363+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-26T01:52:43.1458558+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1158ms"
+},
+{
+  "timestamp": "2025-11-26T01:52:46.5791658+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:52:46.6965903+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:53:15.5640432+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:53:15.592554+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:53:58.5551042+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:53:58.6796905+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:55:02.5742009+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:55:02.6137845+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:56:37.5722318+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:56:37.6081647+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:36.1532996+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:36.1840311+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:38.5861667+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:38.6152139+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:41.2381413+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:41.2673674+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:45.5530924+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:45.5814006+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:50.5551127+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:50.6744088+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:58:57.6041711+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:58:57.633369+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:59:07.5820655+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:59:07.6113746+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:59:21.5900338+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:59:21.619336+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T01:59:41.557189+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T01:59:41.6842587+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:00:10.5611481+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:00:10.6854167+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:00:53.5792545+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:00:53.6187614+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:01:57.5531744+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:01:57.5937345+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:03:32.5711525+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:03:32.6395254+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:31.1469442+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:31.185321+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:33.6041987+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:33.6318823+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:36.267147+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:36.2958671+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:40.5882065+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:40.6159586+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:45.5771325+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:45.6059981+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:05:52.5831301+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:05:52.6121384+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:06:02.5641117+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:06:02.5918905+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:06:16.6021518+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:06:16.6299767+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:06:36.578071+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:06:36.6920584+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:07:05.5730312+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:07:05.602386+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:07:48.562169+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:07:48.6890365+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:08:52.5790387+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:08:52.6198244+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:10:27.5606877+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:10:27.6797724+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:12:26.1452222+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:12:26.2737166+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:12:28.5859575+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:12:28.6142562+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:12:31.245093+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:12:31.2741096+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:12:35.554233+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:12:35.5821103+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-26T02:12:40.5776626+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-26T02:12:40.6062189+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+}
+]}

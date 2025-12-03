@@ -1,0 +1,46 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20251120_173955
+====================================================================================================
+
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Start device detection               |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    Initializing HID interfaces: Success
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    |             Detecting I2C interfaces               |
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:7480 Subsystem: 1043:05FB
+1022  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:7480 Subsystem: 1043:05FB
+1022  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C95
+1022  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1022  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1022  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1022  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+1023  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:7480 Subsystem: 1043:05FB
+1023  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:7480 Subsystem: 1043:05FB
+1023  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7C95
+1023  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7C95
+1023  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1023  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1023  |Info:    ------------------------------------------------------
+1023  |Info:    |               Detecting I2C devices                |
+1023  |Info:    ------------------------------------------------------
+1780  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1792  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2041  |Info:    ------------------------------------------------------
+2041  |Info:    |               Detecting I2C PCI devices            |
+2041  |Info:    ------------------------------------------------------
+2041  |Info:    ------------------------------------------------------
+2041  |Info:    |               Detecting HID devices                |
+2041  |Info:    ------------------------------------------------------
+2112  |Info:    [MSI B550M PRO-VDH WIFI (MS-7C95)] Registering RGB controller
+2112  |Info:    ------------------------------------------------------
+2112  |Info:    |            Detecting libusb HID devices            |
+2112  |Info:    ------------------------------------------------------
+2145  |Info:    ------------------------------------------------------
+2145  |Info:    |              Detecting other devices               |
+2145  |Info:    ------------------------------------------------------
+2154  |Info:    ------------------------------------------------------
+2154  |Info:    |                Detection completed                 |
+2154  |Info:    ------------------------------------------------------

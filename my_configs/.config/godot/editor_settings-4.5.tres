@@ -38,6 +38,9 @@ text_editor/theme/highlighting/warning_color = Color(1, 0.87, 0.4, 0.15)
 text_editor/theme/highlighting/breakpoint_color = Color(1, 0.47, 0.42, 1)
 text_editor/theme/highlighting/code_folding_color = Color(1, 1, 1, 0.27)
 text_editor/theme/highlighting/search_result_color = Color(1, 1, 1, 0.07)
+text_editor/external/exec_path = "/usr/local/bin/code"
+text_editor/external/exec_flags = "{project} --goto {file}:{line}:{col}"
+text_editor/external/use_external_editor = true
 editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
 editors/animation/default_animation_step = 0.033333335
 export/android/debug_keystore = "/home/Pigatronee/.local/share/godot/keystores/debug.keystore"
@@ -52,9 +55,10 @@ export/windows/osslsigncode = ""
 _editor_settings_advanced_mode = false
 _project_settings_advanced_mode = false
 _export_template_download_directory = ""
-_default_feature_profile = ""
+_default_feature_profile = "pig"
 _script_setup_templates_dictionary = {
-"Node2D": "0NodeDefault"
+"Node2D": "0NodeDefault",
+"RayCast2D": "0NodeDefault"
 }
 _script_setup_use_script_templates = true
 _use_favorites_root_selection = false
