@@ -20,12 +20,15 @@ def install_packages(required_only: bool = False):
         for line in file:
             for word in line.split():
                 PACKAGES.append(word)
-    if required_only:
-        return 
-    with open (packages_extra, "r") as file:
-        for line in file:
-            for word in line.split():
-                PACKAGES.append(word)
+    if not required_only:
+        with open (packages_extra, "r") as file:
+            for line in file:
+                for word in line.split():
+                    PACKAGES.append(word)
+    # Actually install the packages 
+    print("\nAbout to run command:\n yay -S --needed " + " ".join(PACKAGES))
+    if ask_question("\nWould you like to continue? 1= yes 2= no \n ") == 1:
+        subprocess.run(["yay", "-S", "--needed"] + PACKAGES)
 
 def main():
     result = ask_question("Would you like to install ALL required packages (recommended) or only the minimum? ")
