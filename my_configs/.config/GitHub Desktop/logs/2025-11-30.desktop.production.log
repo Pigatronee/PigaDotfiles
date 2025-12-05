@@ -143,3 +143,70 @@ TypeError: Failed to fetch
 2025-11-30T13:02:42.532Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.4s of which 0.0s paused, total 1.4s
 2025-11-30T13:02:46.321Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
 2025-11-30T13:02:46.911Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T21:54:31.346Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-11-30T21:54:31.349Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-30T21:54:31.454Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.9-arch1-1)
+2025-11-30T21:54:31.468Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-30T21:54:31.762Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-30T21:54:31.879Z - info: [ui] Stats reported.
+2025-11-30T21:55:00.169Z - info: [ui] [AppStore] adding repository at /home/Pigatronee/Documents/github/Knight-game-improved to store
+2025-11-30T21:55:24.854Z - info: [ui] [BranchPruner] Last prune took place 24 seconds ago - skipping
+2025-11-30T21:55:25.079Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T21:55:25.679Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+ file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+remote: Enumerating objects: 402, done.        
+remote: Counting objects: 100% (305/305), done.        
+remote: Compressing objects: 100% (74/74), done.        
+remote: Total 202 (delta 161), reused 161 (delta 123), pack-reused 0 (from 0)        
+error: object file .git/objects/6b/b1f38a56806823310a6892956d41f2302f0b0a is empty
+fatal: cannot read existing object info 6bb1f38a56806823310a6892956d41f2302f0b0a
+fatal: fetch-pack: invalid index-pack output
+
+2025-11-30T21:55:47.283Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-11-30T22:02:03.178Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-11-30T22:02:03.181Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-30T22:02:03.202Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2025-11-30T22:02:03.454Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.9-arch1-1)
+2025-11-30T22:02:03.454Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-30T22:02:03.586Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-30T22:02:03.769Z - info: [ui] Stats reported.
+2025-11-30T22:02:12.745Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2025-11-30T22:02:12.904Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:02:13.538Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:02:16.839Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:02:17.162Z - error: [ui] `git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+error: Your local changes to the following files would be overwritten by merge:
+	project.godot
+Please commit your changes or stash them before you merge.
+Aborting
+Updating ae0fb4e..6bb1f38
+
+(The error was parsed as 54: null)
+2025-11-30T22:02:22.286Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-11-30T22:02:23.048Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:02:23.549Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:05:52.663Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-11-30T22:05:52.667Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-30T22:05:52.689Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2025-11-30T22:05:53.011Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.9-arch1-1)
+2025-11-30T22:05:53.011Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-30T22:05:53.052Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-30T22:05:53.333Z - info: [ui] Stats reported.
+2025-11-30T22:05:59.972Z - info: [ui] [Timing] Action 'create commit' for 'Pigatronee/Knight-game-improved' took 0.060s
+2025-11-30T22:06:01.406Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:06:02.075Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:06:02.498Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-11-30T22:24:11.579Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-11-30T22:24:11.581Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
+2025-11-30T22:24:11.602Z - info: [ui] [BranchPruner] Last prune took place 29 minutes ago - skipping
+2025-11-30T22:24:11.660Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.9-arch1-1)
+2025-11-30T22:24:11.661Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-11-30T22:24:11.942Z - info: [ui] Subscribed 'Pigatronee' to Alive channel
+2025-11-30T22:24:11.986Z - info: [ui] Stats reported.
+2025-11-30T22:24:23.939Z - info: [ui] [BranchPruner] Last prune took place 29 minutes ago - skipping

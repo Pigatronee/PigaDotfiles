@@ -1,0 +1,2110 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 66064,
+  "Arguments": [
+    "/opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=61126",
+    "--to-port=61146",
+    "--pid=65420",
+    "--appDataPath=/home/Pigatronee/.config/CurseForge",
+    "--api-key=c61d6c00-6015-4a5e-865b-c1cb191e8600",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-11-30T13:07:46.2896559Z",
+  "Version": "1.291.0.28875",
+  "BuildDate": "2000-01-01T16:02:30Z",
+  "Start": "2025-11-30T13:07:46.7834972+00:00",
+  "Log": [
+{
+  "timestamp": "2025-11-30T13:07:46.7705954+00:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-11-30T13:07:46.7794101+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.291.0.28875"
+},
+{
+  "timestamp": "2025-11-30T13:07:46.7808195+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=61126,--to-port=61146,--pid=65420,--appDataPath=/home/Pigatronee/.config/CurseForge,--api-key=c61d6c00-6015-4a5e-865b-c1cb191e8600,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-11-30T13:07:46.7853243+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 65420"
+},
+{
+  "timestamp": "2025-11-30T13:07:47.7689642+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/Pigatronee/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-11-30T13:07:47.874459+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 61126"
+},
+{
+  "timestamp": "2025-11-30T13:07:47.9125827+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.0641022+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.0662242+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.0673349+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.0694883+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-11-30T13:07:48.1082989+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.1232922+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.4131475+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.4139275+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.4708621+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.4710703+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/Pigatronee/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5031507+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "80.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5242441+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-11-30T13:07:48.524716+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5465299+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5470233+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5473101+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5795275+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.5796509+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.8865669+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 5 instances"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.8938923+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9076969+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game Immersed With Shaders instance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9077527+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun/"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9098028+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game gun instance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9098191+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror/"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.911654+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game ARG Horror instance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9116698+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons/"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9134385+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game Guns N' Dragons instance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9134524+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax/"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9152005+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game Relax instance"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9192941+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 393 ms"
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9199394+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-11-30T13:07:48.9235746+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1197467+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.121545+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1289965+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 5 detected game instances. Operation took 9 ms"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1308068+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1316366+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1336903+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1687276+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1692836+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1701252+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1711006+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1711557+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1711986+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1712266+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1712474+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1976962+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.1977866+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.2206676+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.2206907+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.2563828+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.2564137+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.3139373+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "164.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T13:07:49.3736763+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "35.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T13:07:49.4013465+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.4013796+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T13:07:49.9614172+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T13:07:49.9614521+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T13:07:50.246871+00:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Discord RPC client is ready."
+},
+{
+  "timestamp": "2025-11-30T13:08:14.2054303+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-30T13:08:15.044916+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 839ms"
+},
+{
+  "timestamp": "2025-11-30T13:09:15.1696987+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:15.1817237+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:17.6207186+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:17.6336003+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:20.2662613+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:20.2802937+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:24.5937085+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:24.6085413+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:29.6036554+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:29.618282+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:36.5919297+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:36.6063012+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:09:46.611052+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:09:46.6262984+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:10:00.6078695+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:10:00.6233039+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:10:20.605722+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:10:20.6406795+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:10:49.6007249+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:10:49.6174547+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:11:32.5956156+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:11:32.6086202+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:12:36.6145159+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:12:36.6419895+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:14:11.5937792+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:14:11.6083167+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:10.1857286+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:10.1983579+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:12.6196979+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:12.6324005+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:15.2819884+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:15.296878+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:19.6006444+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:19.6135334+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:24.6075938+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:24.6233777+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:31.6055523+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:31.6201409+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:41.6076135+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:41.6238544+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:16:55.6037082+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:16:55.6162323+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:17:15.6086602+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:17:15.6226134+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:17:44.5836916+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:17:44.5988003+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:18:27.6025538+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:18:27.6162395+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:19:31.5976726+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:19:31.641131+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:21:06.6236567+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:21:06.6386608+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:05.18694+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:05.2025251+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:07.6466244+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:07.6603904+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:10.3026144+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:10.3159717+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:14.5997351+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:14.6150649+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:19.6018743+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:19.6148123+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:26.59054+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:26.6070952+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:36.6025963+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:36.6183993+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:23:50.5985491+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:23:50.6146574+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:24:10.6126631+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:24:10.627071+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:24:39.5990574+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:24:39.6208082+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:25:22.6126802+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:25:22.6268125+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:26:26.6084983+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:26:26.6261624+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:28:01.5773745+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:28:01.5925879+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:00.1667785+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:00.1815269+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:02.5936686+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:02.6062386+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:05.2255886+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:05.2414209+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:09.5857517+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:09.5984923+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:14.5907116+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:14.6024569+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:21.5997284+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:22.4250365+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:31.5826815+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:31.5948132+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:30:45.6026498+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:30:45.6150218+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:31:05.5977583+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:31:05.6237597+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:31:34.6045715+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:31:34.6281443+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:32:17.6187353+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:32:17.6337046+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:33:21.5856814+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:33:21.6160395+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:34:56.6088384+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:34:56.6215603+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:36:55.1825344+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:36:55.1984797+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:36:57.6187013+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:36:57.6368327+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:00.2556837+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:00.269339+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:04.5836939+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:04.5996376+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:09.5916652+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:09.6194833+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:16.5966827+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:16.623631+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:26.5957665+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:26.6124974+00:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:37:40.598643+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:37:40.6138869+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:38:00.5876438+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:38:00.6038733+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:38:29.6076582+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:38:29.633116+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:39:12.5935759+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:39:12.6064351+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:40:16.5911814+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:40:16.6067447+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:41:51.5829693+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:41:51.5998521+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:43:50.1697312+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:43:50.1822699+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:43:52.6056633+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:43:52.6214221+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:43:55.2427583+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:43:55.2559968+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:43:59.5752885+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:43:59.5890574+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:44:04.5817379+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:44:04.6548651+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:44:11.593645+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:44:11.6088393+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:44:21.6046285+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:44:21.6446747+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:44:35.5762901+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:44:35.6164764+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:44:55.5906974+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:44:55.6038512+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:45:24.5826348+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:45:24.5958302+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:46:07.588788+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:46:07.6036569+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:47:11.5916878+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:47:11.6151459+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:48:46.5872466+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:48:46.6146655+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:50:45.1706854+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:50:45.1857453+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:50:47.5996289+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:50:47.6144917+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:50:50.2376623+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:50:50.2526982+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:50:54.5861325+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:50:54.6005416+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:50:59.5906508+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:50:59.6057192+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:51:06.6067081+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:51:06.6199651+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:51:16.5957833+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:51:16.6103136+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:51:30.5877967+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:51:30.6118323+00:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:51:50.6079312+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:51:50.6220374+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:52:19.6057159+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:52:19.6201721+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:53:02.6017192+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:53:02.6142467+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:54:06.6047222+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:54:06.6180694+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:55:41.5925774+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:55:41.6313126+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:57:40.1757956+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:57:40.1914153+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:57:42.6067613+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:57:42.6225711+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:57:45.2438233+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:57:45.2597074+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:57:49.5915754+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:57:49.606561+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:57:54.5845519+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:57:54.5987345+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:58:01.5928912+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:58:01.6083397+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:58:11.5996293+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:58:11.6146172+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:58:25.6035986+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:58:25.6182496+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:58:45.5930482+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:58:45.6093426+00:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:59:14.6055569+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:59:14.6205414+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T13:59:57.5927018+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T13:59:57.6055637+00:00",
+  "level": "Info",
+  "thread": 28,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T14:01:01.600805+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T14:01:01.6277448+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T14:02:36.5864398+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T14:02:36.6032818+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T14:04:14.8807842+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5317355+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 650ms"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5351187+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5351995+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5352795+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5356309+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5357041+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.535705+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5357783+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-11-30T14:04:15.5361956+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 5 items"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.1773923+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 641ms"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.1777316+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.196321+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 18ms"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2021659+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2026095+00:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2140033+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2147951+00:00",
+  "level": "Warn",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2931801+00:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2932715+00:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-11-30T14:04:16.2965642+00:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-11-30T14:04:16.3671141+00:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

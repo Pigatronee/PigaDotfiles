@@ -1,0 +1,1620 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 259291,
+  "Arguments": [
+    "/opt/curseforge/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=55285",
+    "--to-port=55305",
+    "--pid=258955",
+    "--appDataPath=/home/Pigatronee/.config/CurseForge",
+    "--api-key=2ddbe6fe-1207-4c05-9b16-fd1b37c68fc9",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-11-30T20:06:53.0039962Z",
+  "Version": "1.291.0.28875",
+  "BuildDate": "2000-01-01T16:02:30Z",
+  "Start": "2025-11-30T20:06:53.3156007+00:00",
+  "Log": [
+{
+  "timestamp": "2025-11-30T20:06:53.3073802+00:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-11-30T20:06:53.3126006+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.291.0.28875"
+},
+{
+  "timestamp": "2025-11-30T20:06:53.313786+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=55285,--to-port=55305,--pid=258955,--appDataPath=/home/Pigatronee/.config/CurseForge,--api-key=2ddbe6fe-1207-4c05-9b16-fd1b37c68fc9,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-11-30T20:06:53.3166161+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 258955"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.1895589+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/Pigatronee/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.2955955+00:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 55285"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.3334322+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.4929312+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.4950718+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.4963504+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.4986008+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-11-30T20:06:54.5341016+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.547332+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.8580622+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.8588767+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.911304+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9115019+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/Pigatronee/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9443282+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "78.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9664064+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9668793+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9867364+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9872701+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-11-30T20:06:54.9875375+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.0230237+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.0231685+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2777121+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 5 instances"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.284049+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders/"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2966164+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Immersed With Shaders instance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2966685+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun/"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2973785+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game gun instance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2973924+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror/"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2980753+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game ARG Horror instance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2980928+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons/"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2988213+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Guns N' Dragons instance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2988342+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax/"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.2993312+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initialized game Relax instance"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.3032066+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 335 ms"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.3039278+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.307501+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.4956945+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.4979255+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5046402+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 5 detected game instances. Operation took 8 ms"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.506349+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5070607+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5091999+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5226677+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.523179+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5240571+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/Pigatronee/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5251598+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/ARG Horror"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5252236+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Relax"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5253028+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Guns N' Dragons"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5253469+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/gun"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5253713+00:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/Pigatronee/Documents/curseforge/minecraft/Instances/Immersed With Shaders"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5573695+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5575223+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5672582+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.5672826+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.6098621+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:06:55.6098889+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:06:55.6990823+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "172.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T20:06:55.7526878+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "30.00"
+  }
+},
+{
+  "timestamp": "2025-11-30T20:06:56.0473248+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:06:56.0473599+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:06:56.2990717+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:06:56.2990969+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:06:56.59804+00:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Discord RPC client is ready."
+},
+{
+  "timestamp": "2025-11-30T20:07:03.5779778+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:07:03.5938519+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:07:11.8115841+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:07:11.8116026+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:07:23.573904+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:07:23.5892583+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8809993+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Creating new instance at: /home/Pigatronee/Documents/curseforge/minecraft/Instances/PigaProfile/"
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8924043+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.21.10"
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8940409+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8940521+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8943798+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Minecraft version 1.21.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2025-11-30T20:07:44.8950045+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Installing Fabric mod loader fabric-0.18.1-1.21.10."
+},
+{
+  "timestamp": "2025-11-30T20:07:44.9074163+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2025-11-30T20:07:44.9632435+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:45.015932+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack PigaProfile"
+},
+{
+  "timestamp": "2025-11-30T20:07:45.0192907+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: PigaProfile"
+},
+{
+  "timestamp": "2025-11-30T20:07:45.0214093+00:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "No latest files found for instance"
+},
+{
+  "timestamp": "2025-11-30T20:07:46.2603065+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1297ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:46.2622652+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:46.8801264+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2025-11-30T20:07:47.4795904+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1217ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:47.4798439+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:47.4855742+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:07:47.6632904+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> UpdateAddonFiles"
+},
+{
+  "timestamp": "2025-11-30T20:07:47.6643587+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Getting project 306612 files from server"
+},
+{
+  "timestamp": "2025-11-30T20:07:47.8072493+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Registering fake download for 'fabric-api-0.138.3+1.21.10.jar' from https://edge.forgecdn.net/files/7203/251/fabric-api-0.138.3%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-30T20:07:48.6740588+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1194ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:48.6763936+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:48.6785693+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:48.6997991+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 23ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:49.8633103+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1184ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:52.5746849+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:07:52.5887029+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:07:52.8073485+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:07:52.917374+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Registering fake download for 'cloth-config-20.0.149-fabric.jar' from https://edge.forgecdn.net/files/7151/181/cloth-config-20.0.149-fabric.jar"
+},
+{
+  "timestamp": "2025-11-30T20:07:53.0465165+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:54.2640283+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1217ms"
+},
+{
+  "timestamp": "2025-11-30T20:07:55.7033878+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:07:55.8121557+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Registering fake download for 'appleskin-fabric-mc1.21.9-3.0.7.jar' from https://edge.forgecdn.net/files/7075/567/appleskin-fabric-mc1.21.9-3.0.7.jar"
+},
+{
+  "timestamp": "2025-11-30T20:07:55.935555+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:07:57.130126+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1194ms"
+},
+{
+  "timestamp": "2025-11-30T20:08:01.9174727+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:08:02.0478192+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Registering fake download for 'ImmediatelyFast-Fabric-1.13.2+1.21.10.jar' from https://edge.forgecdn.net/files/7157/403/ImmediatelyFast-Fabric-1.13.2%2b1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-30T20:08:02.1750225+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:08:03.3665599+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1191ms"
+},
+{
+  "timestamp": "2025-11-30T20:08:05.9813272+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:08:06.1123509+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Registering fake download for 'DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar' from https://edge.forgecdn.net/files/7104/622/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar"
+},
+{
+  "timestamp": "2025-11-30T20:08:06.269096+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:08:07.4761125+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1207ms"
+},
+{
+  "timestamp": "2025-11-30T20:08:10.7866849+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:08:10.8925898+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-30T20:08:10.9897225+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Registering fake download for 'sodium-fabric-0.7.3+mc1.21.10.jar' from https://edge.forgecdn.net/files/7207/593/sodium-fabric-0.7.3%2bmc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-30T20:08:11.1205473+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Registering fake download for 'iris-fabric-1.9.6+mc1.21.9.jar' from https://edge.forgecdn.net/files/7088/28/iris-fabric-1.9.6%2bmc1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-30T20:08:11.2388439+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:08:12.4333639+00:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1194ms"
+},
+{
+  "timestamp": "2025-11-30T20:08:35.5937749+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:08:35.6094719+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:08:42.9889267+00:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:08:43.2138715+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7063/683/LowOnFire%20v1.21.9%c2%a78.zip"
+},
+{
+  "timestamp": "2025-11-30T20:08:43.2253404+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7063/683/LowOnFire%20v1.21.9%C2%A78.zip to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/1.zip"
+},
+{
+  "timestamp": "2025-11-30T20:08:43.7490433+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloaded file for project Low On Fire - (580683) in 536ms"
+},
+{
+  "timestamp": "2025-11-30T20:08:43.7504158+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:08:44.9576547+00:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1207ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:04.488855+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:09:04.5929124+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-11-30T20:09:04.8353171+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7239/513/Unique%20Axolotl%20Buckets%20(1.21.9%20%2b%201.21.10).zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:04.8354856+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7239/513/Unique%20Axolotl%20Buckets%20(1.21.9%20%2b%201.21.10).zip to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/2.zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:05.0251876+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Downloaded file for project Unique Axolotl Buckets - (1387928) in 189ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:05.0255013+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-11-30T20:09:05.0524056+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:09:06.2655244+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1213ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:11.4760336+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:09:11.7415137+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7094/29/Fancy%20Crops%20v1.3.zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:11.7416056+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7094/29/Fancy%20Crops%20v1.3.zip to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/3.zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:11.9532217+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded file for project (Bee's) Fancy Crops - (884709) in 211ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:11.9550675+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:09:12.257909+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:09:12.4764984+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7248/8/FreshAnimations_v1.10.2.zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:12.4765906+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7248/8/FreshAnimations_v1.10.2.zip to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/4.zip"
+},
+{
+  "timestamp": "2025-11-30T20:09:12.7302721+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Downloaded file for project Fresh Animations - (453763) in 253ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:13.3225998+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1367ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:13.32338+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:09:14.5374695+00:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1214ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:18.3841208+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:09:18.4916127+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-11-30T20:09:18.5946663+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Registering fake download for 'entityculling-fabric-1.9.3-mc1.21.10.jar' from https://edge.forgecdn.net/files/7167/813/entityculling-fabric-1.9.3-mc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-30T20:09:18.7211026+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddonFileById"
+},
+{
+  "timestamp": "2025-11-30T20:09:18.7459751+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:09:20.022621+00:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1276ms"
+},
+{
+  "timestamp": "2025-11-30T20:09:38.9344825+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:09:38.9344983+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:09:39.5665627+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:09:39.5816251+00:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:09:56.867356+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:09:58.2482169+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1380ms"
+},
+{
+  "timestamp": "2025-11-30T20:11:14.5688788+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:11:14.5844171+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:11:41.9388434+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:11:43.1494295+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1210ms"
+},
+{
+  "timestamp": "2025-11-30T20:12:00.7265753+00:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:12:01.0001455+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Registering fake download for 'Solas Shader V3.1b.zip' from https://edge.forgecdn.net/files/7128/860/Solas%20Shader%20V3.1b.zip"
+},
+{
+  "timestamp": "2025-11-30T20:12:01.1515414+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:12:02.4890391+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1337ms"
+},
+{
+  "timestamp": "2025-11-30T20:12:26.5867486+00:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:12:26.6925431+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-11-30T20:12:26.9457173+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7224/818/Gamma-Utils-2.4.8%2bmc1.21.10.jar"
+},
+{
+  "timestamp": "2025-11-30T20:12:26.9457957+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7224/818/Gamma-Utils-2.4.8%2bmc1.21.10.jar to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/5.zip"
+},
+{
+  "timestamp": "2025-11-30T20:12:27.2069747+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Downloaded file for project Gamma Utils (Fullbright) - (492295) in 261ms"
+},
+{
+  "timestamp": "2025-11-30T20:12:27.2088336+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:12:28.4453815+00:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1236ms"
+},
+{
+  "timestamp": "2025-11-30T20:12:37.7417245+00:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:12:37.9589002+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7204/654/shulkerboxtooltip-fabric-5.2.12%2b1.21.9.jar"
+},
+{
+  "timestamp": "2025-11-30T20:12:37.9589878+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7204/654/shulkerboxtooltip-fabric-5.2.12%2b1.21.9.jar to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/6.zip"
+},
+{
+  "timestamp": "2025-11-30T20:12:38.2109288+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Downloaded file for project Shulker Box Tooltip [Fabric/Forge/NeoForge] - (315811) in 252ms"
+},
+{
+  "timestamp": "2025-11-30T20:12:38.2140988+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:12:39.4347598+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1220ms"
+},
+{
+  "timestamp": "2025-11-30T20:13:04.5720025+00:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on InstalledAddonDatabase -> FetchAddonWithRetries"
+},
+{
+  "timestamp": "2025-11-30T20:13:04.7971018+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/7149/539/%c2%a7bArmor%c2%a78-%c2%a7bReimagined%c2%a70_%c2%a78%5bv1.1%5d%c2%a70.zip"
+},
+{
+  "timestamp": "2025-11-30T20:13:04.797204+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/7149/539/%C2%A7bArmor%C2%A78-%C2%A7bReimagined%C2%A70_%C2%A78%5bv1.1%5d%C2%A70.zip to /tmp/CF_6uKUC1vP50ann8e9yFmEWw/rbPMr4hYqUKqmuCLmAQVg/7.zip"
+},
+{
+  "timestamp": "2025-11-30T20:13:05.1165888+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Downloaded file for project Armor Reimagined - (1367598) in 319ms"
+},
+{
+  "timestamp": "2025-11-30T20:13:05.1188536+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:13:06.344534+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1225ms"
+},
+{
+  "timestamp": "2025-11-30T20:13:08.7403843+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-11-30T20:13:08.7404035+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "/home/Pigatronee/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-11-30T20:13:13.1784296+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:13.1927818+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:15.6345989+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:15.6480026+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:18.2714747+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:18.2988084+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:22.5756499+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:22.588592+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:27.5655077+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:27.5778951+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:34.5734682+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:34.5860399+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:44.5664125+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:44.8203091+00:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:13:58.5905695+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:13:58.6146279+00:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.97425+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9743335+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9744167+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9747907+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9747977+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9747985+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-11-30T20:14:17.974866+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-11-30T20:14:17.9750841+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 6 items"
+},
+{
+  "timestamp": "2025-11-30T20:14:18.5705689+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-11-30T20:14:18.5867672+00:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2227965+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 1247ms"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2229845+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2257344+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 2ms"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2286573+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2291502+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2431386+00:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.2433933+00:00",
+  "level": "Warn",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.3468507+00:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-11-30T20:14:19.3469464+00:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-11-30T20:14:19.3502203+00:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-11-30T20:14:19.3861901+00:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

@@ -1,39 +1,18 @@
-2025/11/26-22:47:20.464 4db Reusing MANIFEST /home/Pigatronee/.config/CurseForge/Local Storage/leveldb/MANIFEST-000001
-2025/11/26-22:47:20.478 4db Recovering log #66
-2025/11/26-22:47:20.478 4db Reusing old log /home/Pigatronee/.config/CurseForge/Local Storage/leveldb/000066.log 
-2025/11/26-22:47:34.795 4dc Level-0 table #70: started
-2025/11/26-22:47:34.801 4dc Level-0 table #70: 24431 bytes OK
-2025/11/26-22:47:34.806 4dc Delete type=0 #66
-2025/11/26-22:52:49.179 4dc Level-0 table #72: started
-2025/11/26-22:52:49.183 4dc Level-0 table #72: 28343 bytes OK
-2025/11/26-22:52:49.188 4dc Delete type=0 #69
-2025/11/26-22:52:49.188 4dc Compacting 4@0 + 1@1 files
-2025/11/26-22:52:49.194 4dc Generated table #73@0: 163 keys, 50901 bytes
-2025/11/26-22:52:49.194 4dc Compacted 4@0 + 1@1 files => 50901 bytes
-2025/11/26-22:52:49.200 4dc compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-22:52:49.200 4dc Delete type=2 #67
-2025/11/26-22:52:49.200 4dc Delete type=2 #72
-2025/11/26-22:52:49.200 4dc Delete type=2 #65
-2025/11/26-22:52:49.200 4dc Delete type=2 #63
-2025/11/26-22:52:49.200 4dc Delete type=2 #70
-2025/11/26-23:02:55.392 4dc Level-0 table #75: started
-2025/11/26-23:02:55.395 4dc Level-0 table #75: 43394 bytes OK
-2025/11/26-23:02:55.400 4dc Delete type=0 #71
-2025/11/26-23:10:24.657 4dc Level-0 table #77: started
-2025/11/26-23:10:24.661 4dc Level-0 table #77: 36300 bytes OK
-2025/11/26-23:10:24.665 4dc Delete type=0 #74
-2025/11/26-23:18:24.657 4dc Level-0 table #79: started
-2025/11/26-23:18:24.660 4dc Level-0 table #79: 34982 bytes OK
-2025/11/26-23:18:24.668 4dc Delete type=0 #76
-2025/11/26-23:22:24.658 4db Level-0 table #81: started
-2025/11/26-23:22:24.661 4db Level-0 table #81: 28133 bytes OK
-2025/11/26-23:22:24.666 4db Delete type=0 #78
-2025/11/26-23:22:24.667 4dc Compacting 4@0 + 1@1 files
-2025/11/26-23:22:24.672 4dc Generated table #82@0: 163 keys, 51818 bytes
-2025/11/26-23:22:24.672 4dc Compacted 4@0 + 1@1 files => 51818 bytes
-2025/11/26-23:22:24.676 4dc compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-23:22:24.677 4dc Delete type=2 #79
-2025/11/26-23:22:24.677 4dc Delete type=2 #73
-2025/11/26-23:22:24.677 4dc Delete type=2 #75
-2025/11/26-23:22:24.677 4dc Delete type=2 #77
-2025/11/26-23:22:24.677 4dc Delete type=2 #81
+2025/11/30-20:06:52.323 3f3a1 Reusing MANIFEST /home/Pigatronee/.config/CurseForge/Local Storage/leveldb/MANIFEST-000001
+2025/11/30-20:06:52.328 3f3a1 Recovering log #124
+2025/11/30-20:06:52.328 3f3a1 Reusing old log /home/Pigatronee/.config/CurseForge/Local Storage/leveldb/000124.log 
+2025/11/30-20:09:24.189 3f3a2 Level-0 table #128: started
+2025/11/30-20:09:24.193 3f3a2 Level-0 table #128: 37471 bytes OK
+2025/11/30-20:09:24.198 3f3a2 Delete type=0 #124
+2025/11/30-20:14:18.413 3f3a2 Level-0 table #130: started
+2025/11/30-20:14:18.417 3f3a2 Level-0 table #130: 42536 bytes OK
+2025/11/30-20:14:18.423 3f3a2 Delete type=0 #127
+2025/11/30-20:14:18.423 3f3a2 Compacting 4@0 + 1@1 files
+2025/11/30-20:14:18.428 3f3a2 Generated table #131@0: 167 keys, 53363 bytes
+2025/11/30-20:14:18.428 3f3a2 Compacted 4@0 + 1@1 files => 53363 bytes
+2025/11/30-20:14:18.432 3f3a2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/30-20:14:18.433 3f3a2 Delete type=2 #120
+2025/11/30-20:14:18.433 3f3a2 Delete type=2 #128
+2025/11/30-20:14:18.433 3f3a2 Delete type=2 #122
+2025/11/30-20:14:18.433 3f3a2 Delete type=2 #130
+2025/11/30-20:14:18.433 3f3a2 Delete type=2 #125

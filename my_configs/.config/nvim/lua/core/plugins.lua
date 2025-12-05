@@ -39,6 +39,14 @@ return require('packer').startup(function(use)
   "nvim-telescope/telescope.nvim",
   requires = { {"nvim-lua/plenary.nvim"} },
   }
+  -- LSP 
+  use "neovim/nvim-lspconfig"
+  use {
+		"williamboman/mason.nvim",
+		run = ":MasonUpdate"
+	}
+  use "williamboman/mason-lspconfig.nvim"
+
   -- Autocomplete
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"
