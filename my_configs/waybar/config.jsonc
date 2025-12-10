@@ -1,0 +1,153 @@
+// -*- mode: jsonc -*-
+{
+  // "layer": "top",
+  // "position": "bottom",
+  "height": 32,
+  "margin-top": 12,
+  "width": 2500,
+  "spacing": 4,
+
+  "modules-left": [
+    "custom/cava",
+	"disk",
+	"cpu",
+	"custom/vpn",
+	"custom/spotify"
+  ],
+  "modules-center": [
+	"hyprland/workspaces",
+  ],
+  "modules-right": [
+	"clock",
+    "pulseaudio",
+    "network",
+    "bluetooth",
+    "custom/power"
+  ],
+
+	"hyprland/workspaces": {
+		"active-only": false,
+		"all-outputs": true,
+		"format": "{icon}",
+		"show-special": true,
+		"persistent-workspaces": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+		},
+		"format-icons": {
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+			"5": "",
+			"6": "",
+			"default": "",
+			"active": "󱓻",
+			"urgent": "󱓻",
+	},
+	},
+
+"tray": {
+    "icon-size": 21,
+    "spacing": 10,
+	"icons": {
+		"discord": ""	
+	}
+  },
+"disk": {
+	"interval": 30,
+	"format": " {percentage_used}%",
+	"unit": "GB"
+	// 0.25 GB out of 2000.00 GB available. Alternatively 241.3MiB out of 1.9TiB available.
+},
+
+"cpu": {
+    "interval": 10,
+    "format": "{:.0f}% ",
+    "max-length": 10
+},
+
+  "clock": {
+    "tooltip": false
+  },
+
+  "backlight": {
+    "format": "{percent}% {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-full": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "network": {
+    "format-ethernet": "",
+    "on-click": "~/.config/waybar/scripts/network-launch.sh"
+  },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+      "enabled": "",
+      "disabled": ""
+    }
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wlogout"
+  },
+  "custom/cava": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/cava.sh"
+  },
+
+"custom/spotify": {
+	"format": "  {}",
+	"interval": 5,
+	"tooltip": false,
+	"on-click": "eww open --toggle music-widget",
+	"exec": "~/.config/waybar/scripts/spotify.sh"
+},
+
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "~/.config/waybar/scripts/audio-launch.sh"
+  },
+
+    "custom/vpn": {
+       "interval": 3,
+       "format": "{}",
+       "exec": "ip add show | grep -qF surfshark_wg && echo  VPN || echo  VPN",
+       "max-length": "100",
+       "on-click": "flatpak run com.surfshark.Surfshark",
+       "on-click-right": "",
+	},
+
+}
