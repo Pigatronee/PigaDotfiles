@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1764593432/share/lua/5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1764593432/share/lua/5.1/?/init.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1764593432/lib/luarocks/rocks-5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1764593432/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1764593432/lib/lua/5.1/?.so"
+local package_path_str = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1765228720/share/lua/5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1765228720/share/lua/5.1/?/init.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1765228720/lib/luarocks/rocks-5.1/?.lua;/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1765228720/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/Pigatronee/.cache/nvim/packer_hererocks/2.1.1765228720/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -106,7 +106,7 @@ _G.packer_plugins = {
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["lazydev.nvim"] = {
-    config = { "\27LJ\2\nÒ\1\0\0\b\0\14\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\f\0004\3\3\0005\4\b\0006\5\3\0009\5\4\0059\5\5\5'\a\6\0B\5\2\2'\6\a\0&\5\6\5=\5\t\0045\5\n\0=\5\v\4>\4\1\3=\3\r\2B\0\2\1K\0\1\0\flibrary\1\0\1\flibrary\0\nwords\1\2\0\0\fvim%.uv\tpath\1\0\2\tpath\0\nwords\0\22/lazy/luv/library\tdata\fstdpath\afn\bvim\nsetup\flazydev\frequire\0" },
+    config = { "\27LJ\2\nÒ\1\0\0\b\0\14\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\f\0004\3\3\0005\4\b\0006\5\3\0009\5\4\0059\5\5\5'\a\6\0B\5\2\2'\6\a\0&\5\6\5=\5\t\0045\5\n\0=\5\v\4>\4\1\3=\3\r\2B\0\2\1K\0\1\0\flibrary\1\0\1\flibrary\0\nwords\1\2\0\0\fvim%.uv\tpath\1\0\2\nwords\0\tpath\0\22/lazy/luv/library\tdata\fstdpath\afn\bvim\nsetup\flazydev\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
