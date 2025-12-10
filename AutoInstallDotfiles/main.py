@@ -1,6 +1,7 @@
 import subprocess 
 import sys 
 import os
+import shutil
 from pathlib import Path 
 
 path = Path(__file__).resolve().parents[1]
@@ -8,6 +9,7 @@ dotfiles_path = path / "my_configs" / ".config"
 config_path = Path.home() / ".config"
 print("Dotfiles located at "+ str(dotfiles_path))
 print(".config located at "+ str(config_path))
+print(" -------------------------------\n WARNING! \n only use this script if you know what it does!\n Also, make sure to back up your config folder before using, just to be on the safe side :p\n ---------------------------")
 
 core_packages = "packages.txt"
 packages_extra = "packages_extra.txt"
@@ -20,10 +22,12 @@ def ask_question(msg: str, _should_be_y_n = False):
         answer = int(input(msg + " [1]/[2]: "))
     else:
         answer = str(input(msg + " [y]/[n]: "))
-    if answer == (1 or "y"):
+    if answer in (1,"y"):
         return 1
-    elif answer == (2 or "n"):
+    elif answer in (2,"n"):
         return 2
+    elif answer == "q":
+        main
     else:
         return 0 
          
@@ -45,11 +49,25 @@ def install_packages(required_only: bool = False):
         subprocess.run(["yay", "-S", "--needed"] + PACKAGES)
 def merge_dotfiles():
     for folder in os.listdir(dotfiles_path):
+        # delete files that already exist in your current config
         if folder in os.listdir(config_path):
             answer = ask_question(f"{folder} is also in .config. Would you like to Delete it?", _should_be_y_n = True)
             if answer == 1:
-                #merge files 
-                pass 
+                full_path = config_path / folder
+                print(f"removing path {full_path}")
+                try:
+                    shutil.rmtree(full_path)
+                except:
+                    print(f"Could not remove directory {full_path}, aborting.")
+                    main()
+            # copy files over
+            src = dotfiles_path / folder
+            dst = config_path 
+            try:
+                shutil.copytree(src, dst)
+            except:
+                print(f"Could not copy directory {src} to {dst}, aborting.")
+                main()
 
 def replace_dotfiles():
     print("I told you not to do this bro.")
