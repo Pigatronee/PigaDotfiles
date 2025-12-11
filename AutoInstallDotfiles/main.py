@@ -68,11 +68,12 @@ def merge_dotfiles():
                 main()
         # copy files over
         src = dotfiles_path / folder
-        dst = config_path 
+        dst = config_path / folder  
         try:
             shutil.copytree(src, dst)
-        except:
+        except exeption as e:
             print(f"Could not copy directory {src} to {dst}, aborting.")
+            print("Error is: "+e)
             main()
 
 def replace_dotfiles():
