@@ -1,8 +1,0 @@
-2025-11-21T00:26:14.672Z - info: [ui] [AppStore] loading 5 repositories from store
-2025-11-21T00:26:14.675Z - info: [ui] [AppStore] found account: Pigatronee (PigObsessedGameDev)
-2025-11-21T00:26:14.892Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.17.3-arch2-1)
-2025-11-21T00:26:14.892Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
-2025-11-21T00:26:22.062Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Pigatronee/Knight-game-improved' took 0.087s
-2025-11-21T00:26:47.019Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Pigatronee/Knight-game-improved' took 0.106s
-2025-11-21T00:26:50.892Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Pigatronee/Knight-game-improved' took 0.091s
-2025-11-21T00:27:46.458Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Pigatronee/Knight-game-improved' took 0.111s

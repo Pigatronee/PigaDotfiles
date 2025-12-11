@@ -1,4 +1,0 @@
-2025-10-16 23:46:56.082 [info] Started local extension host with pid 10122.
-2025-10-16 23:46:56.181 [error] CodeExpectedError: No default agent contributed
-    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
-2025-10-16 23:46:58.898 [info] [perf] Render performance baseline is 18ms
