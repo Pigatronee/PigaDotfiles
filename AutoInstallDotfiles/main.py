@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path 
 
 path = Path(__file__).resolve().parents[1]
-dotfiles_path = path / "my_configs" / ".config"
+dotfiles_path = path / "my_configs" #/ ".config"
 config_path = Path.home() / ".config"
 print("Dotfiles located at "+ str(dotfiles_path))
 print(".config located at "+ str(config_path))
