@@ -73,7 +73,7 @@ def merge_dotfiles():
             shutil.copytree(src, dst)
         except Exception as e:
             print(f"Could not copy directory {src} to {dst}, aborting.")
-            print("Error is: "+e)
+            print(f"Error is: {e}")
             main()
 
 def replace_dotfiles():
