@@ -56,7 +56,6 @@ def merge_dotfiles():
             if not answer == 1:
                 print("aborting.")
                 main()
-                return
             else:
                 print("OK! deleting and copying files.")
             full_path = config_path / folder
@@ -77,7 +76,9 @@ def merge_dotfiles():
             main()
 
 def replace_dotfiles():
-    print("I told you not to do this bro.")
+    answer = (str(input("I told you not to do this bro. are you REALLY sure?\n type: 'I am really stupid' to continue: ")))
+    if answer == "I am really stupid":
+        print("Yeah I'm not gonna make this ever cus this is stupid asf")
 
 def install_packages_cli():
     # Ask what packages you would like to install
