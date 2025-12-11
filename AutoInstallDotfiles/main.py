@@ -65,14 +65,14 @@ def merge_dotfiles():
             except:
                 print(f"Could not remove directory {full_path}, aborting.")
                 main()
-            # copy files over
-            src = dotfiles_path / folder
-            dst = config_path 
-            try:
-                shutil.copytree(src, dst)
-            except:
-                print(f"Could not copy directory {src} to {dst}, aborting.")
-                main()
+        # copy files over
+        src = dotfiles_path / folder
+        dst = config_path 
+        try:
+            shutil.copytree(src, dst)
+        except:
+            print(f"Could not copy directory {src} to {dst}, aborting.")
+            main()
 
 def replace_dotfiles():
     print("I told you not to do this bro.")
