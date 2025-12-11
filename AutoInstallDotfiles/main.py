@@ -56,6 +56,8 @@ def merge_dotfiles():
                 print("aborting.")
                 main()
                 return
+            else:
+                print("OK! deleting and copying files.")
             full_path = config_path / folder
             print(f"removing path {full_path}")
             try:
