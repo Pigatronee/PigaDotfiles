@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path 
 
 path = Path(__file__).resolve().parents[1]
-dotfiles_path = path / "my_configs" #/ ".config"
+dotfiles_path = path / "my_configs"# / ".config"
 config_path = Path.home() / ".config"
 print("Dotfiles located at "+ str(dotfiles_path))
 print(".config located at "+ str(config_path))
@@ -52,14 +52,17 @@ def merge_dotfiles():
         # delete files that already exist in your current config
         if folder in os.listdir(config_path):
             answer = ask_question(f"{folder} is also in .config. Would you like to Delete it?", _should_be_y_n = True)
-            if answer == 1:
-                full_path = config_path / folder
-                print(f"removing path {full_path}")
-                try:
-                    shutil.rmtree(full_path)
-                except:
-                    print(f"Could not remove directory {full_path}, aborting.")
-                    main()
+            if not answer == 1:
+                print("aborting.")
+                main()
+                return
+            full_path = config_path / folder
+            print(f"removing path {full_path}")
+            try:
+                shutil.rmtree(full_path)
+            except:
+                print(f"Could not remove directory {full_path}, aborting.")
+                main()
             # copy files over
             src = dotfiles_path / folder
             dst = config_path 
