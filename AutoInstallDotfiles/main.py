@@ -50,6 +50,7 @@ def install_packages(required_only: bool = False):
 def merge_dotfiles():
     for folder in os.listdir(dotfiles_path):
         # delete files that already exist in your current config
+        print("found folder: "+folder)
         if folder in os.listdir(config_path):
             answer = ask_question(f"{folder} is also in .config. Would you like to Delete it?", _should_be_y_n = True)
             if not answer == 1:
