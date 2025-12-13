@@ -1,8 +1,9 @@
 /* Variables */
-$bg-color: rgba(10, 5, 30, 0.85);
-$primary-neon: #00ffff;   /* Cyan    */
-$secondary-neon: #ff00ff; /* Magenta */
-$text-color: #e0e0e0;
+@import "/home/Pigatronee/.cache/wal/colors.scss";
+$bg-color: $background;
+$primary-neon: $color1;   /* Cyan    */
+$secondary-neon: $color3; /* Magenta */
+$text-color: $foreground;
 $font-family: "JetBrains Mono Nerd Font";
 
 .music-widget {
