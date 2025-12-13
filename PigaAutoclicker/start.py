@@ -3,7 +3,7 @@ import subprocess
 import os
 import sys
 
-time_to_sleep = 1
+time_to_sleep = 0.01
 
 lock_file = "/tmp/autoclicker.lock"
 
@@ -20,7 +20,7 @@ def main():
     try:
         while True:
             time.sleep(time_to_sleep)
-
+            click()
     except KeyboardInterrupt:
         print("Ending")
     finally:
