@@ -8,3 +8,6 @@ vim.lsp.config("docker_language_server", {
 vim.lsp.enable("lua_ls")
 vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("docker_language_server")
+vim.lsp.enable("pyright")
+vim.lsp.enable("cssls")
+vim.lsp.enable("scss_ls")

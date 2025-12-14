@@ -1,6 +1,19 @@
-//@import "/home/Pigatrone/.cache/wal/colors.scss"
+@import "/home/Pigatronee/.cache/wal/colors.scss";
 
-volume-slider {
-  background-color: #444;
-  border-radius: 10px;
+.volume-bar {
+  background-color: $background;
+  border-radius: 20px;
+  padding: 6px;  // thickness ≈ 12px
+
+}
+
+.volume-slider {
+  min-width: 120px;
+  padding: 20px;
+}
+
+.volume-slider slider {
+  background-color: $foreground;
+  min-height: 20px;
+  min-width: 20px;
 }
