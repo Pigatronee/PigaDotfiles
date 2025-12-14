@@ -93,6 +93,7 @@
 
   "network": {
     "format-ethernet": "",
+	"format-linked": "",
     "on-click": "~/.config/waybar/scripts/network-launch.sh"
   },
 
