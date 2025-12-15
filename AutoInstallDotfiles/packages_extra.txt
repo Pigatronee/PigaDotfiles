@@ -1,1 +1,1 @@
-cava pavucontrol nwg-look eww fuzzel swww xdg-desktop-portal-hyprland htop vesktop firefox godot nvim nextcloud steam ly nautilus playerctl pamixer
+cava pavucontrol nwg-look eww fuzzel swww xdg-desktop-portal-hyprland htop vesktop firefox godot nvim nextcloud steam ly nautilus playerctl pamixer dotool

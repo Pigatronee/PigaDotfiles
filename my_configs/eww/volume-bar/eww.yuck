@@ -1,0 +1,24 @@
+(defvar volume 50)
+
+(defwidget volume-slider []
+  (scale
+	:class "volume-slider"
+    :min 0
+    :max 100
+    :value volume
+    :onchange "pamixer --set-volume {} && eww update volume={}"))
+
+(defwindow volume-bar
+  :class "volume-bar"
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "20px"
+                      :width "10%"
+                      :height "4%"
+                      :anchor "bottom center")
+  :stacking "fg"
+  :windowtype "dock"
+  :wm-ignore false
+
+  (volume-slider))
+

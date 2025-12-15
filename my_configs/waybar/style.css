@@ -125,7 +125,7 @@ button {
 #window,
 #workspaces {
     margin: 0 2px;
-    background-color: @color1;
+    background-color: @background;
 }
 
 
@@ -150,13 +150,13 @@ button {
 }
 
 #custom-cava{
-    color: #c5c5c5;
+    color: @foreground;
     border-left: 0px;
     border-right: 0px;
     padding-bottom: 6px;
     font-family: "bargraph";
     font-size: 22px;
-    background-color: @color1;
+    background-color: @background;
     
 }
 
