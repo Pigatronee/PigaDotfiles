@@ -1,0 +1,70 @@
+
+(defwidget control-panel-layout []
+	(box :class "layout-box" :space-evenly false :orientation "vertical" 
+		(box :class "layout-box-1" :space-evenly true
+			(button
+				:class "test_button"
+				:width 200
+				:height 125
+				(label
+					:text "Image"
+				)
+			)	
+			(button
+				:class "test_button"
+				:width 200
+				:height 125
+				:halign "fill"
+			)	
+
+		)
+		(box :class "middle-layout-2" :space-evenly false
+			(scale
+				:orientation "vertical"
+				:flipped true
+				:min 0
+				:max 100
+			)
+			(button
+				:class "test_button"
+			)	
+		)
+		(box :class "layout-box-3" :space-evenly false
+			(scale
+				:orientation "vertical"
+				:flipped true
+				:min 0
+				:max 100
+			)
+			(button
+				:class "test_button"
+			)	
+		)
+		(box :class "layout-box-4" :space-evenly false
+			(scale
+				:orientation "vertical"
+				:flipped true
+				:min 0
+				:max 100
+			)
+			(button
+				:class "test_button"
+			)	
+		)
+	)
+)
+
+(defwindow control-panel 
+           :monitor 0
+           :stacking "fg"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+           :geometry (geometry :x "1%"
+                               :y "20px"
+                               :width "20%"
+                               :height "40%"
+                               :anchor "top right")
+			(control-panel-layout)
+)
+
