@@ -15,22 +15,22 @@
 }
 
 /* Scale styling */
-scale {
+.test-scale {
   min-height: 120px;
   padding: 4px;
 
-  trough {
+  .test-scale trough {
     background-color: #444;
     border-radius: 6px;
     min-width: 10px;
   }
 
-  highlight {
+ .test-scale highlight {
     background-color: #89b4fa;
     border-radius: 6px;
   }
 
-  slider {
+  .test-scale slider {
     background-color: #f5c2e7;
     border-radius: 50%;
     min-height: 12px;
