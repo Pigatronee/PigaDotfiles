@@ -15,6 +15,9 @@
 				:width 200
 				:height 125
 				:halign "fill"
+				(label
+					:text "Date and time"
+				)
 			)	
 
 		)
