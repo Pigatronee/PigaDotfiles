@@ -1,4 +1,39 @@
 
+(defwidget media-panel []
+	(box :space-evenly true :orientation "h"
+		(box :class "layout-box-2" :space-evenly false :orientation "v"
+		; Music player widget ;
+				(button
+					:class "test_button"
+					:height 100
+				)	
+				(scale
+					:class "music-slider"
+					:orientation "h"
+					:flipped true
+					:min 0
+					:max 100
+				)
+
+		)
+
+
+		(box :class "layout-box-2" :space-evenly false :orientation "v"
+				(scale
+					:orientation "h"
+					:flipped true
+					:min 0
+					:max 100
+				)
+				(button
+					:class "test_button"
+				)	
+		)
+
+	 )
+
+)
+
 (defwidget control-panel-layout []
 	(box :class "layout-box" :space-evenly false :orientation "vertical" 
 		(box :class "layout-box-1" :space-evenly true
@@ -21,18 +56,9 @@
 			)	
 
 		)
-		(box :class "middle-layout-2" :space-evenly false
-			(scale
-				:class "test-scale"
-				:orientation "vertical"
-				:flipped true
-				:min 0
-				:max 100
-			)
-			(button
-				:class "test_button"
-			)	
-		)
+		
+		(media-panel)
+
 		(box :class "layout-box-3" :space-evenly false
 			(scale
 				:class "test-scale"

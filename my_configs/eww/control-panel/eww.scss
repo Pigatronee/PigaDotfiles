@@ -1,37 +1,47 @@
+@import "/home/Pigatronee/.cache/wal/colors.scss";
+
 /* Root layout */
 .layout-box {
-  background: #1e1e2e;
+  background: $background;
   padding: 8px;
 }
 
 /* Each vertical strip */
 .layout-box-1,
-.middle-layout-2,
+.layout-box-2,
 .layout-box-3,
 .layout-box-4 {
-  background: #2a2a3a;
-  border: 1px solid #444;
+  background: $background;
+  border: 1px solid $color2;
   padding: 6px;
 }
 
 /* Scale styling */
+
+
+.music-slider slider {
+  background-color: $foreground;
+  min-height: 19px;
+  min-width: 19px;
+}
+
 .test-scale {
   min-height: 120px;
   padding: 4px;
 
   .test-scale trough {
-    background-color: #444;
+    background-color: $background;
     border-radius: 6px;
     min-width: 10px;
   }
 
  .test-scale highlight {
-    background-color: #89b4fa;
+    background-color: $color2;
     border-radius: 6px;
   }
 
   .test-scale slider {
-    background-color: #f5c2e7;
+    background-color: $color2;
     border-radius: 50%;
     min-height: 12px;
     min-width: 12px;
@@ -40,21 +50,21 @@
 
 /* Test button */
 .test_button {
-  background: #313244;
+  background: $color2;
   border-radius: 6px;
   padding: 6px;
   margin: 10px;
   margin-left: 15px;
   margin-right: 15px;
-  color: #cdd6f4;
+  color: $foreground;
   font-weight: bold;
 
   &:hover {
-    background: #45475a;
+    background: $color3;
   }
 
   &:active {
-    background: #585b70;
+    background: $color3;
   }
 }
 
