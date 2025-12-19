@@ -22,7 +22,8 @@
     "pulseaudio",
     "network",
     "bluetooth",
-    "custom/power"
+    //"custom/power",
+	"custom/controlpanel"
   ],
 
 	"hyprland/workspaces": {
@@ -110,6 +111,13 @@
     "tooltip": false,
     "on-click": "wlogout"
   },
+  "custom/controlpanel": {
+    "format": "󰣇",
+    "tooltip": false,
+    "on-click": "eww open control-panel --toggle"
+  },
+
+
   "custom/cava": {
         "format": "{}",
         "exec": "~/.config/waybar/scripts/cava.sh"
