@@ -16,6 +16,7 @@
   ],
   "modules-center": [
 	"hyprland/workspaces",
+	"custom/notifications"
   ],
   "modules-right": [
 	"clock",
@@ -111,6 +112,12 @@
     "tooltip": false,
     "on-click": "wlogout"
   },
+	"custom/notifications": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "exec swaync-client -t -sw"
+  },
+
   "custom/controlpanel": {
     "format": "󰣇",
     "tooltip": false,

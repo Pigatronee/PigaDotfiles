@@ -19,6 +19,7 @@ dirs=(
   eww
   background
   nwg-look
+  swaync
 )
 
 for d in $dirs; do
