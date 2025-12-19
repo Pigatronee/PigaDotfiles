@@ -1,9 +1,14 @@
+@import url("file:///home/Pigatronee/.cache/wal/colors-waybar.css");
 :root {
   --border-radius: 22px;
   --cc-bg: transparent;
 
-  --widget-background: rgba(46, 46, 46, 0.7);
+  --widget-background: @background;
   --noti-bg-alpha: 0.6;
+
+  --border-width: 3px;
+  --border-color: @color2; 
+  --border: var(--border-width) solid var(--border-color);
 
   --padding: calc(var(--border-radius) / 2);
 }
