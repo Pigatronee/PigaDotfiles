@@ -6,6 +6,8 @@ packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-deskt
 
 combined_packages=("${packages_requried[@]}" "${packages_extra[@]}")
 
+dotfiles_location="../my_configs"
+
 # Prompt
 clear
 echo "What would you like to do?"
@@ -16,7 +18,7 @@ read -r answer
 
 install_dependencies_cli() {
 	clear 
-	echo "Do you want to install the extremely recommended extra packages too?"
+	echo "Do you want to install the *extremely recommended* extra packages too?"
 	echo -n "[y]/[n]: "
 	read -r answer
 	
@@ -33,6 +35,35 @@ install_dependencies_cli() {
 
 }
 
+install_dotfiles_cli() {
+	clear 
+	echo "What would you like to do"
+	echo "[1]: Merge these dotfiles with your current setup"
+	echo "[2]: Replace your entire config folder with only these (NOT RECOMMENDED)"
+	echo -n "[1]/[2]: "
+	read -r answer
+	
+	if [ "$answer" -eq 1 ]; then
+		echo "Merging....."
+		cp -r "dotfiles_location"/* ~/.config/ 
+	elif [ "$answer" -eq 2 ]; then
+		echo "Warning the option you just selected will completely overide your ~/.config folder"
+		echo -n "If you still want to continue type this: 'I am really stupid': "
+		read -r answer 
+		if [ "$answer" == "I am really stupid" ]; then 
+			echo "You asked for this :c"
+			rm -rf ~/.config
+			cp -r "dotfiles_location"/* ~/.config/  
+		else
+			install_dotfiles_cli
+		fi 
+	else 
+		echo "Invalid option."
+		install_dependencies_cli
+	fi
+
+
+}
 
 # MAIN
 
