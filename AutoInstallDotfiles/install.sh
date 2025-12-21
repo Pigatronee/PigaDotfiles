@@ -73,6 +73,7 @@ if [ "$answer" -eq 1 ]; then
 	install_dependencies_cli
 elif [ "$answer" -eq 2 ]; then
 	echo "Installing dotfiles..."
+	install_dotfiles_cli
 else 
 	echo "Invalid option."
 fi
