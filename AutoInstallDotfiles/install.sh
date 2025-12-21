@@ -53,6 +53,7 @@ install_dotfiles_cli() {
 		if [ "$answer" == "I am really stupid" ]; then 
 			echo "You asked for this :c"
 			rm -rf ~/.config
+			mkdir -p  ~/.config
 			cp -r "$dotfiles_location"/* "/home/$USER/.config"  
 		else
 			install_dotfiles_cli
