@@ -1,4 +1,30 @@
 
+(defwidget wifi-bluetooth-panel []
+	(box :class "layout-box-1" :space-evenly true
+		(button
+			:class "wifi-button"
+			:width 200
+			:height 125
+			(image
+				:path "/home/Pigatronee/.config/eww/control-panel/icons/piggy.jpg"
+				:image-height 125 
+				:image-width 200
+			)
+		)	
+		(button
+			:class "test_button"
+			:width 200
+			:height 125
+			:halign "fill"
+			(label
+				:text "Date and time"
+			)
+		)	
+	)
+)
+
+
+
 (defwidget media-panel []
 	(box :space-evenly true :orientation "h"
 		(box :class "layout-box-2" :space-evenly false :orientation "v"
@@ -36,27 +62,8 @@
 
 (defwidget control-panel-layout []
 	(box :class "layout-box" :space-evenly false :orientation "vertical" 
-		(box :class "layout-box-1" :space-evenly true
-			(button
-				:class "test_button"
-				:width 200
-				:height 125
-				(label
-					:text "Image"
-				)
-			)	
-			(button
-				:class "test_button"
-				:width 200
-				:height 125
-				:halign "fill"
-				(label
-					:text "Date and time"
-				)
-			)	
 
-		)
-		
+		(wifi-bluetooth-panel)	
 		(media-panel)
 
 		(box :class "layout-box-3" :space-evenly false

@@ -1,5 +1,10 @@
 @import "/home/Pigatronee/.cache/wal/colors.scss";
 
+.control-panel{
+  border-radius: 15px;
+}
+
+
 /* Root layout */
 .layout-box {
   background: $background;
@@ -25,31 +30,11 @@
   min-width: 19px;
 }
 
-.test-scale {
-  min-height: 120px;
-  padding: 4px;
 
-  .test-scale trough {
-    background-color: $background;
-    border-radius: 6px;
-    min-width: 10px;
-  }
-
- .test-scale highlight {
-    background-color: $color2;
-    border-radius: 6px;
-  }
-
-  .test-scale slider {
-    background-color: $color2;
-    border-radius: 50%;
-    min-height: 12px;
-    min-width: 12px;
-  }
-}
 
 /* Test button */
-.test_button {
+.test_button,
+.wifi-button{
   background: $color2;
   border-radius: 6px;
   padding: 6px;
