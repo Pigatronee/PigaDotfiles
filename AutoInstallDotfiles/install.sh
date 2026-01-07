@@ -2,7 +2,7 @@
 
 # Variablesz
 packages_requried=("hyprland" "waybar" "waypaper" "wlogout" "xsettingsd" "rofi" "fuzzel" "kitt" "python-pywal16-git")
-packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-desktop-portal-hyprland" "htop" "vesktop" "firefox" "godot" "nvim" "nextcloud" "steam" "ly" "nautilus" "playerctl" "pamixer" "dotool")
+packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-desktop-portal-hyprland" "htop" "vesktop" "firefox" "godot" "nvim" "nextcloud" "steam" "ly" "nautilus" "playerctl" "pamixer" "dotool" "swaync-client")
 
 combined_packages=("${packages_requried[@]}" "${packages_extra[@]}")
 
