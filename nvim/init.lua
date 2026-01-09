@@ -6,6 +6,6 @@ require("core.plugin_config")
 require("core.autocmds")
 
 -- Other
-vim.wo.number = true
+vim.wo.number = true  
 vim.wo.relativenumber = true
 

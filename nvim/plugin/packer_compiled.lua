@@ -105,10 +105,28 @@ _G.packer_plugins = {
     path = "/Users/apple/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["lazydev.nvim"] = {
+    config = { "\27LJ\2\nÒ\1\0\0\b\0\14\0\0216\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\f\0004\3\3\0005\4\b\0006\5\3\0009\5\4\0059\5\5\5'\a\6\0B\5\2\2'\6\a\0&\5\6\5=\5\t\0045\5\n\0=\5\v\4>\4\1\3=\3\r\2B\0\2\1K\0\1\0\flibrary\1\0\1\flibrary\0\nwords\1\2\0\0\fvim%.uv\tpath\1\0\2\nwords\0\tpath\0\22/lazy/luv/library\tdata\fstdpath\afn\bvim\nsetup\flazydev\frequire\0" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/opt/lazydev.nvim",
+    url = "https://github.com/folke/lazydev.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/apple/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -119,6 +137,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/apple/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -157,6 +180,13 @@ time([[Defining packer_plugins]], false)
 time([[Config for everforest]], true)
 try_loadstring("\27LJ\2\ni\0\0\3\0\6\0\n6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\15everforest\16colorscheme\bcmd\29everforest_enable_italic\6g\bvim\0", "config", "everforest")
 time([[Config for everforest]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Filetype lazy-loads
+time([[Defining lazy-load filetype autocommands]], true)
+vim.cmd [[au FileType lua ++once lua require("packer.load")({'lazydev.nvim'}, { ft = "lua" }, _G.packer_plugins)]]
+time([[Defining lazy-load filetype autocommands]], false)
+vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
