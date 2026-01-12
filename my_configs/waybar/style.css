@@ -1,5 +1,5 @@
-@import url("file:///home/Pigatronee/.cache/wal/colors-waybar.css");
-
+/*@import url("file:///home/Pigatronee/.cache/wal/colors-waybar.css");*/
+@import "symlinks/colors-waybar.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */

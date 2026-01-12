@@ -1,0 +1,4 @@
+@theme "./themes/nord.rasi"
+	configuration {
+	terminal: "kitty";
+	}
