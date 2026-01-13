@@ -1,18 +1,4 @@
 # ============================================================
-# Powerlevel10k instant prompt (MUST be at top)
-# ============================================================
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# ============================================================
-# Homebrew (macOS-safe)
-# ============================================================
-if [[ -f "/opt/homebrew/bin/brew" ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
-
-# ============================================================
 # Zinit setup
 # ============================================================
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -109,8 +95,8 @@ command_not_found_handler() {
 # ============================================================
 # Shell integrations
 # ============================================================
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+#eval "$(fzf --zsh)"
+#eval "$(zoxide init --cmd cd zsh)"
 
 # ============================================================
 # wal colors

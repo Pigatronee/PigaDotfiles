@@ -68,6 +68,29 @@ install_dotfiles_cli() {
 
 }
 
+# Make scripts executable 
+make_scripts_executable_cli() {
+	clear
+	echo "What would you like to do"
+	echo "[1]: Make scripts in the git repo executable"
+	echo "[2]: Make scripts in your config folder executable (WARNING! Im bad at programming so this will go recursively through your ~.config) "
+	echo -n "[1]/[2]: "
+	read -r answer
+	
+	if [ "$answer" -eq 1 ]; then
+		echo "Here we gooo....."
+		#chmod +x "$dotfiles_location"/*.sh 
+		#chmod +x "$dotfiles_location"/*.py
+		find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +	find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +
+	if [ "$answer" -eq 1 ]; then
+		echo "Here we gooo....."
+		#chmod +x "$dotfiles_location"/*.sh 
+		#chmod +x "$dotfiles_location"/*.py
+		find ~/.config/ -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +	find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +
+	fi
+}
+
+
 # MAIN
 
 # Check what to do 
@@ -77,6 +100,9 @@ if [ "$answer" -eq 1 ]; then
 elif [ "$answer" -eq 2 ]; then
 	echo "Installing dotfiles..."
 	install_dotfiles_cli
+elif [ "$answer" -eq 3 ]; then
+	echo "Making scripts executable"
+	make_scripts_executable_cli	
 else 
 	echo "Invalid option."
 fi

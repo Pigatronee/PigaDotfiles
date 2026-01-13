@@ -26,3 +26,5 @@ for d in $dirs; do
   cp -r "$HOME/.config/$d" ./my_configs
 done
 
+# zsh
+cp "$HOME/.zshrc" ./zsh
