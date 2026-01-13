@@ -13,7 +13,8 @@ clear
 echo "What would you like to do?"
 echo "[1]: Install dependencies"
 echo "[2]: Install dotfiles"
-echo -n "[1]/[2]: "
+echo "[3]: Make all python and shell scripts executable"
+echo -n "[1]/[2]/[3]: "
 read -r answer
 
 install_dependencies_cli() {
