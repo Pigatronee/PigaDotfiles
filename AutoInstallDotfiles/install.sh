@@ -81,7 +81,7 @@ make_scripts_executable_cli() {
 		echo "Here we gooo....."
 		#chmod +x "$dotfiles_location"/*.sh 
 		#chmod +x "$dotfiles_location"/*.py
-		find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +	find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +
+		find "$dotfiles_location" -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} +	
 	fi 
 	if [ "$answer" -eq 2 ]; then
 		echo "Here we gooo....."
