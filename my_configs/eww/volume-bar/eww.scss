@@ -1,11 +1,11 @@
-@import "/home/pigatronee/.cache/wal/colors.scss";
+@import "/home/Pigatronee/.cache/wal/colors.scss";
 
 .volume-bar {
-  background-color: $background;
+  background-color: rgba($background, 0.99);
   border-radius: 20px;
-  padding: 6px;  // thickness ≈ 12px
-
+  padding: 6px;
 }
+
 
 .volume-slider {
   min-width: 120px;

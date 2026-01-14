@@ -1,32 +1,38 @@
-# ============================================================
-# Zinit setup
-# ============================================================
-ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-
-if [[ ! -d "$ZINIT_HOME" ]]; then
-  mkdir -p "$(dirname "$ZINIT_HOME")"
-  git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+# SUPER COOL ZHS CONFIG BY PIGATRONEE
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source "$ZINIT_HOME/zinit.zsh"
+if [[ -f "/opt/homebrew/bin/brew" ]] then
+  # If you're using macOS, you'll want this enabled
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
-# ============================================================
-# Prompt
-# ============================================================
-zinit ice depth=1
-zinit light romkatv/powerlevel10k
+# Set the directory we want to store zinit and plugins
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
-[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+# Download Zinit, if it's not there yet
+if [ ! -d "$ZINIT_HOME" ]; then
+   mkdir -p "$(dirname $ZINIT_HOME)"
+   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+fi
 
-# ============================================================
-# Plugins
-# ============================================================
+# Source/Load zinit
+source "${ZINIT_HOME}/zinit.zsh"
+
+# Add in Powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
-zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
-# OMZ snippets
+# Add in snippets
 zinit snippet OMZL::git.zsh
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
@@ -36,27 +42,25 @@ zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
 
-# ============================================================
-# Completion
-# ============================================================
-autoload -Uz compinit
-compinit
+# Load completions
+autoload -Uz compinit && compinit
+
 zinit cdreplay -q
 
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# ============================================================
+# Keybindings
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+bindkey '^[w' kill-region
+
 # History
-# ============================================================
-HISTFILE=~/.zsh_history
 HISTSIZE=5000
+HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
-
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
@@ -65,47 +69,37 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
-# ============================================================
-# Keybindings
-# ============================================================
-bindkey -e
-bindkey '^p' history-search-backward
-bindkey '^n' history-search-forward
-bindkey '^[w' kill-region
+# Completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-# ============================================================
 # Aliases
-# ============================================================
 alias ls='ls --color'
-alias lsl='ls -l'
 alias v='nvim'
-alias vim='nvim'
 alias c='clear'
-alias k='fzf-kill'
-
-# ============================================================
-# Command not found handler
-# ============================================================
-command_not_found_handler() {
-  local cmd="$1"
-  cowsay -r "The command '$cmd' don't work bru"
-  return 127
+alias open="xdg-open"
+alias pie="ssh james@192.168.0.34"
+alias :q="exit"
+# Kill alias
+k() {
+    ps -ef | fzf | awk '{print $2}' | xargs -r kill
 }
 
-# ============================================================
+
 # Shell integrations
-# ============================================================
-#eval "$(fzf --zsh)"
-#eval "$(zoxide init --cmd cd zsh)"
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
-# ============================================================
-# wal colors
-# ============================================================
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
 (cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+cat ~/.cache/wal/sequences
+
+# To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
-
-# ============================================================
-# PATH
-# ============================================================
-export PATH="$PATH:$HOME/.spicetify"
-
