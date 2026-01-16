@@ -29,10 +29,18 @@ fn _open_eww(bar_open: &mut bool) {
         .expect("Failed to open volume bar");
     *bar_open = true;
 }
+fn _close_eww(bar_open: &mut bool) {
+    Command::new("eww")
+        .arg("close")
+        .arg("volume-bar")
+        .output()
+        .expect("Failed to close volume bar");
+    *bar_open = false;
+}
 
 fn main() {
     let volume: u8 = get_volume();
     let mut bar_open: bool = false;
-    println!("Volume changed, Updating bar.");
+
     _update_volume(volume, &mut bar_open);
 }
