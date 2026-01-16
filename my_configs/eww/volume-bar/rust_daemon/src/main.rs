@@ -1,4 +1,5 @@
-use std::process::Command;
+use std::process::{Command, Output, Stdio};
+use std::io::{BufRead, BufReader};
 
 fn get_volume() -> u8 {
     let result = Command::new("pamixer")
@@ -16,7 +17,9 @@ fn get_volume() -> u8 {
 fn _update_volume(volume_level: u8, bar_open: &mut bool) {
     Command::new("eww")
         .arg("update")
-        .arg(format!("volume={}",volume_level));
+        .arg(format!("volume={}",volume_level))
+        .output()
+        .expect("Couldn't update volume");
     _open_eww(bar_open);
 }
 
@@ -38,9 +41,33 @@ fn _close_eww(bar_open: &mut bool) {
     *bar_open = false;
 }
 
-fn main() {
-    let volume: u8 = get_volume();
+fn main() -> std::io::Result<()> {
     let mut bar_open: bool = false;
+    
+    let mut current_volume: u8 = 50;
 
-    _update_volume(volume, &mut bar_open);
+    let mut proc = Command::new("pactl")
+        .arg("subscribe")
+        .stdout(Stdio::piped())
+        .spawn()
+        .expect("Failed to read pactl");
+
+    let stdout = proc.stdout.take().expect("Failed to take ownership of stdout");
+    
+    let reader = BufReader::new(stdout);
+
+    for line in reader.lines(){
+        let line = line?;
+        if line.to_lowercase().contains("sink"){    
+            let volume: u8 = get_volume();
+            if volume != current_volume {
+                _update_volume(volume, &mut bar_open);
+                println!("Updating bar");
+            }
+
+        }
+    }
+
+    Ok(())
+
 }
