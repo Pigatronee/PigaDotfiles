@@ -14,24 +14,21 @@ fn get_volume() -> u8 {
     stdout.trim().parse::<u8>().expect("Couldn't parse volume")
 }
 
-fn update_volume(volume: u8, bar_open: &Arc<Mutex<bool>>) {
-    Command::new("/usr/bin/eww")
+fn update_volume(volume: u8, bar_open: &mut bool) {
+    Command::new("eww")
         .arg("update")
         .arg(format!("volume={}", volume))
         .output()
-        .ok();
-
-    let mut open = bar_open.lock().unwrap();
-    if !*open {
-        Command::new("/usr/bin/eww")
+        .expect("Couldn't update volume");
+    if !*bar_open {
+        Command::new("eww")
             .arg("open")
             .arg("volume-bar")
             .output()
-            .ok();
-        *open = true;
+            .expect("Failed to open volume bar");
+        *bar_open = true;
     }
 }
-
 
 fn close_bar(bar_open: &mut bool) {
     if *bar_open {
@@ -96,7 +93,8 @@ fn main() -> std::io::Result<()> {
                 current_volume = volume;
 
                 // update bar
-                update_volume(volume, &bar_open_clone);
+                let mut bar_open = bar_open_clone.lock().unwrap();
+                update_volume(volume, &mut bar_open);
 
                 println!("Updating bar, timer reset");
                 tx.send(()).ok(); // reset timer
