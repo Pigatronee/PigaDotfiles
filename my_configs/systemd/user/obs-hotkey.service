@@ -1,0 +1,12 @@
+[Unit]
+Description=OBS Hotkey Controller (Wayland)
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/sudo /usr/local/bin/obs-hotkey-go
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=graphical-session.target

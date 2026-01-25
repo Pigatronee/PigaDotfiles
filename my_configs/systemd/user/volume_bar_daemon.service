@@ -1,0 +1,17 @@
+[Unit]
+Description=Rust Volume Watcher Daemon
+After=graphical-session.target pipewire.service
+Wants=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/release/rust_daemon
+Environment=RUST_STDOUT_LINE_BUFFERED=1
+StandardOutput=append:/home/Pigatronee/.local/share/volume_watcher.log
+StandardError=append:/home/Pigatronee/.local/share/volume_watcher.log
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+
