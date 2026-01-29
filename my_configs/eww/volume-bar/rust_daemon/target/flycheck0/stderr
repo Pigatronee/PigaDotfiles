@@ -1,12 +1,272 @@
-   0.010792998s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: stale: changed "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs"
-   0.010800528s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:           (vs) "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-5f0884e209652387/dep-bin-rust_daemon"
-   0.010803188s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1768607516, nanos: 115550619 } < FileTime { seconds: 1768608239, nanos: 175687585 }
-   0.010830588s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: fingerprint dirty for rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon)/Check { test: false }/TargetInner { name: "rust_daemon", doc: true, ..: with_path("/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", Edition2024) }
-   0.010839918s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-5f0884e209652387/dep-bin-rust_daemon", reference_mtime: FileTime { seconds: 1768607516, nanos: 115550619 }, stale: "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", stale_mtime: FileTime { seconds: 1768608239, nanos: 175687585 } }))
-   0.011194468s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: stale: changed "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs"
-   0.011198558s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:           (vs) "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-832ba9bbcef9ebc6/dep-test-bin-rust_daemon"
-   0.011200898s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1768607516, nanos: 115550619 } < FileTime { seconds: 1768608239, nanos: 175687585 }
-   0.011218948s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: fingerprint dirty for rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon)/Check { test: true }/TargetInner { name: "rust_daemon", doc: true, ..: with_path("/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", Edition2024) }
-   0.011224158s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-832ba9bbcef9ebc6/dep-test-bin-rust_daemon", reference_mtime: FileTime { seconds: 1768607516, nanos: 115550619 }, stale: "/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", stale_mtime: FileTime { seconds: 1768608239, nanos: 175687585 } }))
+   0.010264527s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: fingerprint error for rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon)/Check { test: false }/TargetInner { name: "rust_daemon", doc: true, ..: with_path("/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", Edition2024) }
+   0.010277766s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-f5bc6cf65fff96f7/bin-rust_daemon`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+   0.010739790s  INFO prepare_target{force=false package_id=cancellable-timer v0.1.0 target="cancellable_timer"}: cargo::core::compiler::fingerprint: fingerprint error for cancellable-timer v0.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cancellable_timer", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cancellable-timer-0.1.0/src/lib.rs", Edition2018) }
+   0.010745450s  INFO prepare_target{force=false package_id=cancellable-timer v0.1.0 target="cancellable_timer"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/cancellable-timer-ec81907a6101d1e2/lib-cancellable_timer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_main
+  17: <unknown>
+   0.010836209s  INFO prepare_target{force=false package_id=mio v0.6.23 target="mio"}: cargo::core::compiler::fingerprint: fingerprint error for mio v0.6.23/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mio", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mio-0.6.23/src/lib.rs", Edition2015) }
+   0.010840699s  INFO prepare_target{force=false package_id=mio v0.6.23 target="mio"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/mio-a6722330bf1c593c/lib-mio`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: __libc_start_main
+  18: <unknown>
+   0.010968057s  INFO prepare_target{force=false package_id=cfg-if v0.1.10 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v0.1.10/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cfg_if", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-0.1.10/src/lib.rs", Edition2018) }
+   0.010972657s  INFO prepare_target{force=false package_id=cfg-if v0.1.10 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/cfg-if-d91bea0e754a69c3/lib-cfg_if`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: __libc_start_main
+  19: <unknown>
+   0.011048926s  INFO prepare_target{force=false package_id=iovec v0.1.4 target="iovec"}: cargo::core::compiler::fingerprint: fingerprint error for iovec v0.1.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("iovec", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/iovec-0.1.4/src/lib.rs", Edition2015) }
+   0.011053836s  INFO prepare_target{force=false package_id=iovec v0.1.4 target="iovec"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/iovec-d1ed13d91034d507/lib-iovec`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: __libc_start_main
+  19: <unknown>
+   0.011136995s  INFO prepare_target{force=false package_id=libc v0.2.180 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.180/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.180/src/lib.rs", Edition2021) }
+   0.011141255s  INFO prepare_target{force=false package_id=libc v0.2.180 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/libc-7fa8bb79a1f15575/lib-libc`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: __libc_start_main
+  20: <unknown>
+   0.011321962s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.29/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs", Edition2021) }
+   0.011327542s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/log-509ff10c9001e074/lib-log`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: __libc_start_main
+  19: <unknown>
+   0.011435901s  INFO prepare_target{force=false package_id=net2 v0.2.39 target="net2"}: cargo::core::compiler::fingerprint: fingerprint error for net2 v0.2.39/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("net2", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/net2-0.2.39/src/lib.rs", Edition2015) }
+   0.011440811s  INFO prepare_target{force=false package_id=net2 v0.2.39 target="net2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/net2-98437b9dc5ad9b71/lib-net2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: __libc_start_main
+  19: <unknown>
+   0.011547980s  INFO prepare_target{force=false package_id=slab v0.4.11 target="slab"}: cargo::core::compiler::fingerprint: fingerprint error for slab v0.4.11/Check { test: false }/TargetInner { ..: lib_target("slab", ["lib"], "/home/Pigatronee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/slab-0.4.11/src/lib.rs", Edition2018) }
+   0.011552779s  INFO prepare_target{force=false package_id=slab v0.4.11 target="slab"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/slab-04e9f9d1ce5d238c/lib-slab`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: __libc_start_main
+  19: <unknown>
+   0.011656848s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint: fingerprint error for rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon)/Check { test: true }/TargetInner { name: "rust_daemon", doc: true, ..: with_path("/home/Pigatronee/.config/eww/volume-bar/rust_daemon/src/main.rs", Edition2024) }
+   0.011662038s  INFO prepare_target{force=false package_id=rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon) target="rust_daemon"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/Pigatronee/.config/eww/volume-bar/rust_daemon/target/debug/.fingerprint/rust_daemon-1062d82d389626ea/test-bin-rust_daemon`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+    Checking libc v0.2.180
+    Checking cfg-if v0.1.10
+    Checking log v0.4.29
+    Checking slab v0.4.11
+    Checking iovec v0.1.4
+    Checking net2 v0.2.39
+    Checking mio v0.6.23
+    Checking cancellable-timer v0.1.0
     Checking rust_daemon v0.1.0 (/home/Pigatronee/.config/eww/volume-bar/rust_daemon)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.03s
