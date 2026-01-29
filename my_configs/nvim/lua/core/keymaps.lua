@@ -30,7 +30,23 @@ vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = true })
 -- opens terminal 
 vim.keymap.set('n', '<leader>t', function()
-  vim.cmd("belowright split | resize 15 | terminal")
-end, { noremap = true, silent = true, desc = "Open terminal at bottom" })
+  -- Check if a terminal exists in the current window
+  local term_exists = false
+  for _, win in pairs(vim.api.nvim_list_wins()) do
+    local buf = vim.api.nvim_win_get_buf(win)
+    if vim.api.nvim_buf_get_option(buf, 'buftype') == 'terminal' then
+      term_exists = true
+      -- If a terminal exists, toggle it (close it)
+      vim.api.nvim_win_close(win, true)
+      break
+    end
+  end
+
+  -- If no terminal exists, create a new one
+  if not term_exists then
+    vim.cmd("belowright split | resize 15 | terminal")
+  end
+end, { noremap = true, silent = true, desc = "Toggle terminal at bottom" })
+
 
 
