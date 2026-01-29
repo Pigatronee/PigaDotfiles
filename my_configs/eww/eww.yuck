@@ -1,3 +1,4 @@
 (include "./music-widget/eww.yuck")
 (include "./volume-bar/eww.yuck")
 (include "./control-panel/eww.yuck")
+(include "./github-control-panel/control_center.yuck")
