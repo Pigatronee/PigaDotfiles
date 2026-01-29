@@ -1,0 +1,11 @@
+[Unit]
+Description=Remove OBS Sentinel on login
+After=graphical.target
+
+[Service]
+ExecStart=/home/Pigatronee/.config/hypr/scripts/obs/remove_obs_sentinel.sh
+Type=oneshot
+User=Pigatronee
+
+[Install]
+WantedBy=default.target
