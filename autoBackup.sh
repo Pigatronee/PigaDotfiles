@@ -20,6 +20,7 @@ dirs=(
   background
   nwg-look
   swaync
+  systemd
 )
 
 for d in $dirs; do
