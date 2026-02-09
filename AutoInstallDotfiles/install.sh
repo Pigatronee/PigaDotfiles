@@ -7,6 +7,7 @@ packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-deskt
 combined_packages=("${packages_requried[@]}" "${packages_extra[@]}")
 
 dotfiles_location="../my_configs"
+zsh_location="../zsh/.zshrc"
 
 # Prompt
 clear
@@ -48,6 +49,7 @@ install_dotfiles_cli() {
 		echo "Merging....."
 		mkdir -p ~/.config
 		cp -r "$dotfiles_location"/* ~/.config
+		cp "zsh_location" ~/
 	elif [ "$answer" -eq 2 ]; then
 		echo "Warning the option you just selected will completely overide your ~/.config folder"
 		echo -n "If you still want to continue type this: 'I am really stupid': "
