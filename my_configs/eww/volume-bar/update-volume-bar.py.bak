@@ -36,25 +36,6 @@ def update_volume(vol):
     close_timer = threading.Timer(stay_open_duration, close_eww)
     close_timer.start()
 
-def wait_for_audio():
-    while True:
-        try:
-            result = subprocess.run(
-                ["pactl", "info"],
-                capture_output=True,
-                text=True
-            )
-
-            if "Default Sink" in result.stdout:
-                return
-        except:
-            pass
-
-        time.sleep(1)
-
-
-# Wait until PipeWire/Pulse is ready
-wait_for_audio()
 
 # Initialize state FIRST
 current_volume = get_volume()
