@@ -2,11 +2,12 @@
 
 # Variablesz
 packages_requried=("hyprland" "waybar" "waypaper" "wlogout" "xsettingsd" "rofi" "fuzzel" "kitt" "python-pywal16-git")
-packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-desktop-portal-hyprland" "htop" "vesktop" "firefox" "godot" "nvim" "nextcloud" "steam" "ly" "nautilus" "playerctl" "pamixer" "dotool" "swaync-client" "hypremoji")
+packages_extra=("cava" "pavucontrol" "nwg-look" "eww" "fuzzel" "swww" "xdg-desktop-portal-hyprland" "htop" "vesktop-bin" "librewolf-bin" "godot" "nvim" "nextcloud" "steam" "ly" "nautilus" "playerctl" "pamixer" "dotool" "swaync-client" "hypremoji" "zoxide" "python-pywalfox" "airctl")
 
 combined_packages=("${packages_requried[@]}" "${packages_extra[@]}")
 
 dotfiles_location="../my_configs"
+zsh_location="../zsh/.zshrc"
 
 # Prompt
 clear
@@ -48,6 +49,7 @@ install_dotfiles_cli() {
 		echo "Merging....."
 		mkdir -p ~/.config
 		cp -r "$dotfiles_location"/* ~/.config
+		cp "zsh_location" ~/
 	elif [ "$answer" -eq 2 ]; then
 		echo "Warning the option you just selected will completely overide your ~/.config folder"
 		echo -n "If you still want to continue type this: 'I am really stupid': "
