@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock",
+    "action" : "~/.local/share/quickshell-lockscreen/lock.sh",
     "text" : "Lock",
     "keybind" : "l"
 }

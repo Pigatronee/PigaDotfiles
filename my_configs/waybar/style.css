@@ -35,26 +35,6 @@ button {
 }*/
 
 /* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: @color3;
-}
-
-#bluetooth:hover {
-    background-color: @color3;
-}
-
-#network:hover {
-    background-color: @color3;
-}
-
-#clock:hover {
-    background-color: @color3;
-}
-
-#custom-power:hover {
-    background-color: @color3;
-}
-
 #workspaces button {
     border-radius: 7px;
     transition: all 0.3s ease-in-out;
