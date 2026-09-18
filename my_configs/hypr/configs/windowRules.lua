@@ -80,6 +80,13 @@ hl.window_rule({
 })
 
 
+hl.window_rule({
+    match = { class = "qbittorrent" },
+    workspace = "3 silent",
+    suppress_event = "activate activatefocus",
+})
+
+
 -- =====================================================
 -- TRANSPARENCY
 -- =====================================================

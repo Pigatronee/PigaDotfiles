@@ -31,4 +31,7 @@ hl.on("hyprland.start", function()
 
 	-- Qbittorrent
 	hl.exec_cmd("qbittorrent")
+
+	-- kill eww to stop stupid bug
+	hl.exec_cmd("killall eww")
 end)
